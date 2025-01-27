@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+	author="Phoebe (catgirlseraid)"
+	version="0.1_2025-01-27" 
+	shortdescription="ID Editor Presets">
+
+
+<!--booleans-->
+<chunk id="salt_boolean">
+    <space/>
+    <check key="salt" text="Salt"/>
+    <label text="Indicates whether water is salty."/>
+</chunk>
+
+<chunk id="tidal_boolean">
+    <space/>    
+    <check key="tidal" text="Tidal" />
+    <label text="Indicates that an element is in the tidal range. It could be a river, a shore, a part of a harbour or a water area."/>
+</chunk>
+
+<chunk id="lifeguard_boolean">
+    <space/>
+    <check key="lifeguard" text="Lifeguard" />
+    <label text="A place where a lifeguard is on duty."/>
+</chunk>
+
+<chunk id="supervised_boolean">
+    <space/>
+    <check key="supervised" text="Supervised" />
+    <label text="Indicates whether there is a person who supervises the place."/>
+</chunk>
+
+<chunk id="fee_boolean">
+    <space/>
+    <check key="fee" text="Fee" />
+    <label text="Yes or no, to indicate if money is charged to use this facility."/>
+</chunk>
+
+<chunk id="intermittent_boolean">
+    <space/>
+    <check key="intermittent" text="Intermittent" />
+    <label text="Used to indicate whether or not a waterway or water body does not permanently contain water."/>
+</chunk>
+
+
+<!--text inputs-->
+<chunk id="name_text">
+    <space/>
+    <text key="name" text="Common name (if any)"/>
+    <label text="The primary name: in general, the most prominent signposted name or the most common name in the local language(s)."/>
+</chunk>
+
+<chunk id="elevation_text">
+    <space/>
+    <text key="ele" text="Elevation (Meters)"/>
+    <label text="Elevation of a point above sea level, in metres."/>
+</chunk>
+
+<chunk id="height_text">
+    <space/>
+    <text key="height" text="Height (Metres)"/>
+    <label text="Height is the measurement of vertical distance. It indicates how tall something is."/>
+</chunk>
+
+<chunk id="direction_text">
+    <space/>
+    <text key="direction" text="Direction (Degrees Clockwise)"/>
+    <label text="Specifies the direction of a feature."/>
+</chunk>
+
+<!--dropdown menus-->
+<chunk id="wetland_type">
+    <space/>
+	<combo key="wetland" text="Type">
+		<list_entry value="swamp" display_value="Swamp"/>
+		<list_entry value="marsh" display_value="Marsh"/>
+		<list_entry value="bog" display_value="Bog"/>
+        <list_entry value="reedbed" display_value="Reed Bed"/>
+		<list_entry value="wet_meadow" display_value="Wet Meadow"/>
+		<list_entry value="tidalflat" display_value="Tidal Flat"/>
+        <list_entry value="mangrove" display_value="Mangrove"/>
+		<list_entry value="saltmarsh" display_value="Coastal Salt Marsh"/>
+		<list_entry value="fen" display_value="Fen"/>
+        <list_entry value="string_bog" display_value="String Bog"/>
+	</combo>
+    <label text="Type of wetland."/>
+</chunk>
+
+<chunk id="water_type">
+    <space/>
+	<combo key="water" text="Type">
+		<list_entry value="pond"/>
+        <list_entry value="lake"/>
+        <list_entry value="reservoir"/>
+        <list_entry value="river"/>
+        <list_entry value="basin"/>
+        <list_entry value="wastewater"/>
+        <list_entry value="canal"/>
+        <list_entry value="stream"/>
+        <list_entry value="oxbow"/>
+        <list_entry value="ditch"/>
+        <list_entry value="lagoon"/>
+        <list_entry value="drain"/>
+        <list_entry value="fishpond"/>
+        <list_entry value="rapids"/>
+        <list_entry value="lock"/>
+        <list_entry value="yes"/>
+        <list_entry value="salt_pool"/>
+        <list_entry value="stream_pool"/>
+        <list_entry value="moat"/>
+        <list_entry value="shallow"/>
+        <list_entry value="reflecting_pool"/>
+        <list_entry value="harbour"/>
+        <list_entry value="pool"/>
+        <list_entry value="fountain"/>
+	</combo>
+    <label text="Specification of a water body."/>
+</chunk>
+
+<chunk id="surface_type">
+    <space/>
+	<combo key="surface" text="Surface">
+		<list_entry value="unpaved" display_value="Unpaved"/>
+		<list_entry value="asphalt" display_value="Ashphalt"/>
+		<list_entry value="paving_stones" display_value="Paving Stones"/>
+        <list_entry value="concrete" display_value="Concrete"/>
+		<list_entry value="paved" display_value="Paved"/>
+		<list_entry value="grass" display_value="Grass"/>
+        <list_entry value="gravel" display_value="Gravel"/>
+		<list_entry value="ground" display_value="Ground"/>
+		<list_entry value="sand" display_value="Sand"/>
+        <list_entry value="wood" display_value="Wood"/>
+        <list_entry value="sett" display_value="Sett"/>
+        <list_entry value="dirt" display_value="Dirt"/>
+        <list_entry value="fine_gravel" display_value="Fine Gravel"/>
+        <list_entry value="compacted" display_value="Compacted"/>
+        <list_entry value="concrete:plates" display_value="Concrete Plates"/>
+        <list_entry value="metal" display_value="Metal"/>
+        <list_entry value="artificial_turf" display_value="Artifical Turf"/>
+        <list_entry value="grass_paver" display_value="Grass Paver"/>
+        <list_entry value="tartan" display_value="Tartan"/>
+        <list_entry value="woodchips" display_value="Woodchips"/>
+        <list_entry value="pebblestone" display_value="Pebblestone"/>
+        <list_entry value="clay" display_value="Clay"/>
+        <list_entry value="concrete:lanes" display_value="Concrete Lanes"/>
+        <list_entry value="mud" display_value="Persistently Muddy"/>
+        <list_entry value="salt" display_value="Salt"/>
+        <list_entry value="unhewn_cobblestone" display_value="Cobblestone (uncut, rounded stones)"/>
+	</combo>
+    <label text="Describes the surface of a feature."/>
+</chunk>
+
+<chunk id="access_type">
+    <space/>
+	<combo key="access" text="Allowed Access">
+		<list_entry value="yes" display_value="Public"/>
+        <list_entry value="private" display_value="Private"/>
+        <list_entry value="permissive" display_value="Permissive"/>
+        <list_entry value="customers" display_value="Customers Only"/>
+        <list_entry value="permit" display_value="By Permit Only"/>
+        <list_entry value="unknown" display_value="Unknown"/>
+        <list_entry value="no" display_value="None"/>
+	</combo>
+    <label text="For describing the legal accessibility of a feature."/>
+</chunk>
+
+<chunk id="leaf_type">
+    <space/>
+	<combo key="leaf_type" text="Leaf Type">
+		<list_entry value="broadleaved" display_value="Broadleaved"/>
+        <list_entry value="needleleaved" display_value="Needleleaved"/>
+        <list_entry value="mixed" display_value="Mixed"/>
+        <list_entry value="leafless" display_value="Leafless"/>
+	</combo>
+    <label text="Describes the type of leaves."/>
+</chunk>
+
+<chunk id="leaf_type">
+    <space/>
+	<combo key="leaf_type" text="Leaf Type">
+		<list_entry value="broadleaved" display_value="Broadleaved"/>
+        <list_entry value="needleleaved" display_value="Needleleaved"/>
+        <list_entry value="mixed" display_value="Mixed"/>
+        <list_entry value="leafless" display_value="Leafless"/>
+	</combo>
+    <label text="Describes the type of leaves."/>
+</chunk>
+
+<chunk id="leaf_cycle_type">
+    <space/>
+	<combo key="leaf_cycle" text="Leaf Cycle">
+		<list_entry value="evergreen" display_value="Evergreen"/>
+        <list_entry value="deciduous" display_value="Deciduous"/>
+        <list_entry value="semi_evergreen" display_value="Semi-Evergreen"/>
+        <list_entry value="semi_deciduous" display_value="Semi-Deciduous"/>
+        <list_entry value="mixed" display_value="Mixed"/>
+	</combo>
+    <label text="Describes the phenology of leaves."/>
+</chunk>
+
+<chunk id="denotation_type">
+    <space/>
+	<combo key="denotation" text="Denotation">
+		<list_entry value="agricultural"/>
+        <list_entry value="urban"/>
+        <list_entry value="avenue"/>
+        <list_entry value="part_of_fence"/>
+        <list_entry value="street"/>
+        <list_entry value="park"/>
+        <list_entry value="windbreak"/>
+        <list_entry value="border_farm"/>
+        <list_entry value="alley"/>
+        <list_entry value="natural_monument"/>
+        <list_entry value="waterway"/>
+        <list_entry value="landmark"/>
+        <list_entry value="garden"/>
+        <list_entry value="barrier"/>
+        <list_entry value="cluster"/>
+        <list_entry value="junction"/>
+	</combo>
+    <label text="Defines the denotation of a tree."/>
+</chunk>
+
+
+<!--Natural Tags natural=*-->
+<group name="Natural">
+    <item name="Wetland" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="A natural area subject to inundation or with waterlogged ground."/>
+        <space/>
+        <reference ref="wetland_type"/>
+        <reference ref="salt_boolean"/>
+        <reference ref="tidal_boolean"/>
+        <key key="natural" value="wetland"/>
+    </item>
+
+    <item name="Beach" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="landform along a body of water which consists of sand, shingle or other loose material."/>
+        <reference ref="name_text"/>
+        <reference ref="surface_type"/>
+        <reference ref="lifeguard_boolean"/>
+        <reference ref="supervised_boolean"/>
+        <key key="natural" value="beach"/>
+    </item>
+
+    <item name="Cave Entrance" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="An entrance to a cave: a natural underground space large enough for a human to enter."/>
+        <reference ref="name_text"/>
+        <reference ref="elevation_text"/>
+        <reference ref="access_type"/>
+        <reference ref="direction_text"/>
+        <reference ref="fee_boolean"/>
+        <key key="natural" value="cave_entrance"/>
+    </item>
+
+    <item name="Peak" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="The top (summit) of a hill or mountain."/>
+        <reference ref="name_text"/>
+        <reference ref="elevation_text"/>
+        <key key="natural" value="peak"/>
+    </item>
+
+    <item name="Cliff" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="A vertical or almost vertical natural drop in terrain, usually with a bare rock surface. The bottom of the cliff is on the right side of the way."/>
+        <reference ref="name_text"/>
+        <reference ref="height_text"/>
+        <key key="natural" value="cliff"/>
+    </item>
+
+    <item name="Coastline" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="The line between sea and land indicating mean high water (springs): the water lies on the right side of the way."/>
+        <reference ref="name_text"/>
+        <key key="natural" value="coastline"/>
+    </item>
+
+    <item name="Tree Row" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="A line of trees." />
+        <reference ref="leaf_type"/>
+        <reference ref="leaf_cycle_type"/>
+        <reference ref="denotation_type"/>
+        <key key="natural" value="tree_row"/>
+    </item>
+
+    <item name="Water" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="Any inland body of water, from natural such as a lake or pond to artificial like a moat or canal."/>
+        <reference ref="name_text"/>
+        <reference ref="water_type"/>
+        <reference ref="intermittent_boolean"/>
+        <key key="natural" value="water"/>
+    </item>
+</group>
+
+<!--
+<item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+    <label text="Placeholder"/>
+    <reference ref="Placeholder"/>
+    <reference ref="Placeholder"/>
+    <key key="Placeholder" value="Placeholder"/>
+</item>
+
+<chunk id="Placeholder">
+    <space/>
+	<combo key="Placeholder" text="Placeholder">
+		<list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+        <list_entry value="Placeholder" display_value="Placeholder"/>
+	</combo>
+    <label text="Placeholder"/>
+</chunk>
+-->
+
+</presets>
