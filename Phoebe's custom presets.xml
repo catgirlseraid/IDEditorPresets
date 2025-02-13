@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+         author="Phoebe (catgirlseraid)"
+         version="0.1_2025-01-27"
+         shortdescription="Phoebe's custom presets">
+    <!--icons from https://lucide.dev/icons/-->
+
+    <!--booleans-->
+   
+    <group name="water">
+        <item name="Wastewater Basin" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <key key="water" value="wastewater"/>
+            <key key="natural" value="water"/>
+        </item>
+
+
+        <item name="Driveway" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <key key="highway" value="service"/>
+            <key key="service" value="driveway"/>
+        </item>
+    </group>
+
+
+
+
+
+    <!--
+    <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="Placeholder"/>
+        <reference ref="Placeholder"/>
+        <reference ref="Placeholder"/>
+        <key key="Placeholder" value="Placeholder"/>
+    </item>
+
+    <chunk id="Placeholder">
+        <space/>
+        <combo key="Placeholder" text="Placeholder">
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+            <list_entry value="Placeholder" display_value="Placeholder"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
+
+
+            <list_entry value="Placeholder"/>
+            <list_entry value="Placeholder"/>
+            <list_entry value="Placeholder"/>
+    -->
+
+</presets>
