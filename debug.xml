@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+         author="Phoebe (catgirlseraid)"
+         version="0.1_2025-02-14"
+         shortdescription="DEBUG">
+    <!--icons from https://lucide.dev/icons/-->
+
+    <!--checkboxes-->
+    <chunk id="aerialway_bubble_checkbox">
+        <space/>
+        <check key="aerialway:bubble" text="Bubble"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_heating_checkbox">
+        <space/>
+        <check key="aerialway:heating" text="Heated"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bath_open_air_checkbox">
+        <space/>
+        <check key="bath:open_air" text="Open Air"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bath_sand_bath_checkbox">
+        <space/>
+        <check key="bath:sand_bath" text="Sand Bath"/>
+        <label text="Placeholder"/>
+    </chunk>
+
+    <!--text inputs-->
+    <chunk id="aerialway_capacity_text">
+        <space/>
+        <text key="aerialway:capacity" text="Capacity (per hour)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_duration_text">
+        <space/>
+        <text key="aerialway:duration" text="Duration (minutes)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bridge_ref_text">
+        <space/>
+        <text key="bridge:ref" text="Bridge Number"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_levels_underground_text">
+        <space/>
+        <text key="building:levels:underground" text="Underground Levels"/>
+        <label text="Placeholder"/>
+    </chunk>
+
+    <!--dropdown menus-->
+    <chunk id="aerialway_summer_access_type">
+        <space/>
+        <combo key="aerialway:summer:access" text="Access (summer)">
+            <list_entry value="entry" display_value="Entry"/>
+            <list_entry value="exit" display_value="Exit"/>
+            <list_entry value="both" display_value="Both"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_access_type">
+        <space/>
+        <combo key="aerialway:access" text="Access">
+            <list_entry value="entry" display_value="Entry"/>
+            <list_entry value="exit" display_value="Exit"/>
+            <list_entry value="both" display_value="Both"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_occupancy_text">
+        <space/>
+        <text key="aerialway:occupancy" text="2, 4, 8..."/>
+        <label text="Occupancy"/>
+    </chunk>
+    <chunk id="bath_type_type">
+        <space/>
+        <combo key="bath:type" text="Specialty">
+            <list_entry value="hammam" display_value="Hammam"/>
+            <list_entry value="hot_spring" display_value="Hot Spring"/>
+            <list_entry value="lake" display_value="Lake"/>
+            <list_entry value="onsen" display_value="Onsen"/>
+            <list_entry value="thermal" display_value="Thermal Bath"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
+    <!--colour inputs-->
+    <chunk id="building_colour_colour">
+        <space/>
+        <combo key="building:colour" text="Façade Color">
+            <list_entry value="black" display_value="black"/>
+            <list_entry value="white" display_value="white"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
+    <chunk id="taxi_vehicle_type">
+        <space/>
+        <combo key="taxi_vehicle" text="Vehicle Type" default="motorcar">
+            <list_entry value="motorcar" display_value="Motorcar"/>
+            <list_entry value="motorcycle" display_value="Motorcycle"/>
+            <list_entry value="auto_rickshaw" display_value="Auto Rickshaw"/>
+            <list_entry value="cycle_rickshaw" display_value="Cycle Rickshaw"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
+    <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+        <label text="Placeholder"/>
+        <reference ref="taxi_vehicle_type"/>
+        
+        <key key="Placeholder" value="Placeholder"/>
+    </item>
+</presets>

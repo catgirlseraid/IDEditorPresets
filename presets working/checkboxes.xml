@@ -1,0 +1,94 @@
+<presets>
+    <!--checkboxes-->
+    <chunk id="aerialway_bubble_checkbox">
+        <space/>
+        <check key="aerialway:bubble" text="Bubble"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_heating_checkbox">
+        <space/>
+        <check key="aerialway:heating" text="Heated"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bath_open_air_checkbox">
+        <space/>
+        <check key="bath:open_air" text="Open Air"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bath_sand_bath_checkbox">
+        <space/>
+        <check key="bath:sand_bath" text="Sand Bath"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_prefabricated_checkbox">
+        <space/>
+        <check key="building:prefabricated" text="Prefabricated"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_bell_checkbox">
+        <space/>
+        <check key="crossing:bell" text="Bell"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_island_checkbox">
+        <space/>
+        <check key="crossing:island" text="Refuge Island"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_light_checkbox">
+        <space/>
+        <check key="crossing:light" text="Lights"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dance_teaching_checkbox">
+        <space/>
+        <check key="dance:teaching" text="Offers Dance Lessons"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="trolley_deposit_checkbox">
+        <space/>
+        <check key="trolley:deposit" text="Deposit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="water_point_checkbox">
+        <space/>
+        <check key="water_point" text="Water Point"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="video_checkbox">
+        <space/>
+        <check key="video" text="Video Calls"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="trolley_wire_checkbox">
+        <space/>
+        <check key="trolley_wire" text="Overhead Trolley Wires"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toll_checkbox">
+        <space/>
+        <check key="toll" text="Toll"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toilets_checkbox">
+        <space/>
+        <check key="toilets" text="Toilets"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tidal_checkbox">
+        <space/>
+        <check key="tidal" text="Tidal"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tents_checkbox">
+        <space/>
+        <check key="tents" text="Tents"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tactile_paving_checkbox">
+        <space/>
+        <check key="tactile_paving" text="Tactile Paving"/>
+        <label text="Placeholder"/>
+    </chunk>
+
+</presets>

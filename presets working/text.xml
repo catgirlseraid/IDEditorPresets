@@ -1,0 +1,114 @@
+<presets>
+    <!--text inputs-->
+    <chunk id="aerialway_capacity_text">
+        <space/>
+        <text key="aerialway:capacity" text="Capacity (per hour)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_duration_text">
+        <space/>
+        <text key="aerialway:duration" text="Duration (minutes)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bridge_ref_text">
+        <space/>
+        <text key="bridge:ref" text="Bridge Number"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_levels_underground_text">
+        <space/>
+        <text key="building:levels:underground" text="Underground Levels"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_flats_text">
+        <space/>
+        <text key="building:flats" text="Units"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_levels_text">
+        <space/>
+        <text key="building:levels" text="Levels"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="camera_direction_text">
+        <space/>
+        <text key="camera:direction" text="Direction (Degrees Clockwise)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="capacity_caravans_text">
+        <space/>
+        <text key="capacity:caravans" text="Capacity (Campervan / Camping Trailer)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="capacity_disabled_text">
+        <space/>
+        <text key="capacity:disabled" text="Accessible Spaces"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="capacity_persons_text">
+        <space/>
+        <text key="capacity:persons" text="Capacity (Persons)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="capacity_tents_text">
+        <space/>
+        <text key="capacity:tents" text="Capacity (Tents)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="contact_facebook_text">
+        <space/>
+        <text key="contact:facebook" text="Facebook Username or URL"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="contact_webcam_text">
+        <space/>
+        <text key="contact:webcam" text="Webcam URL"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="defibrillator_location_text">
+        <space/>
+        <text key="defibrillator:location" text="Location Description"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dock_height_text">
+        <space/>
+        <text key="dock:height" text="Dock Height (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dock_width_text">
+        <space/>
+        <text key="dock:width" text="Dock Width (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="windings_text">
+        <space/>
+        <text key="windings" text="Windings"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="wikipedia_text">
+        <space/>
+        <text key="wikipedia" text="Wikipedia"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="wikimedia_commons_text">
+        <space/>
+        <text key="wikimedia_commons" text="Wikimedia Commons Page"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="width_text">
+        <space/>
+        <text key="width" text="Width (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="website_text">
+        <space/>
+        <text key="website" text="Website"/>
+        <text key="contact:website" text="Contact Website"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="vhf_text">
+        <space/>
+        <text key="vhf" text="VHF Channel"/>
+        <label text="Placeholder"/>
+    </chunk>
+</presets>

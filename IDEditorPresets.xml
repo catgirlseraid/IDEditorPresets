@@ -42,6 +42,12 @@
         <label text="Used to indicate whether or not a waterway or water body does not permanently contain water."/>
     </chunk>
 
+    <chunk id="lit_boolean">
+        <space/>
+        <check key="lit" text="Lit" />
+        <label text="Indicates whether a feature is lit."/>
+    </chunk>
+
 
     <!--text inputs-->
     <chunk id="name_text">
@@ -67,6 +73,13 @@
         <text key="direction" text="Direction (Degrees Clockwise)"/>
         <label text="Specifies the direction of a feature."/>
     </chunk>
+
+    <chunk id="operator_text">
+        <space/>
+        <text key="operator" text="Unknown"/>
+        <label text="Company, corporation, person or any other entity who is directly in charge of the current operation of a map object."/>
+    </chunk>
+
 
     <!--dropdown menus-->
     <chunk id="wetland_type">
@@ -245,6 +258,90 @@
         </combo>
         <label text="Defines the denotation of a tree."/>
     </chunk>
+
+    <chunk id="visibility_type">
+        <space/>
+        <combo key="visibility" text="Visibility">
+            <list_entry value="house" display_value="Up to 5m (16ft)"/>
+            <list_entry value="street" display_value="5 to 20m (16 to 65ft)"/>
+            <list_entry value="area" display_value="Over 20m (65ft)"/>
+        </combo>
+        <label text="Visibility of a given element."/>
+    </chunk>
+
+    <chunk id="support_type">
+        <space/>
+        <combo key="support" text="Support">
+            <list_entry value="pole"/>
+            <list_entry value="ground"/>
+            <list_entry value="wall_mounted"/>
+            <list_entry value="wall"/>
+            <list_entry value="power_pole"/>
+            <list_entry value="street_furniture:transit_shelter"/>
+            <list_entry value="pedestal"/>
+            <list_entry value="poles"/>
+            <list_entry value="post"/>
+            <list_entry value="tree"/>
+            <list_entry value="street_lamp"/>
+            <list_entry value="wire"/>
+            <list_entry value="roof"/>
+            <list_entry value="catenary"/>
+            <list_entry value="ornamental"/>
+            <list_entry value="trunk"/>
+            <list_entry value="high_mast"/>
+            <list_entry value="ceiling"/>
+            <list_entry value="billboard"/>
+            <list_entry value="traffic_sign"/>
+            <list_entry value="fence"/>
+            <list_entry value="column"/>
+            <list_entry value="showcase"/>
+            <list_entry value="rock"/>
+            <list_entry value="tower"/>
+        </combo>
+        <label text="Type of support for certain features."/>
+    </chunk>
+
+
+    <group name="advertising">
+        <item name="Billboard" type="node, way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Advertising billboard (also called a hoarding) is a large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads."/>
+            <reference ref="operator_text"/>
+            <reference ref="lit_boolean"/>
+            <reference ref="visibility_type"/>
+            <reference ref="support_type"/>
+            <key key="advertising" value="billboard"/>
+        </item>
+
+        <item name="Notice Board" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Placeholder"/>
+            <reference ref="operator_text"/>
+            <reference ref="lit_boolean"/>
+            <reference ref="visibility_type"/>
+            <reference ref="support_type"/>
+            <key key="advertising" value="board"/>
+        </item>
+
+        <item name="Advertising Column" type="node, closedway" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <key key="advertising" value="Placeholder"/>
+        </item>
+
+        <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <key key="advertising" value="Placeholder"/>
+        </item>
+
+        <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <reference ref="Placeholder"/>
+            <key key="advertising" value="Placeholder"/>
+        </item>
+    </group>
 
 
     <!--Natural Tags natural=*-->

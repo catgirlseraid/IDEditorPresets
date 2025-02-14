@@ -1,0 +1,324 @@
+<presets>
+    <!--dropdown menus-->
+    <chunk id="aerialway_summer_access_type">
+        <space/>
+        <combo key="aerialway:summer:access" text="Access (summer)">
+            <list_entry value="entry" display_value="Entry"/>
+            <list_entry value="exit" display_value="Exit"/>
+            <list_entry value="both" display_value="Both"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_access_type">
+        <space/>
+        <combo key="aerialway:access" text="Access">
+            <list_entry value="entry" display_value="Entry"/>
+            <list_entry value="exit" display_value="Exit"/>
+            <list_entry value="both" display_value="Both"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="aerialway_occupancy_text">
+        <space/>
+        <text key="aerialway:occupancy" text="2, 4, 8..."/>
+        <label text="Occupancy"/>
+    </chunk>
+    <chunk id="bath_type_type">
+        <space/>
+        <combo key="bath:type" text="Specialty">
+            <list_entry value="hammam" display_value="Hammam"/>
+            <list_entry value="hot_spring" display_value="Hot Spring"/>
+            <list_entry value="lake" display_value="Lake"/>
+            <list_entry value="onsen" display_value="Onsen"/>
+            <list_entry value="thermal" display_value="Thermal Bath"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="camera_type_type">
+        <space/>
+        <combo key="camera:type" text="Camera Type">
+            <list_entry value="fixed" display_value="Fixed"/>
+            <list_entry value="panning" display_value="Panning"/>
+            <list_entry value="dome" display_value="Dome"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crane_type_type">
+        <space/>
+        <combo key="crane:type" text="Crane Type">
+            <list_entry value="portal_crane" display_value="Portal Crane"/>
+            <list_entry value="floor-mounted_crane" display_value="Floor-mounted Crane"/>
+            <list_entry value="travel_lift" display_value="Travel Lift"/>
+            <list_entry value="gantry_crane" display_value="Gantry Crane"/>
+            <list_entry value="tower_crane" display_value="Tower Crane"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_barrier_type">
+        <space/>
+        <combo key="crossing:barrier" text="Barrier Arm">
+            <list_entry value="full" display_value="Full"/>
+            <list_entry value="double_half" display_value="Double Half"/>
+            <list_entry value="half" display_value="Half"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="yes" display_value="Yes"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_markings_type">
+        <space/>
+        <combo key="crossing:markings" text="Crossing Markings">
+            <list_entry value="zebra" display_value="Longitudinal Bars"/>
+            <list_entry value="lines" display_value="Transverse Lines"/>
+            <list_entry value="no" display_value="Unmarked"/>
+            <list_entry value="ladder" display_value="Ladder With Longitudinal Bars"/>
+            <list_entry value="dots" display_value="Dotted Transverse Lines"/>
+            <list_entry value="dashes" display_value="Dashed Transverse Lines"/>
+            <list_entry value="yes" display_value="Marked Somehow"/>
+            <list_entry value="surface" display_value="Surface Treatment Only"/>
+            <list_entry value="ladder:skewed" display_value="Ladder With Diagonal Bars"/>
+            <list_entry value="pictograms" display_value="Painted Pictograms"/>
+            <list_entry value="lines:paired" display_value="Double Transverse Lines"/>
+            <list_entry value="zebra:double" display_value="Triple-Four"/>
+            <list_entry value="zebra:paired" display_value="Paired Longitudinal Bars"/>
+            <list_entry value="zebra:bicolour" display_value="Longitudinal Bars With Alternating Colors"/>
+            <list_entry value="ladder:paired" display_value="Ladder With Paired Longitudinal Bars"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="cycle_barrier_installation_type">
+        <space/>
+        <combo key="cycle_barrier:installation" text="Installation">
+            <list_entry value="fixed" display_value="Fixed"/>
+            <list_entry value="openable" display_value="Openable"/>
+            <list_entry value="removable" display_value="Removable"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="wetland_type">
+        <space/>
+        <combo key="wetland" text="Type">
+            <list_entry value="marsh" display_value="Marsh"/>
+            <list_entry value="reedbed" display_value="Reed Bed"/>
+            <list_entry value="saltmarsh" display_value="Coastal Salt Marsh"/>
+            <list_entry value="tidalflat" display_value="Tidal Flat"/>
+            <list_entry value="wet_meadow" display_value="Wet Meadow"/>
+            <list_entry value="swamp" display_value="Swamp"/>
+            <list_entry value="mangrove" display_value="Mangrove"/>
+            <list_entry value="bog" display_value="Bog"/>
+            <list_entry value="fen" display_value="Fen"/>
+            <list_entry value="string_bog" display_value="String Bog"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="water_source_type">
+        <space/>
+        <combo key="water_source" text="Water Source">
+            <list_entry value="main" display_value="Water Distribution Pipe"/>
+            <list_entry value="water_tank" display_value="Water Tank"/>
+            <list_entry value="pond" display_value="Pond"/>
+            <list_entry value="river" display_value="River"/>
+            <list_entry value="stream" display_value="Stream"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="waste_type">
+        <space/>
+        <combo key="waste" text="Waste">
+            <list_entry value="cigarettes" display_value="Cigarettes"/>
+            <list_entry value="dog_excrement" display_value="Dog Excrement"/>
+            <list_entry value="organic" display_value="Organic Waste"/>
+            <list_entry value="trash" display_value="Trash"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="visibility_type">
+        <space/>
+        <combo key="visibility" text="Visibility">
+            <list_entry value="house" display_value="Up to 5m (16ft)"/>
+            <list_entry value="street" display_value="5 to 20m (16 to 65ft)"/>
+            <list_entry value="area" display_value="Over 20m (65ft)"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="vending_type">
+        <space/>
+        <combo key="vending" text="Types of Goods">
+            <list_entry value="bicycle_tube" display_value="Bicycle Tubes"/>
+            <list_entry value="bread" display_value="Bread"/>
+            <list_entry value="cigarettes" display_value="Cigarettes"/>
+            <list_entry value="coffee" display_value="Coffee"/>
+            <list_entry value="condoms" display_value="Condoms"/>
+            <list_entry value="drinks" display_value="Drinks"/>
+            <list_entry value="e-cigarettes" display_value="E-Cigarettes"/>
+            <list_entry value="eggs" display_value="Eggs"/>
+            <list_entry value="electronics" display_value="Electronics"/>
+            <list_entry value="elongated_coin" display_value="Souvenir Coins"/>
+            <list_entry value="excrement_bags" display_value="Excrement Bags"/>
+            <list_entry value="feminine_hygiene" display_value="Feminine Hygiene Products"/>
+            <list_entry value="food" display_value="Food"/>
+            <list_entry value="fuel" display_value="Fuel"/>
+            <list_entry value="ice_cream" display_value="Ice Cream"/>
+            <list_entry value="ice_cubes" display_value="Ice Cubes"/>
+            <list_entry value="milk" display_value="Milk"/>
+            <list_entry value="newspapers" display_value="Newspapers"/>
+            <list_entry value="parking_tickets" display_value="Parking Tickets"/>
+            <list_entry value="pizza" display_value="Pizza"/>
+            <list_entry value="public_transport_tickets" display_value="Public Transport Tickets"/>
+            <list_entry value="stamps" display_value="Postage Stamps"/>
+            <list_entry value="sweets" display_value="Sweets"/>
+            <list_entry value="water" display_value="Drinking Water"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="utility_type">
+        <space/>
+        <combo key="utility" text="Utility">
+            <list_entry value="gas" display_value="Gas"/>
+            <list_entry value="oil" display_value="Oil"/>
+            <list_entry value="power" display_value="Power"/>
+            <list_entry value="sewerage" display_value="Waste Water"/>
+            <list_entry value="street_lighting" display_value="Street Lighting"/>
+            <list_entry value="telecom" display_value="Telecom"/>
+            <list_entry value="water" display_value="Water"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="usage_type">
+        <space/>
+        <combo key="usage" text="Usage Type">
+            <list_entry value="transportation" display_value="Transportation"/>
+            <list_entry value="transmission" display_value="Transmission"/>
+            <list_entry value="irrigation" display_value="Irrigation"/>
+            <list_entry value="headrace" display_value="Headrace"/>
+            <list_entry value="tailrace" display_value="Tailrace"/>
+            <list_entry value="spillway" display_value="Spillway"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="usage_type">
+        <space/>
+        <combo key="usage" text="Usage Type">
+            <list_entry value="main" display_value="Main"/>
+            <list_entry value="branch" display_value="Branch"/>
+            <list_entry value="industrial" display_value="Industrial"/>
+            <list_entry value="military" display_value="Military"/>
+            <list_entry value="test" display_value="Test"/>
+            <list_entry value="tourism" display_value="Tourism"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tunnel_type">
+        <space/>
+        <combo key="tunnel" text="Type">
+            <list_entry value="avalanche_protector" display_value="Avalanche Protector"/>
+            <list_entry value="building_passage" display_value="Building Passage"/>
+            <list_entry value="culvert" display_value="Culvert"/>
+            <list_entry value="flooded" display_value="Flooded Tunnel"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="transformer_type">
+        <space/>
+        <combo key="transformer" text="Type">
+            <list_entry value="main" display_value="Main: Forwards power"/>
+            <list_entry value="distribution" display_value="Distribution: Feeds final consumers, installed outside substations"/>
+            <list_entry value="generator" display_value="Generator: Steps-up voltage in power plants"/>
+            <list_entry value="converter" display_value="Converter: Feeds power converters"/>
+            <list_entry value="phase_angle_regulator" display_value="Phase Angle Regulator"/>
+            <list_entry value="auxiliary" display_value="Auxiliary: Feeds internal systems in substations"/>
+            <list_entry value="yes" display_value="Unknown Role"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="trail_visibility_type">
+        <space/>
+        <combo key="trail_visibility" text="Trail Visibility">
+            <list_entry value="excellent" display_value="Excellent: unambiguous path or markers everywhere"/>
+            <list_entry value="good" display_value="Good: markers visible, sometimes require searching"/>
+            <list_entry value="intermediate" display_value="Intermediate: few markers, path mostly visible"/>
+            <list_entry value="bad" display_value="Bad: no markers, path sometimes invisible/pathless"/>
+            <list_entry value="horrible" display_value="Horrible: often pathless, some orientation skills required"/>
+            <list_entry value="no" display_value="No: pathless, excellent orientation skills required"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_calming_type">
+        <space/>
+        <combo key="traffic_calming" text="Type">
+            <list_entry value="bump" display_value="Speed Bump"/>
+            <list_entry value="chicane" display_value="Traffic Chicane"/>
+            <list_entry value="choker" display_value="Traffic Choker"/>
+            <list_entry value="choked_table" display_value="Choked Speed Table"/>
+            <list_entry value="cushion" display_value="Speed Cushion"/>
+            <list_entry value="dip" display_value="Dip"/>
+            <list_entry value="double_dip" display_value="Double Dip"/>
+            <list_entry value="hump" display_value="Speed Hump"/>
+            <list_entry value="island" display_value="Traffic Calming Island"/>
+            <list_entry value="mini_bumps" display_value="Mini Speed Bumps"/>
+            <list_entry value="rumble_strip" display_value="Rumble Strip"/>
+            <list_entry value="table" display_value="Speed Table"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tracktype_type">
+        <space/>
+        <combo key="tracktype" text="Track Type">
+            <list_entry value="grade1" display_value="Solid: paved"/>
+            <list_entry value="grade2" display_value="Mostly Solid: gravel/rock with some soft material mixed in"/>
+            <list_entry value="grade3" display_value="Even mixture of hard and soft materials"/>
+            <list_entry value="grade4" display_value="Mostly Soft: soil/sand/grass with some hard material mixed in"/>
+            <list_entry value="grade5" display_value="Soft: soil/sand/grass"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tomb_type">
+        <space/>
+        <combo key="tomb" text="Type">
+            <list_entry value="columbarium" display_value="Columbarium"/>
+            <list_entry value="crypt" display_value="Crypt"/>
+            <list_entry value="dolmen" display_value="Dolmen"/>
+            <list_entry value="hypogeum" display_value="Hypogeum"/>
+            <list_entry value="mausoleum" display_value="Mausoleum"/>
+            <list_entry value="pyramid" display_value="Pyramid"/>
+            <list_entry value="rock-cut" display_value="Rock-cut Tomb"/>
+            <list_entry value="sarcophagus" display_value="Sarcophagus"/>
+            <list_entry value="table" display_value="Table"/>
+            <list_entry value="tumulus" display_value="Tumulus"/>
+            <list_entry value="vault" display_value="Vault"/>
+            <list_entry value="war_grave" display_value="Single War Grave"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="telecom_type">
+        <space/>
+        <combo key="telecom" text="Type">
+            <list_entry value="connection_point" display_value="Connection Point"/>
+            <list_entry value="data_center" display_value="Data Center"/>
+            <list_entry value="distribution_point" display_value="Distribution Point"/>
+            <list_entry value="exchange" display_value="Exchange"/>
+            <list_entry value="service_device" display_value="Service Device"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="taxi_vehicle_type">
+        <space/>
+        <combo key="taxi_vehicle" text="Vehicle Type" default="motorcar">
+            <list_entry value="motorcar" display_value="Motorcar"/>
+            <list_entry value="motorcycle" display_value="Motorcycle"/>
+            <list_entry value="auto_rickshaw" display_value="Auto Rickshaw"/>
+            <list_entry value="cycle_rickshaw" display_value="Cycle Rickshaw"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="takeaway_type">
+        <space/>
+        <combo key="takeaway" text="Takeaway">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="only" display_value="Takeaway Only"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
+</presets>

@@ -26,7 +26,7 @@
 
     <!--
     <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
-        <label text="Placeholder"/>
+        <label text.xml="Placeholder"/>
         <reference ref="Placeholder"/>
         <reference ref="Placeholder"/>
         <key key="Placeholder" value="Placeholder"/>
@@ -34,7 +34,7 @@
 
     <chunk id="Placeholder">
         <space/>
-        <combo key="Placeholder" text="Placeholder">
+        <combo key="Placeholder" text.xml="Placeholder">
             <list_entry value="Placeholder" display_value="Placeholder"/>
             <list_entry value="Placeholder" display_value="Placeholder"/>
             <list_entry value="Placeholder" display_value="Placeholder"/>
@@ -51,7 +51,7 @@
             <list_entry value="Placeholder" display_value="Placeholder"/>
             <list_entry value="Placeholder" display_value="Placeholder"/>
         </combo>
-        <label text="Placeholder"/>
+        <label text.xml="Placeholder"/>
     </chunk>
 
 

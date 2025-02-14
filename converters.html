@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Format to JOSM Format</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            height: 200px;
+            resize: vertical;
+        }
+        .converter-set {
+            margin-bottom: 40px;
+        }
+        .converter-set h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Converters</h2>
+
+    <!-- First Converter Set -->
+    <div class="converter-set">
+        <h3>Dropdown</h3>
+        <label for="inputText1">Input ID:</label>
+        <textarea id="inputText1" placeholder="Paste JSON here..."></textarea>
+
+        <label for="outputText1">Output JOSM:</label>
+        <textarea id="outputText1" placeholder="Output will appear here..." readonly></textarea>
+    </div>
+
+    <!-- Second Converter Set -->
+    <div class="converter-set">
+        <h3>Checkbox</h3>
+        <label for="inputText2">Input ID:</label>
+        <textarea id="inputText2" placeholder="Paste JSON here..."></textarea>
+
+        <label for="outputText2">Output JOSM:</label>
+        <textarea id="outputText2" placeholder="Output will appear here..." readonly></textarea>
+    </div>
+
+    <!-- Third Converter Set -->
+    <div class="converter-set">
+        <h3>Text</h3>
+        <label for="inputText3">Input ID:</label>
+        <textarea id="inputText3" placeholder="Paste JSON here..."></textarea>
+
+        <label for="outputText3">Output JOSM:</label>
+        <textarea id="outputText3" placeholder="Output will appear here..." readonly></textarea>
+    </div>
+</div>
+
+<script>
+    // Function to handle input and conversion
+    function setupConverter(inputId, outputId, converterType) {
+        const inputTextarea = document.getElementById(inputId);
+        const outputTextarea = document.getElementById(outputId);
+
+        inputTextarea.addEventListener('input', function () {
+            try {
+                // Get the input value and parse it as JSON
+                const inputValue = inputTextarea.value.trim();
+                if (inputValue === "") {
+                    outputTextarea.value = ""; // Clear output if input is empty
+                    return;
+                }
+
+                const inputJson = JSON.parse(inputValue);
+
+                // Generate the output XML-like format based on the converter type
+                let outputValue;
+                if (converterType === "dropdown") {
+                    outputValue = generateDropdownFormat(inputJson);
+                } else if (converterType === "checkbox") {
+                    outputValue = generateCheckboxFormat(inputJson);
+                } else if (converterType === "text") {
+                    outputValue = generateTextFormat(inputJson);
+                } else {
+                    outputValue = "Error: Invalid converter type.";
+                }
+
+                // Set the output value
+                outputTextarea.value = outputValue;
+            } catch (error) {
+                // Handle errors (e.g., invalid JSON)
+                outputTextarea.value = "Error: Invalid JSON input.";
+            }
+        });
+    }
+
+    // Function to sanitize the key by replacing double quotes with underscores
+    function sanitizeKey(key) {
+        return key.replace(/:/g, '_'); // Replace all colons with underscores
+    }
+
+    // Function to generate XML-like format for dropdown lists
+    function generateDropdownFormat(json) {
+        // Extract relevant fields from the JSON
+        const key = json.key
+        const keyname = sanitizeKey(json.key); // Sanitize the key
+        const label = json.label;
+        const options = json.strings.options;
+
+        // Generate the <list_entry> elements
+        const listEntries = Object.entries(options)
+            .map(([value, display_value]) => `        <list_entry value="${value}" display_value="${display_value}"/>`)
+            .join('\n');
+
+        // Construct the final XML-like format
+        const xmlFormat = `<chunk id="${keyname}_type">
+    <space/>
+    <combo key="${key}" text="${label}">
+${listEntries}
+    </combo>
+    <label text="Placeholder"/>
+</chunk>`;
+
+        return xmlFormat;
+    }
+
+    // Function to generate XML-like format for checkboxes
+    function generateCheckboxFormat(json) {
+        // Extract relevant fields from the JSON
+        const key = json.key
+        const keyname = sanitizeKey(json.key); // Sanitize the key
+        const label = json.label;
+
+        // Construct the final XML-like format
+        const xmlFormat = `<chunk id="${keyname}_checkbox">
+    <space/>
+    <check key="${key}" text="${label}"/>
+    <label text="Placeholder"/>
+</chunk>`;
+
+        return xmlFormat;
+    }
+
+    // Function to generate XML-like format for text inputs
+    function generateTextFormat(json) {
+        // Extract relevant fields from the JSON
+        const key = json.key
+        const keyname = sanitizeKey(json.key); // Sanitize the key
+        const label = json.label;
+    
+        // Construct the final XML-like format
+        const xmlFormat = `<chunk id="${keyname}_text">
+    <space/>
+    <text key="${key}" text="${label}"/>
+    <label text="Placeholder"/>
+</chunk>`;
+
+        return xmlFormat;
+    }
+
+    // Set up converters for all three sets
+    setupConverter('inputText1', 'outputText1', 'dropdown'); // Dropdown converter
+    setupConverter('inputText2', 'outputText2', 'checkbox'); // Checkbox converter
+    setupConverter('inputText3', 'outputText3', 'text');     // Text input converter
+</script>
+
+</body>
+</html>
