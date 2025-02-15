@@ -66,82 +66,23 @@ special format for colour because colour sucks
     <label text="Placeholder"/>
 </chunk>
 
+
+
+
+
+
+    <chunk id="orientation_type">
+        <space/>
+        <combo key="orientation" text="Orientation">
+            <list_entry value="parallel"/>
+            <list_entry value="diagonal"/>
+            <list_entry value="perpendicular"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+
 up to
 
-network
-not
-oneway
-opening_hours
-operator
-orientation
-parking/side
-piste
-plant
-playground
-population
-post_box
-public_bookcase
-railway
-ref
-roller_coaster
-roof
-rotor
-seamark
-service
-siren
-source
-species
-sport
-subject
-summit
-surveillance
-survey
-survey_point
-telecom
-telescope
-toilets
-tower
-townhall
-traffic_sign
-traffic_signals
-volcano
-voltage
-water_tank
-website
-windings
-access.json
-access_aisle.json
-access_simple.json
-activity.json
-address.json
-admin_level.json
-advertising.json
-aerialway.json
-aeroway.json
-agrarian.json
-air_conditioning.json
-alt_name.json
-amenity.json
-animal_boarding.json
-animal_breeding.json
-animal_shelter.json
-archaeological_site.json
-architect.json
-armrest.json
-artist.json
-artwork_type.json
-ascent.json
-athletics_pitch.json
-athletics_track.json
-atm.json
-attraction.json
-automated.json
-baby_feeding.json
-baby_seat.json
-backcountry.json
-backrest.json
-bar.json
-barrier.json
 barrier_planter.json
 basin.json
 beauty.json

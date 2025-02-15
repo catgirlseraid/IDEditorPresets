@@ -545,7 +545,522 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-
-
+    <chunk id="orientation_type">
+        <space/>
+        <combo key="orientation" text="Orientation">
+            <list_entry value="parallel"/>
+            <list_entry value="diagonal"/>
+            <list_entry value="perpendicular"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="piste_difficulty_type">
+        <space/>
+        <combo key="piste:difficulty" text="Difficulty">
+            <list_entry value="novice" display_value="Novice"/>
+            <list_entry value="easy" display_value="Easy"/>
+            <list_entry value="intermediate" display_value="Intermediate"/>
+            <list_entry value="advanced" display_value="Advanced"/>
+            <list_entry value="expert" display_value="Expert"/>
+            <list_entry value="freeride" display_value="Freeride"/>
+            <list_entry value="extreme" display_value="Extreme"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="piste_grooming_type">
+        <space/>
+        <combo key="piste:grooming" text="Grooming">
+            <list_entry value="classic" display_value="Classic"/>
+            <list_entry value="mogul" display_value="Mogul"/>
+            <list_entry value="backcountry" display_value="Backcountry"/>
+            <list_entry value="classic+skating" display_value="Classic and Skating"/>
+            <list_entry value="scooter" display_value="Scooter/Snowmobile"/>
+            <list_entry value="skating" display_value="Skating"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="piste_type_type">
+        <space/>
+        <combo key="piste:type" text="Type">
+            <list_entry value="downhill" display_value="Downhill"/>
+            <list_entry value="nordic" display_value="Nordic"/>
+            <list_entry value="skitour" display_value="Skitour"/>
+            <list_entry value="sled" display_value="Sled"/>
+            <list_entry value="hike" display_value="Hike"/>
+            <list_entry value="sleigh" display_value="Sleigh"/>
+            <list_entry value="ice_skate" display_value="Ice Skate"/>
+            <list_entry value="snow_park" display_value="Snow Park"/>
+            <list_entry value="playground" display_value="Playground"/>
+            <list_entry value="connection" display_value="Connection"/>
+            <list_entry value="ski_jump" display_value="Ski Jump"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="plant:method_type">
+        <space/>
+        <combo key="plant:method" text="Placeholder">
+            <list_entry value="water-storage"/>
+            <list_entry value="water-pumped-storage"/>
+            <list_entry value="run-of-the-river"/>
+            <list_entry value="thermal"/>
+            <list_entry value="photovoltaic"/>
+            <list_entry value="combustion"/>
+            <list_entry value="gasification"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="plant_output_type">
+        <space/>
+        <combo key="plant:output" text="Form of Power Output">
+            <list_entry value="electricity" display_value="Electricity"/>
+            <list_entry value="hot_water" display_value="Hot Water"/>
+            <list_entry value="hot_air" display_value="Hot Air"/>
+            <list_entry value="cold_water" display_value="Cold Water"/>
+            <list_entry value="cold_air" display_value="Cold Air"/>
+            <list_entry value="compressed_air" display_value="Compressed Air"/>
+            <list_entry value="steam" display_value="Steam"/>
+            <list_entry value="vacuum" display_value="Vacuum"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="post_box_type_type">
+        <space/>
+        <combo key="post_box:type" text="Type">
+            <list_entry value="pillar" display_value="Freestanding Box"/>
+            <list_entry value="lamp" display_value="Attached to a Pole"/>
+            <list_entry value="wall" display_value="Mounted in a Wall"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="railway_signal_direction_type">
+        <space/>
+        <combo key="railway:signal:direction" text="Direction Affected">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="both" display_value="Both / All"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="railway_switch_type">
+        <space/>
+        <combo key="railway:switch" text="Switch Type">
+            <list_entry value="default" display_value="Normal Switch"/>
+            <list_entry value="double_slip" display_value="Double-slip Switch"/>
+            <list_entry value="single_slip" display_value="Single-slip Switch"/>
+            <list_entry value="wye" display_value="Wye Switch"/>
+            <list_entry value="three_way" display_value="Three-way Switch"/>
+            <list_entry value="abt" display_value="Abt Switch"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="roller_coaster_track_type">
+        <space/>
+        <combo key="roller_coaster:track" text="Type">
+            <list_entry value="lift_hill"/>
+            <list_entry value="launch_straight"/>
+            <list_entry value="brake_run"/>
+            <list_entry value="station"/>
+            <list_entry value="moving"/>
+            <list_entry value="waiting"/>
+            <list_entry value="maintenance"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_beacon_lateral_category_type">
+        <space/>
+        <combo key="seamark:beacon_lateral:category" text="Category">
+            <list_entry value="port" display_value="Port"/>
+            <list_entry value="starboard" display_value="Starboard"/>
+            <list_entry value="waterway_left" display_value="Waterway Left"/>
+            <list_entry value="waterway_right" display_value="Waterway Right"/>
+            <list_entry value="danger_left" display_value="Danger Left"/>
+            <list_entry value="danger_right" display_value="Danger Right"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_beacon_lateral_colour_type">
+        <space/>
+        <combo key="seamark:beacon_lateral:colour" text="Color">
+            <list_entry value="red" display_value="Red"/>
+            <list_entry value="green" display_value="Green"/>
+            <list_entry value="grey" display_value="Grey"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_beacon_lateral_system_type">
+        <space/>
+        <combo key="seamark:beacon_lateral:system" text="System">
+            <list_entry value="iala-a" display_value="IALA A"/>
+            <list_entry value="iala-b" display_value="IALA B"/>
+            <list_entry value="cevni" display_value="CEVNI"/>
+            <list_entry value="other" display_value="Other"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_buoy_lateral_category_type">
+        <space/>
+        <combo key="seamark:buoy_lateral:category" text="Category">
+            <list_entry value="port" display_value="Port"/>
+            <list_entry value="starboard" display_value="Starboard"/>
+            <list_entry value="channel_left" display_value="Channel Left"/>
+            <list_entry value="channel_right" display_value="Channel Right"/>
+            <list_entry value="waterway_left" display_value="Waterway Left"/>
+            <list_entry value="waterway_right" display_value="Waterway Right"/>
+            <list_entry value="danger_left" display_value="Danger Left"/>
+            <list_entry value="danger_right" display_value="Danger Right"/>
+            <list_entry value="preferred_channel_port" display_value="Preferred Channel Port"/>
+            <list_entry value="preferred_channel_starboard" display_value="Preferred Channel Starboard"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_buoy_lateral_colour_type">
+        <space/>
+        <combo key="seamark:buoy_lateral:colour" text="Color">
+            <list_entry value="red" display_value="Red"/>
+            <list_entry value="green" display_value="Green"/>
+            <list_entry value="red;white;red;white" display_value="Red-White-Red-White"/>
+            <list_entry value="green;white;green;white" display_value="Green-White-Green-White"/>
+            <list_entry value="red;green;red" display_value="Red-Green-Red"/>
+            <list_entry value="green;red;green" display_value="Green-Red-Green"/>
+            <list_entry value="white" display_value="White"/>
+            <list_entry value="yellow" display_value="Yellow"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_buoy_lateral_system_type">
+        <space/>
+        <combo key="seamark:buoy_lateral:system" text="System">
+            <list_entry value="iala-a" display_value="IALA A"/>
+            <list_entry value="iala-b" display_value="IALA B"/>
+            <list_entry value="cevni" display_value="CEVNI"/>
+            <list_entry value="other" display_value="Other"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_rescue_station_category_type">
+        <space/>
+        <combo key="seamark:rescue_station:category" text="Life Saving Equipment">
+            <list_entry value="lifeboat" display_value="Lifeboat (on Land)"/>
+            <list_entry value="lifeboat_on_mooring" display_value="Lifeboat (at a Mooring)"/>
+            <list_entry value="seaplane" display_value="Seaplane"/>
+            <list_entry value="aircraft" display_value="Aircraft"/>
+            <list_entry value="hovercraft" display_value="Hovercraft"/>
+            <list_entry value="radio" display_value="Radio Station"/>
+            <list_entry value="first_aid" display_value="First aid"/>
+            <list_entry value="refuge_shipwrecked" display_value="Shipwreck Refuge"/>
+            <list_entry value="refuge_intertidal" display_value="Intertidal Refuge"/>
+            <list_entry value="tug" display_value="Salvage tug"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="siren_type_type">
+        <space/>
+        <combo key="siren:type" text="Type">
+            <list_entry value="pneumatic" display_value="Pneumatic"/>
+            <list_entry value="electronic" display_value="Electronic"/>
+            <list_entry value="other" display_value="Other"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="sport_type">
+        <space/>
+        <combo key="sport" text="Sports">
+            <list_entry value="ice_skating"/>
+            <list_entry value="ice_hockey"/>
+            <list_entry value="brake_run"/>
+            <list_entry value="curling"/>
+            <list_entry value="ice_stock"/>
+            <list_entry value="multi"/>
+            <list_entry value="table_soccer"/>
+            <list_entry value="billiards"/>
+            <list_entry value="darts"/>
+            <list_entry value="motor"/>
+            <list_entry value="karting"/>
+            <list_entry value="motocross"/>
+            <list_entry value="speedway"/>
+            <list_entry value="running"/>
+            <list_entry value="cycling"/>
+            <list_entry value="bmx"/>
+            <list_entry value="horse_racing"/>
+            <list_entry value="dog_racing"/>
+            <list_entry value="athletics"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="surveillance_type_type">
+        <space/>
+        <combo key="surveillance:type" text="Surveillance Type">
+            <list_entry value="camera" display_value="Camera"/>
+            <list_entry value="guard" display_value="Guard"/>
+            <list_entry value="ALPR" display_value="Automatic License Plate Reader"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="survey_point_purpose_type">
+        <space/>
+        <combo key="survey_point:purpose" text="Purpose">
+            <list_entry value="horizontal" display_value="Horizontal Alignment"/>
+            <list_entry value="vertical" display_value="Vertical Alignment"/>
+            <list_entry value="both" display_value="Both"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="survey_point_structure_type">
+        <space/>
+        <combo key="survey_point:structure" text="Structure">
+            <list_entry value="beacon" display_value="Beacon"/>
+            <list_entry value="block" display_value="Block"/>
+            <list_entry value="pole" display_value="Pole"/>
+            <list_entry value="pillar" display_value="Pillar"/>
+            <list_entry value="bracket" display_value="Bracket"/>
+            <list_entry value="plaque" display_value="Plaque"/>
+            <list_entry value="medallion" display_value="Medallion"/>
+            <list_entry value="cairn" display_value="Cairn"/>
+            <list_entry value="pin" display_value="Pin"/>
+            <list_entry value="indented_pin" display_value="Indented pin"/>
+            <list_entry value="cut" display_value="Cut"/>
+            <list_entry value="magnet" display_value="Magnet"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="telescope_type_type">
+        <space/>
+        <combo key="telescope:type" text="Type">
+            <list_entry value="optical" display_value="Optical Telescope"/>
+            <list_entry value="radio" display_value="Radio Telescope"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toilets_disposal_type">
+        <space/>
+        <combo key="toilets:disposal" text="Disposal">
+            <list_entry value="flush" display_value="Flush"/>
+            <list_entry value="pitlatrine" display_value="Pit Latrine"/>
+            <list_entry value="chemical" display_value="Chemical"/>
+            <list_entry value="bucket" display_value="Bucket"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toilets_menstrual_products_type">
+        <space/>
+        <combo key="toilets:menstrual_products" text="Free Menstrual Products Available">
+            <list_entry value="yes" display_value="Yes, in all stalls"/>
+            <list_entry value="limited" display_value="Limited to some stalls"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toilets_wheelchair_type">
+        <space/>
+        <combo key="toilets:wheelchair" text="Wheelchair Accessible Toilet">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="limited" display_value="Limited"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_sign_direction_type">
+        <space/>
+        <combo key="traffic_sign:direction" text="Direction Affected">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="both" display_value="Both / All"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_direction_type">
+        <space/>
+        <combo key="traffic_signals:direction" text="Direction Affected">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="both" display_value="Both / All"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_sound_type">
+        <space/>
+        <combo key="traffic_signals:sound" text="Sound Signals">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="locate" display_value="Call Button Locator"/>
+            <list_entry value="walk" display_value="Walk Indication"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="volcano_status_type">
+        <space/>
+        <combo key="volcano:status" text="Volcano Status">
+            <list_entry value="active" display_value="Active"/>
+            <list_entry value="dormant" display_value="Dormant"/>
+            <list_entry value="extinct" display_value="Extinct"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="volcano_type_type">
+        <space/>
+        <combo key="volcano:type" text="Volcano Type">
+            <list_entry value="stratovolcano" display_value="Stratovolcano"/>
+            <list_entry value="shield" display_value="Shield"/>
+            <list_entry value="scoria" display_value="Scoria"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_colour_colour">
+        <space/>
+        <combo key="building:colour" text="Façade Color">
+            <list_entry value="black" display_value="black"/>
+            <list_entry value="white" display_value="white"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="windings_configuration_type">
+        <space/>
+        <combo key="windings:configuration" text="Windings Configuration">
+            <list_entry value="star" display_value="Star / Wye"/>
+            <list_entry value="delta" display_value="Delta"/>
+            <list_entry value="open-delta" display_value="Open Delta"/>
+            <list_entry value="zigzag" display_value="Zig Zag"/>
+            <list_entry value="open" display_value="Open"/>
+            <list_entry value="scott" display_value="Scott"/>
+            <list_entry value="leblanc" display_value="Leblanc"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="access_type">
+        <space/>
+        <combo key="access" text="Allowed Access">
+            <list_entry value="yes" display_value="Public"/>
+            <list_entry value="private" display_value="Private"/>
+            <list_entry value="permissive" display_value="Permissive"/>
+            <list_entry value="customers" display_value="Customers Only"/>
+            <list_entry value="permit" display_value="By Permit Only"/>
+            <list_entry value="unknown" display_value="Unknown"/>
+            <list_entry value="no" display_value="None"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="archaeological_site_type">
+        <space/>
+        <combo key="archaeological_site" text="Type">
+            <list_entry value="baths" display_value="Baths"/>
+            <list_entry value="city" display_value="Historic City"/>
+            <list_entry value="crannog" display_value="Crannog"/>
+            <list_entry value="enclosure" display_value="Enclosure"/>
+            <list_entry value="fortification" display_value="Fortification"/>
+            <list_entry value="hut_circle" display_value="Hut Circle"/>
+            <list_entry value="megalith" display_value="Megalith"/>
+            <list_entry value="necropolis" display_value="Necropolis"/>
+            <list_entry value="petroglyph" display_value="Rock Carving"/>
+            <list_entry value="roman_circus" display_value="Roman Circus"/>
+            <list_entry value="roman_villa" display_value="Roman Villa"/>
+            <list_entry value="settlement" display_value="Historic Settlement"/>
+            <list_entry value="tumulus" display_value="Tumulus"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="armrest_type">
+        <space/>
+        <combo key="armrest" text="Armrests">
+            <list_entry value="undefined" display_value="Unknown"/>
+            <list_entry value="yes" display_value="One or more armrests"/>
+            <list_entry value="no" display_value="No armrests"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="artwork_type_type">
+        <space/>
+        <combo key="artwork_type" text="Type">
+            <list_entry value="sculpture" display_value="Sculpture"/>
+            <list_entry value="statue" display_value="Statue"/>
+            <list_entry value="mural" display_value="Mural"/>
+            <list_entry value="installation" display_value="Art Installation"/>
+            <list_entry value="graffiti" display_value="Graffiti"/>
+            <list_entry value="bust" display_value="Bust"/>
+            <list_entry value="painting" display_value="Painting"/>
+            <list_entry value="mosaic" display_value="Mosaic"/>
+            <list_entry value="relief" display_value="Relief"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="athletics_type">
+        <space/>
+        <combo key="athletics" text="Event">
+            <list_entry value="discus_throw" display_value="Discus"/>
+            <list_entry value="hammer_throw" display_value="Hammer Throw"/>
+            <list_entry value="high_jump" display_value="High Jump"/>
+            <list_entry value="javelin_throw" display_value="Javelin"/>
+            <list_entry value="long_jump" display_value="Long Jump"/>
+            <list_entry value="pole_vault" display_value="Pole Vault"/>
+            <list_entry value="shot_put" display_value="Shot Put"/>
+            <list_entry value="triple_jump" display_value="Triple Jump"/>
+            <list_entry value="running" display_value="Running"/>
+            <list_entry value="sprint" display_value="Sprinting"/>
+            <list_entry value="steeplechase" display_value="Steeplechase"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="attraction_type">
+        <space/>
+        <combo key="attraction" text="Type">
+            <list_entry value="animal" display_value="Animal Enclosure"/>
+            <list_entry value="water_slide" display_value="Water Slide"/>
+            <list_entry value="amusement_ride" display_value="Amusement Ride"/>
+            <list_entry value="roller_coaster" display_value="Roller Coaster"/>
+            <list_entry value="carousel" display_value="Carousel"/>
+            <list_entry value="maze" display_value="Maze"/>
+            <list_entry value="summer_toboggan" display_value="Summer Toboggan"/>
+            <list_entry value="big_wheel" display_value="Ferris Wheel"/>
+            <list_entry value="train" display_value="Tourist Train"/>
+            <list_entry value="bumper_car" display_value="Bumper Cars"/>
+            <list_entry value="bungee_jumping" display_value="Bungee Jumping"/>
+            <list_entry value="dark_ride" display_value="Dark Ride"/>
+            <list_entry value="drop_tower" display_value="Drop Tower Ride"/>
+            <list_entry value="kiddie_ride" display_value="Kiddie Ride"/>
+            <list_entry value="log_flume" display_value="Log Flume"/>
+            <list_entry value="pirate_ship" display_value="Pirate Ship Ride"/>
+            <list_entry value="river_rafting" display_value="River Rapids Ride"/>
+            <list_entry value="swing_carousel" display_value="Swing Carousel"/>
+            <list_entry value="alpine_coaster" display_value="Alpine Coaster"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="baby_feeding_type">
+        <space/>
+        <combo key="baby_feeding" text="Baby Nursing Area">
+            <list_entry value="room" display_value="Dedicated Room"/>
+            <list_entry value="yes" display_value="Marked Space"/>
+            <list_entry value="no" display_value="None"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="barrier_type">
+        <space/>
+        <combo key="barrier" text="Type">
+            <list_entry value="fence" display_value="Fence"/>
+            <list_entry value="gate" display_value="Gate"/>
+            <list_entry value="wall" display_value="Wall"/>
+            <list_entry value="hedge" display_value="Hedge"/>
+            <list_entry value="kerb" display_value="Curb"/>
+            <list_entry value="bollard" display_value="Bollard"/>
+            <list_entry value="lift_gate" display_value="Boom Gate"/>
+            <list_entry value="retaining_wall" display_value="Retaining Wall"/>
+            <list_entry value="block" display_value="Large Block"/>
+            <list_entry value="guard_rail" display_value="Guard Rail"/>
+            <list_entry value="cycle_barrier" display_value="Cycle Barrier"/>
+            <list_entry value="stile" display_value="Stile"/>
+            <list_entry value="entrance" display_value="Entrance"/>
+            <list_entry value="swing_gate" display_value="Swing Gate"/>
+            <list_entry value="cattle_grid" display_value="Cattle Grid"/>
+            <list_entry value="ditch" display_value="Ditch"/>
+            <list_entry value="toll_booth" display_value="Toll Booth"/>
+            <list_entry value="city_wall" display_value="City Wall"/>
+            <list_entry value="kissing_gate" display_value="Kissing Gate"/>
+            <list_entry value="chain" display_value="Chain"/>
+            <list_entry value="jersey_barrier" display_value="Jersey Barrier"/>
+            <list_entry value="height_restrictor" display_value="Height Restrictor"/>
+            <list_entry value="turnstile" display_value="Turnstile"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
 
 </presets>

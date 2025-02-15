@@ -196,4 +196,102 @@
         <text key="memorial:addr" text="Nearest Building Address"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="plant_output_electricity_text">
+        <space/>
+        <text key="plant:output:electricity" text="Electric Power Output"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="population_date_text">
+        <space/>
+        <text key="population:date" text="Population Date"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="railway_position_text">
+        <space/>
+        <text key="railway:position" text="Milestone Position"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="railway_track_ref_text">
+        <space/>
+        <text key="railway:track_ref" text="Track Number"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ref_isil_text">
+        <space/>
+        <text key="ref:isil" text="ISIL Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ref_vatin_text">
+        <space/>
+        <text key="ref:vatin" text="VAT ID Number"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="roof_colour_text">
+        <space/>
+        <combo key="roof:colour" text="Roof Color">
+            <list_entry value="black" display_value="black"/>
+            <list_entry value="white" display_value="white"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="rotor_diameter_text">
+        <space/>
+        <text key="rotor:diameter" text="Rotor Diameter (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="species_wikidata_text">
+        <space/>
+        <text key="species:wikidata" text="Species Wikidata"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="subject_wikidata_text">
+        <space/>
+        <text key="subject:wikidata" text="Subject Wikidata"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="survey_date_text">
+        <space/>
+        <text key="survey:date" text="Last Survey Date"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="tower_platforms_text">
+        <space/>
+        <text key="tower:platforms" text="Platforms"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="water_tank_volume_text">
+        <space/>
+        <text key="water_tank:volume" text="Volume (Liters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="website_menu_text">
+        <space/>
+        <text key="website:menu" text="Menu Link"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="admin_level_text">
+        <space/>
+        <text key="admin_level" text="Admin Level"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="alt_name_text">
+        <space/>
+        <text key="alt_name" text="Alternative Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="architect_text">
+        <space/>
+        <text key="architect" text="Architect"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="artist_name_text">
+        <space/>
+        <text key="artist_name" text="Artist"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ascent_text">
+        <space/>
+        <text key="ascent" text="Total Ascent"/>
+        <label text="Placeholder"/>
+    </chunk>
 </presets>

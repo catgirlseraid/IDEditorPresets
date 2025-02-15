@@ -100,6 +100,91 @@
         <check key="wreck:visible_at_low_tide" text="Visible At Low Tide"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="oneway_bicycle_checkbox">
+        <space/>
+        <check key="oneway:bicycle" text="One Way (Bicycles)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seamark_harbour_category_checkbox">
+        <space/>
+        <check key="seamark:harbour:category" text="Domestic Facilities"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="summit_cross_checkbox">
+        <space/>
+        <check key="summit:cross" text="Summit Cross"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="survey_point_datum_aligned_checkbox">
+        <space/>
+        <check key="survey_point:datum_aligned" text="Aligned to the Local Geodetic Datum"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="toilets_handwashing_checkbox">
+        <space/>
+        <check key="toilets:handwashing" text="Handwashing"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_arrow_checkbox">
+        <space/>
+        <check key="traffic_signals:arrow" text="Tactile Arrow"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_countdown_checkbox">
+        <space/>
+        <check key="traffic_signals:countdown" text="Countdown Timer"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_minimap_checkbox">
+        <space/>
+        <check key="traffic_signals:minimap" text="Tactile Map"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_signals_vibration_checkbox">
+        <space/>
+        <check key="traffic_signals:vibration" text="Vibration"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="windings_auto_checkbox">
+        <space/>
+        <check key="windings:auto" text="Autotransformer"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="air_conditioning_checkbox">
+        <space/>
+        <check key="air_conditioning" text="Air Conditioning"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="atm_checkbox">
+        <space/>
+        <check key="atm" text="ATM"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="automated_checkbox">
+        <space/>
+        <check key="automated" text="Automated"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="baby_checkbox">
+        <space/>
+        <check key="baby" text="Baby Seat"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="backcountry_checkbox">
+        <space/>
+        <check key="backcountry" text="Backcountry"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="backrest_checkbox">
+        <space/>
+        <check key="backrest" text="Backrest"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bar_checkbox">
+        <space/>
+        <check key="bar" text="Bar"/>
+        <label text="Placeholder"/>
+    </chunk>
 
 
 </presets>
