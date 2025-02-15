@@ -6,110 +6,105 @@
     <!--icons from https://lucide.dev/icons/-->
 
     <!--checkboxes-->
-    <chunk id="aerialway_bubble_checkbox">
-        <space/>
-        <check key="aerialway:bubble" text="Bubble"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_heating_checkbox">
-        <space/>
-        <check key="aerialway:heating" text="Heated"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="bath_open_air_checkbox">
-        <space/>
-        <check key="bath:open_air" text="Open Air"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="bath_sand_bath_checkbox">
-        <space/>
-        <check key="bath:sand_bath" text="Sand Bath"/>
-        <label text="Placeholder"/>
-    </chunk>
 
-    <!--text inputs-->
-    <chunk id="aerialway_capacity_text">
+    <chunk id="healthcare_speciality_type">
         <space/>
-        <text key="aerialway:capacity" text="Capacity (per hour)"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_duration_text">
-        <space/>
-        <text key="aerialway:duration" text="Duration (minutes)"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="bridge_ref_text">
-        <space/>
-        <text key="bridge:ref" text="Bridge Number"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="building_levels_underground_text">
-        <space/>
-        <text key="building:levels:underground" text="Underground Levels"/>
-        <label text="Placeholder"/>
-    </chunk>
-
-    <!--dropdown menus-->
-    <chunk id="aerialway_summer_access_type">
-        <space/>
-        <combo key="aerialway:summer:access" text="Access (summer)">
-            <list_entry value="entry" display_value="Entry"/>
-            <list_entry value="exit" display_value="Exit"/>
-            <list_entry value="both" display_value="Both"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_access_type">
-        <space/>
-        <combo key="aerialway:access" text="Access">
-            <list_entry value="entry" display_value="Entry"/>
-            <list_entry value="exit" display_value="Exit"/>
-            <list_entry value="both" display_value="Both"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_occupancy_text">
-        <space/>
-        <text key="aerialway:occupancy" text="2, 4, 8..."/>
-        <label text="Occupancy"/>
-    </chunk>
-    <chunk id="bath_type_type">
-        <space/>
-        <combo key="bath:type" text="Specialty">
-            <list_entry value="hammam" display_value="Hammam"/>
-            <list_entry value="hot_spring" display_value="Hot Spring"/>
-            <list_entry value="lake" display_value="Lake"/>
-            <list_entry value="onsen" display_value="Onsen"/>
-            <list_entry value="thermal" display_value="Thermal Bath"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-
-    <!--colour inputs-->
-    <chunk id="building_colour_colour">
-        <space/>
-        <combo key="building:colour" text="Façade Color">
-            <list_entry value="black" display_value="black"/>
-            <list_entry value="white" display_value="white"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-
-    <chunk id="taxi_vehicle_type">
-        <space/>
-        <combo key="taxi_vehicle" text="Vehicle Type" default="motorcar">
-            <list_entry value="motorcar" display_value="Motorcar"/>
-            <list_entry value="motorcycle" display_value="Motorcycle"/>
-            <list_entry value="auto_rickshaw" display_value="Auto Rickshaw"/>
-            <list_entry value="cycle_rickshaw" display_value="Cycle Rickshaw"/>
-        </combo>
+        <multiselect key="healthcare:speciality" text="Specialties" delimiter=";">
+            <list_entry value="abortion" display_value="Abortion"/>
+            <list_entry value="acupuncture" display_value="Acupuncture"/>
+            <list_entry value="allergology" display_value="Allergy &amp; Asthma"/>
+            <list_entry value="anaesthetics" display_value="Anesthesiology"/>
+            <list_entry value="angiology" display_value="Angiology"/>
+            <list_entry value="anthroposophical" display_value="Anthroposophic Medicine"/>
+            <list_entry value="applied_kinesiology" display_value="Applied Kinesiology"/>
+            <list_entry value="aromatherapy" display_value="Aromatherapy"/>
+            <list_entry value="ayurveda" display_value="Ayurveda"/>
+            <list_entry value="behavior" display_value="Behavior Therapy"/>
+            <list_entry value="biochemistry" display_value="Biochemistry"/>
+            <list_entry value="biology" display_value="Biology"/>
+            <list_entry value="blood_check" display_value="Blood Test"/>
+            <list_entry value="body" display_value="Body Therapy"/>
+            <list_entry value="cardiology" display_value="Cardiology"/>
+            <list_entry value="cardiothoracic_surgery" display_value="Cardiothoracic Surgery"/>
+            <list_entry value="child_psychiatry" display_value="Child &amp; Adolescent Psychiatry"/>
+            <list_entry value="chiropractic" display_value="Chiropractic"/>
+            <list_entry value="clinical_pathology" display_value="Clinical Pathology"/>
+            <list_entry value="community" display_value="Community &amp; Public Health"/>
+            <list_entry value="depth" display_value="Depth Psychology"/>
+            <list_entry value="dermatology" display_value="Dermatology"/>
+            <list_entry value="dermatovenereology" display_value="Dermatovenereology"/>
+            <list_entry value="diabetology" display_value="Diabetology"/>
+            <list_entry value="diagnostic_radiology" display_value="Diagnostic Radiology"/>
+            <list_entry value="emergency" display_value="Emergency Medicine"/>
+            <list_entry value="endocrinology" display_value="Endocrinology"/>
+            <list_entry value="fertility" display_value="Fertility"/>
+            <list_entry value="gastroenterology" display_value="Gastroenterology"/>
+            <list_entry value="general" display_value="General Practice"/>
+            <list_entry value="geriatrics" display_value="Geriatric Medicine"/>
+            <list_entry value="gynaecology" display_value="Obstetrics &amp; Gynecology"/>
+            <list_entry value="haematology" display_value="Hematology"/>
+            <list_entry value="hepatology" display_value="Hepatology"/>
+            <list_entry value="herbalism" display_value="Herbalism"/>
+            <list_entry value="homeopathy" display_value="Homeopathy"/>
+            <list_entry value="humanistic" display_value="Humanistic Psychology"/>
+            <list_entry value="hydrotherapy" display_value="Hydrotherapy"/>
+            <list_entry value="hypnosis" display_value="Hypnosis"/>
+            <list_entry value="infectious_diseases" display_value="Infectious Disease"/>
+            <list_entry value="intensive" display_value="Intensive Care"/>
+            <list_entry value="internal" display_value="Internal Medicine"/>
+            <list_entry value="dental_oral_maxillo_facial_surgery" display_value="Dental, Oral &amp; Maxillofacial Surgery"/>
+            <list_entry value="naturopathy" display_value="Naturopathy"/>
+            <list_entry value="neonatology" display_value="Neonatology"/>
+            <list_entry value="nephrology" display_value="Nephrology"/>
+            <list_entry value="neurology" display_value="Neurology"/>
+            <list_entry value="neuropsychiatry" display_value="Neuropsychiatry"/>
+            <list_entry value="neurosurgery" display_value="Neurosurgery"/>
+            <list_entry value="nuclear" display_value="Nuclear Medicine"/>
+            <list_entry value="occupational" display_value="Occupational Medicine"/>
+            <list_entry value="oncology" display_value="Oncology"/>
+            <list_entry value="ophthalmology" display_value="Ophthalmology"/>
+            <list_entry value="orthodontics" display_value="Orthodontics"/>
+            <list_entry value="orthopaedics" display_value="Orthopedic Surgery"/>
+            <list_entry value="osteopathy" display_value="Osteopathy"/>
+            <list_entry value="otolaryngology" display_value="Ear, Nose &amp; Throat"/>
+            <list_entry value="paediatric_surgery" display_value="Pediatric Surgery"/>
+            <list_entry value="paediatrics" display_value="Pediatrics"/>
+            <list_entry value="palliative" display_value="Palliative Care"/>
+            <list_entry value="pathology" display_value="Pathology"/>
+            <list_entry value="physiatry" display_value="Physical Medicine &amp; Rehabilitation"/>
+            <list_entry value="plastic_surgery" display_value="Plastic Surgery"/>
+            <list_entry value="podiatry" display_value="Podiatry"/>
+            <list_entry value="proctology" display_value="Colorectal Surgery"/>
+            <list_entry value="psychiatry" display_value="Psychiatry"/>
+            <list_entry value="pulmonology" display_value="Pulmonology"/>
+            <list_entry value="radiology" display_value="Radiology"/>
+            <list_entry value="radiotherapy" display_value="Radiotherapy"/>
+            <list_entry value="reflexology" display_value="Reflexology"/>
+            <list_entry value="reiki" display_value="Reiki"/>
+            <list_entry value="rheumatology" display_value="Rheumatology"/>
+            <list_entry value="shiatsu" display_value="Shiatsu"/>
+            <list_entry value="stomatology" display_value="Stomatology"/>
+            <list_entry value="surgery" display_value="General Surgery"/>
+            <list_entry value="systemic" display_value="Systemic Therapy"/>
+            <list_entry value="traditional_chinese_medicine" display_value="Traditional Chinese Medicine"/>
+            <list_entry value="transplant" display_value="Transplant Surgery"/>
+            <list_entry value="trauma" display_value="Trauma Surgery"/>
+            <list_entry value="tropical" display_value="Tropical Medicine"/>
+            <list_entry value="tuina" display_value="Tuī ná"/>
+            <list_entry value="unani" display_value="Unani Medicine"/>
+            <list_entry value="urology" display_value="Urology"/>
+            <list_entry value="vaccination" display_value="Vaccination"/>
+            <list_entry value="vascular_surgery" display_value="Vascular Surgery"/>
+        </multiselect>
         <label text="Placeholder"/>
     </chunk>
 
     <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
         <label text="Placeholder"/>
-        <reference ref="taxi_vehicle_type"/>
+        <reference ref="healthcare_speciality_type"/>
+        <link href="https://wiki.openstreetmap.org/wiki/Key:layer"/>
         
         <key key="Placeholder" value="Placeholder"/>
+        <label text="No Documentation yet!"/>
     </item>
 </presets>

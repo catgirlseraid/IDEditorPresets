@@ -111,4 +111,89 @@
         <text key="vhf" text="VHF Channel"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="door_height_text">
+        <space/>
+        <text key="door:height" text="Door Height (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="door_width_text">
+        <space/>
+        <text key="door:width" text="Door Width (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fire_hydrant_diameter_text">
+        <space/>
+        <text key="fire_hydrant:diameter" text="Diameter (mm, in, or letters)"/>
+        <label text="The nominal diameter of the underground pipe going along the street that feeds (among other things) the hydrant; in some countries you can read it on the signboard near the hydrant, generally it is the number on top of the sign."/>
+    </chunk>
+    <chunk id="fire_hydrant_pressure_text">
+        <space/>
+        <text key="fire_hydrant:pressure" text="Pressure (bar)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="flag_name_text">
+        <space/>
+        <text key="flag:name" text="Flag Name"/>
+        <label text="Name of each of the flags hoisted on the flagpole."/>
+    </chunk>
+    <chunk id="flag_wikidata_text">
+        <space/>
+        <text key="flag:wikidata" text="Flag Wikidata"/>
+        <label text="ID of the Wikidata item about each of the flags hoisted on the flagpole"/>
+    </chunk>
+    <chunk id="generator_output_electricity_text">
+        <space/>
+        <text key="generator:output:electricity" text="Power Output"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="geyser_height_text">
+        <space/>
+        <text key="geyser:height" text="Eruption Height"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="height_hub_text">
+        <space/>
+        <text key="height:hub" text="Height of Hub (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="wreck_date_sunk_text">
+        <space/>
+        <text key="wreck:date_sunk" text="Date Sunk"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="internet_access_ssid_text">
+        <space/>
+        <text key="internet_access:ssid" text="Wifi Network Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="junction_ref_text">
+        <space/>
+        <text key="junction:ref" text="Junction Number"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="kerb_height_text">
+        <space/>
+        <text key="kerb:height" text="Height"/>
+        <label text="Exact height of the kerb in metres"/>
+    </chunk>
+    <chunk id="maxspeed_advisory_text">
+        <space/>
+        <text key="maxspeed:advisory" text="Advisory Speed Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxspeed_hgv_text">
+    <space/>
+    <text key="maxspeed:hgv" text="Truck Speed Limit"/>
+    <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxwidth_physical_text">
+        <space/>
+        <text key="maxwidth:physical" text="Width Limit"/>
+        <label text="The maximum width in metres"/>
+    </chunk>
+    <chunk id="memorial_addr_text">
+        <space/>
+        <text key="memorial:addr" text="Nearest Building Address"/>
+        <label text="Placeholder"/>
+    </chunk>
 </presets>

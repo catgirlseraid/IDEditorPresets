@@ -251,3 +251,39 @@
 "snake_case": false,
 "caseSensitive": true
 }
+{
+"key": "flag:type",
+"type": "combo",
+"label": "Flag Type"
+}
+{
+"key": "garden:type",
+"type": "combo",
+"label": "Garden Type"
+}
+{
+"key": "generator:method",
+"type": "combo",
+"label": "{generator/method}",
+"stringsCrossReference": "{generator/method}",
+"options": [
+"water-storage",
+"water-pumped-storage",
+"run-of-the-river"
+],
+"autoSuggestions": false,
+"prerequisiteTag": {
+"key": "generator:source",
+"value": "hydro"
+}
+}
+{
+"key": "generator:type",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "historic:civilization",
+"type": "combo",
+"label": "Historic Civilization"
+}

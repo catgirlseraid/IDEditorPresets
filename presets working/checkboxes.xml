@@ -90,5 +90,16 @@
         <check key="tactile_paving" text="Tactile Paving"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="wreck_visible_at_high_tide_checkbox">
+        <space/>
+        <check key="wreck:visible_at_high_tide" text="Visible At High Tide"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="wreck_visible_at_low_tide_checkbox">
+        <space/>
+        <check key="wreck:visible_at_low_tide" text="Visible At Low Tide"/>
+        <label text="Placeholder"/>
+    </chunk>
+
 
 </presets>

@@ -1,0 +1,36 @@
+<presets>
+    <!--special presets-->
+    <chunk id="fuel_special">
+        <space/>
+        <check key="fuel:diesel" text="Diesel"/>
+        <check key="fuel:GTL_diesel" text="GTL Diesel"/>
+        <check key="fuel:HGV_diesel" text="Truck Diesel"/>
+        <check key="fuel:biodiesel" text="Biodiesel"/>
+        <check key="fuel:octane_80" text="Gasoline (80 Octane)"/>
+        <check key="fuel:octane_85" text="Gasoline (85 Octane)"/>
+        <check key="fuel:octane_87" text="Gasoline (87 Octane)"/>
+        <check key="fuel:octane_88" text="Gasoline (88 Octane)"/>
+        <check key="fuel:octane_89" text="Gasoline (89 Octane)"/>
+        <check key="fuel:octane_90" text="Gasoline (90 Octane)"/>
+        <check key="fuel:octane_91" text="Gasoline (91 Octane)"/>
+        <check key="fuel:octane_92" text="Gasoline (92 Octane)"/>
+        <check key="fuel:octane_93" text="Gasoline (93 Octane)"/>
+        <check key="fuel:octane_95" text="Gasoline (95 Octane)"/>
+        <check key="fuel:octane_97" text="Gasoline (97 Octane)"/>
+        <check key="fuel:octane_98" text="Gasoline (98 Octane)"/>
+        <check key="fuel:octane_100" text="Gasoline (100 Octane)"/>
+        <check key="fuel:e5" text="E5 Gasoline"/>
+        <check key="fuel:e10" text="E10 Gasoline"/>
+        <check key="fuel:e85" text="E85 Gasoline"/>
+        <check key="fuel:lpg" text="Liquefied Petroleum Gas (LPG)"/>
+        <check key="fuel:lng" text="Liquefied Natural Gas (LNG)"/>
+        <check key="fuel:cng" text="Compressed Natural Gas (CNG)"/>
+        <check key="fuel:propane" text="Propane"/>
+        <check key="fuel:LH2" text="Liquid Hydrogen"/>
+        <check key="fuel:h70" text="Gaseous Hydrogen (700 bar)"/>
+        <check key="fuel:adblue" text="AdBlue / AUS 32"/>
+        <check key="fuel:adblue:canister" text="AdBlue / AUS 32 (sold in canisters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+
+</presets>
