@@ -1,15 +1,7 @@
 <presets>
     <!--text inputs-->
-    <chunk id="aerialway_capacity_text">
-        <space/>
-        <text key="aerialway:capacity" text="Capacity (per hour)"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_duration_text">
-        <space/>
-        <text key="aerialway:duration" text="Duration (minutes)"/>
-        <label text="Placeholder"/>
-    </chunk>
+
+
     <chunk id="bridge_ref_text">
         <space/>
         <text key="bridge:ref" text="Bridge Number"/>
@@ -415,11 +407,6 @@
         <text key="duration" text="Duration"/>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="ele_text">
-        <space/>
-        <text key="ele" text="Elevation (Meters)"/>
-        <label text="Placeholder"/>
-    </chunk>
     <chunk id="email_text">
         <space/>
         <text key="email" text="Email"/>
@@ -460,16 +447,7 @@
         <text key="hoops" text="Hoops"/>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="iata_text">
-        <space/>
-        <text key="iata" text="IATA Airport Code"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="icao_text">
-        <space/>
-        <text key="icao" text="ICAO Airport Code"/>
-        <label text="Placeholder"/>
-    </chunk>
+
     <chunk id="image_text">
         <space/>
         <text key="image" text="Image"/>
@@ -565,11 +543,6 @@
         <text key="mobile" text="Mobile Phone"/>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="name_text">
-        <space/>
-        <text key="name" text="Name"/>
-        <label text="Placeholder"/>
-    </chunk>
     <chunk id="nat_name_text">
         <space/>
         <text key="nat_name" text="National Name"/>
@@ -598,11 +571,6 @@
     <chunk id="opening_date_text">
         <space/>
         <text key="opening_date" text="Expected Opening Date"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="operator_text">
-        <space/>
-        <text key="operator" text="Operator"/>
         <label text="Placeholder"/>
     </chunk>
     <chunk id="overlap_text">
@@ -645,11 +613,7 @@
         <text key="rcn_ref" text="Cycling Code"/>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="ref_text">
-        <space/>
-        <text key="ref" text="Reference Code"/>
-        <label text="Placeholder"/>
-    </chunk>
+
     <chunk id="reg_name_text">
         <space/>
         <text key="reg_name" text="Regional Name"/>

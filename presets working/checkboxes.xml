@@ -1,15 +1,7 @@
 <presets>
     <!--checkboxes-->
-    <chunk id="aerialway_bubble_checkbox">
-        <space/>
-        <check key="aerialway:bubble" text="Bubble"/>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="aerialway_heating_checkbox">
-        <space/>
-        <check key="aerialway:heating" text="Heated"/>
-        <label text="Placeholder"/>
-    </chunk>
+
+
     <chunk id="bath_open_air_checkbox">
         <space/>
         <check key="bath:open_air" text="Open Air"/>
@@ -375,11 +367,7 @@
         <check key="lifeguard" text="Lifeguard"/>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="lit_checkbox">
-        <space/>
-        <check key="lit" text="Lit"/>
-        <label text="Placeholder"/>
-    </chunk>
+
     <chunk id="lock_checkbox">
         <space/>
         <check key="lock" text="Lock"/>

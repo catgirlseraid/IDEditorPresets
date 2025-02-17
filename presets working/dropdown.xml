@@ -18,11 +18,7 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="aerialway_occupancy_text">
-        <space/>
-        <text key="aerialway:occupancy" text="2, 4, 8..."/>
-        <label text="Occupancy"/>
-    </chunk>
+
     <chunk id="bath_type_type">
         <space/>
         <combo key="bath:type" text="Specialty">
@@ -132,15 +128,7 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="visibility_type">
-        <space/>
-        <combo key="visibility" text="Visibility">
-            <list_entry value="house" display_value="Up to 5m (16ft)"/>
-            <list_entry value="street" display_value="5 to 20m (16 to 65ft)"/>
-            <list_entry value="area" display_value="Over 20m (65ft)"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
+
     <chunk id="vending_type">
         <space/>
         <combo key="vending" text="Types of Goods">
@@ -471,15 +459,6 @@
             <list_entry value="vaccination" display_value="Vaccination"/>
             <list_entry value="vascular_surgery" display_value="Vascular Surgery"/>
         </multiselect>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="holding_position_type_type">
-        <space/>
-        <combo key="holding_position:type" text="Type">
-            <list_entry value="runway" display_value="Runway"/>
-            <list_entry value="intermediate" display_value="Taxiway-Taxiway Intersection"/>
-            <list_entry value="ILS" display_value="Instrument Landing System"/>
-        </combo>
         <label text="Placeholder"/>
     </chunk>
     <chunk id="internet_access_fee_type">
@@ -915,19 +894,6 @@
             <list_entry value="open" display_value="Open"/>
             <list_entry value="scott" display_value="Scott"/>
             <list_entry value="leblanc" display_value="Leblanc"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="access_type">
-        <space/>
-        <combo key="access" text="Allowed Access">
-            <list_entry value="yes" display_value="Public"/>
-            <list_entry value="private" display_value="Private"/>
-            <list_entry value="permissive" display_value="Permissive"/>
-            <list_entry value="customers" display_value="Customers Only"/>
-            <list_entry value="permit" display_value="By Permit Only"/>
-            <list_entry value="unknown" display_value="Unknown"/>
-            <list_entry value="no" display_value="None"/>
         </combo>
         <label text="Placeholder"/>
     </chunk>
@@ -1561,19 +1527,6 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="direction_type">
-        <space/>
-        <combo key="direction" text="Direction">
-            <list_entry value="forward" display_value="Forward"/>
-            <list_entry value="backward" display_value="Backward"/>
-            <list_entry value="both" display_value="Both / All"/>
-            <list_entry value="north" display_value="Northbound"/>
-            <list_entry value="south" display_value="Southbound"/>
-            <list_entry value="east" display_value="Eastbound"/>
-            <list_entry value="west" display_value="Westbound"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
     <chunk id="display_type">
         <space/>
         <combo key="display" text="Display">
@@ -1786,17 +1739,7 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="internet_access_type">
-        <space/>
-        <combo key="internet_access" text="Internet Connection">
-            <list_entry value="yes" display_value="Yes"/>
-            <list_entry value="no" display_value="No"/>
-            <list_entry value="wlan" display_value="Wifi"/>
-            <list_entry value="wired" display_value="Wired"/>
-            <list_entry value="terminal" display_value="Terminal"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
+
     <chunk id="junction_type">
         <space/>
         <combo key="junction" text="Junction">
@@ -2024,7 +1967,6 @@
     <chunk id="oneway_type">
         <space/>
         <combo key="oneway" text="One Way">
-            <list_entry value="undefined" display_value="Assumed to be No"/>
             <list_entry value="yes" display_value="Yes"/>
             <list_entry value="no" display_value="No"/>
             <list_entry value="reversible" display_value="Reversible"/>
@@ -2420,38 +2362,6 @@
             <list_entry value="valve_group" display_value="Valve Group"/>
             <list_entry value="inspection_gauge" display_value="Inspection Gauge"/>
             <list_entry value="field_gathering" display_value="Field Gathering"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
-    <chunk id="surface_type">
-        <space/>
-        <combo key="surface" text="Surface">
-            <list_entry value="artificial_turf" display_value="Artificial Turf"/>
-            <list_entry value="asphalt" display_value="Asphalt"/>
-            <list_entry value="clay" display_value="Clay"/>
-            <list_entry value="compacted" display_value="Compacted"/>
-            <list_entry value="concrete" display_value="Concrete"/>
-            <list_entry value="concrete:lanes" display_value="Concrete Lanes"/>
-            <list_entry value="concrete:plates" display_value="Concrete Plates"/>
-            <list_entry value="dirt" display_value="Dirt"/>
-            <list_entry value="fine_gravel" display_value="Fine Gravel"/>
-            <list_entry value="grass" display_value="Grass"/>
-            <list_entry value="grass_paver" display_value="Grass Paver"/>
-            <list_entry value="gravel" display_value="Gravel"/>
-            <list_entry value="ground" display_value="Ground"/>
-            <list_entry value="metal" display_value="Metal"/>
-            <list_entry value="mud" display_value="Persistently Muddy"/>
-            <list_entry value="paved" display_value="Paved"/>
-            <list_entry value="paving_stones" display_value="Paving Stones"/>
-            <list_entry value="pebblestone" display_value="Pebblestone"/>
-            <list_entry value="salt" display_value="Salt"/>
-            <list_entry value="sand" display_value="Sand"/>
-            <list_entry value="sett" display_value="Sett"/>
-            <list_entry value="tartan" display_value="Tartan"/>
-            <list_entry value="unhewn_cobblestone" display_value="Cobblestone (uncut, rounded stones)"/>
-            <list_entry value="unpaved" display_value="Unpaved"/>
-            <list_entry value="wood" display_value="Wood"/>
-            <list_entry value="woodchips" display_value="Woodchips"/>
         </combo>
         <label text="Placeholder"/>
     </chunk>

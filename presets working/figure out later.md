@@ -507,71 +507,6 @@
 "type": "combo",
 "label": "Tertiary Voltage"
 }
-{
-"keys": [
-"access",
-"foot",
-"motor_vehicle",
-"bicycle",
-"horse"
-],
-"reference": {
-"key": "access"
-},
-"type": "access",
-"label": "Allowed Access",
-"placeholder": "Not Specified",
-"strings": {
-"types": {
-"access": "All",
-"foot": "Foot",
-"motor_vehicle": "Motor Vehicles",
-"bicycle": "Bicycles",
-"horse": "Horses"
-},
-"options": {
-"yes": {
-"title": "Allowed",
-"description": "Access allowed by law; a right of way"
-},
-"no": {
-"title": "Prohibited",
-"description": "Access not allowed to the general public"
-},
-"permissive": {
-"title": "Permissive",
-"description": "Access allowed until such time as the owner revokes the permission"
-},
-"private": {
-"title": "Private",
-"description": "Access allowed only with permission of the owner on an individual basis"
-},
-"designated": {
-"title": "Designated",
-"description": "Access allowed according to signs or specific local laws"
-},
-"destination": {
-"title": "Destination",
-"description": "Access allowed only to reach a destination"
-},
-"customers": {
-"title": "Customers",
-"description": "Restricted to customers at the destination"
-},
-"dismount": {
-"title": "Dismount",
-"description": "Access allowed but rider must dismount"
-},
-"permit": {
-"title": "Permit",
-"description": "Access allowed only with a valid permit or license"
-},
-"unknown": {
-"title": "Unknown",
-"description": "Access conditions are unknown or unclear"
-}
-}
-}
 }
 {
 "key": "access_aisle",
@@ -598,82 +533,6 @@
 }
 }
 {
-"type": "address",
-"key": "addr",
-"keys": [
-"addr:block_number",
-"addr:city",
-"addr:block_number",
-"addr:conscriptionnumber",
-"addr:county",
-"addr:country",
-"addr:county",
-"addr:district",
-"addr:floor",
-"addr:hamlet",
-"addr:housename",
-"addr:housenumber",
-"addr:neighbourhood",
-"addr:place",
-"addr:postcode",
-"addr:province",
-"addr:quarter",
-"addr:state",
-"addr:street",
-"addr:subdistrict",
-"addr:suburb",
-"addr:town",
-"addr:unit"
-],
-"label": "Address",
-"strings": {
-"placeholders": {
-"block_number": "Block Number",
-"block_number!jp": "Block No.",
-"city": "City",
-"city!cn": "City/Prefecture/League",
-"city!jp": "City/Town/Village/Tokyo Special Ward",
-"city!vn": "City/Town",
-"conscriptionnumber": "123",
-"country": "Country",
-"county": "County",
-"county!jp": "District",
-"district": "District",
-"district!cn": "District/County/Banner",
-"district!vn": "Arrondissement/Town/District",
-"floor": "Floor",
-"hamlet": "Hamlet",
-"housename": "Housename",
-"housenumber": "123",
-"housenumber!jp": "Building No./Lot No.",
-"neighbourhood": "Neighbourhood",
-"neighbourhood!jp": "Machi/Chōme/Aza/Koaza",
-"place": "Place",
-"postcode": "Postcode",
-"province": "Province",
-"province!cn": "Province/Municipality/AR/SAR",
-"province!jp": "Prefecture",
-"quarter": "Quarter",
-"quarter!jp": "Ōaza",
-"state": "State",
-"street": "Street",
-"subdistrict": "Subdistrict",
-"subdistrict!vn": "Ward/Commune/Townlet",
-"suburb": "Suburb",
-"suburb!jp": "Ward (政令市)",
-"town": "Town",
-"unit": "Unit"
-}
-},
-"terms": [
-"location"
-]
-}
-{
-"key": "advertising",
-"type": "typeCombo",
-"label": "Type"
-}
 {
 "key": "advertising",
 "type": "typeCombo",
@@ -1292,22 +1151,6 @@
 "snake_case": false
 }
 {
-"key": "maxweight",
-"type": "combo",
-"label": "Weight Limit",
-"snake_case": false
-}
-{
-"key": "maxweight",
-"type": "combo",
-"label": "{maxweight}",
-"snake_case": false,
-"prerequisiteTag": {
-"key": "bridge",
-"valueNot": "no"
-}
-}
-{
 "key": "message",
 "type": "combo",
 "label": "Message"
@@ -1534,11 +1377,7 @@
 "type": "combo",
 "label": "Type"
 }
-{
-"key": "support",
-"type": "combo",
-"label": "Support"
-}
+
 {
 "key": "surveillance",
 "type": "combo",

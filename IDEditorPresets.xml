@@ -5,47 +5,422 @@
          shortdescription="ID Editor Presets">
     <!--icons from https://lucide.dev/icons/-->
 
-    <!--booleans-->
-    <group name="advertising">
-        <item name="Billboard" type="node, way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+    <chunk id="operator_text">
+        <space/>
+        <text key="operator" text="Operator"/>
+        <label text="Сompany, corporation, person or any other entity who is directly in charge of the current operation of a map object"/>
+    </chunk>
+    <chunk id="lit_checkbox">
+        <space/>
+        <check key="lit" text="Lit"/>
+        <label text="Indicates whether a feature is lit."/>
+    </chunk>
+    <chunk id="visibility_type">
+        <space/>
+        <combo key="visibility" text="Visibility">
+            <list_entry value="house" display_value="Up to 5m (16ft)"/>
+            <list_entry value="street" display_value="5 to 20m (16 to 65ft)"/>
+            <list_entry value="area" display_value="Over 20m (65ft)"/>
+        </combo>
+        <label text="Visibility of a given element"/>
+    </chunk>
+    <chunk id="support_type">
+        <space/>
+        <combo key="support" text="Support">
+            <list_entry value="pole"/>
+            <list_entry value="ground"/>
+            <list_entry value="wall_mounted"/>
+            <list_entry value="wall"/>
+            <list_entry value="power_pole"/>
+            <list_entry value="street_furniture:transit_shelter"/>
+            <list_entry value="pedestal"/>
+            <list_entry value="poles"/>
+            <list_entry value="post"/>
+            <list_entry value="high_mast"/>
+            <list_entry value="ceiling"/>
+            <list_entry value="billboard"/>
+            <list_entry value="traffic_sign"/>
+            <list_entry value="fence"/>
+            <list_entry value="column"/>
+            <list_entry value="showcase"/>
+            <list_entry value="rock"/>
+            <list_entry value="tower"/>
+            <list_entry value="tree"/>
+            <list_entry value="street_lamp"/>
+            <list_entry value="wire"/>
+            <list_entry value="roof"/>
+            <list_entry value="catenary"/>
+            <list_entry value="ornamental"/>
+            <list_entry value="high_mast"/>
+        </combo>
+        <label text="Type of support for certain features"/>
+    </chunk>
+    <chunk id="name_text">
+        <space/>
+        <text key="name" text="Name"/>
+        <label text="The primary name: in general, the most prominent signposted name or the most common name in the local language(s)."/>
+    </chunk>
+    <chunk id="aerialway_occupancy_text">
+        <space/>
+        <text key="aerialway:occupancy" text="Occupancy"/>
+        <label text="People in each carriage (car, chair, etc.); numeric."/>
+    </chunk>
+    <chunk id="aerialway_capacity_text">
+        <space/>
+        <text key="aerialway:capacity" text="Capacity (per hour)"/>
+        <label text="People per hour; numeric."/>
+    </chunk>
+    <chunk id="aerialway_duration_text">
+        <space/>
+        <text key="aerialway:duration" text="Duration (minutes)"/>
+        <label text="Indication of the duration of a cable car ride."/>
+    </chunk>
+    <chunk id="aerialway_heating_checkbox">
+        <space/>
+        <check key="aerialway:heating" text="Heated"/>
+        <label text="There is no documentation available."/>
+    </chunk>
+    <chunk id="oneway_checkbox">
+        <space/>
+        <check key="oneway" text="One Way"/>
+        <label text="Linear features that users can only go one direction in. Used in highways, zip lines, and other features."/>
+    </chunk>
+    <chunk id="aerialway_bubble_checkbox">
+        <space/>
+        <check key="aerialway:bubble" text="Bubble"/>
+        <label text="There is no documentation available."/>
+    </chunk>
+    <chunk id="ref_text">
+        <space/>
+        <text key="ref" text="Reference Code"/>
+        <label text="Used for reference numbers or codes. Common for roads, highway exits, routes, entrances to big buildings etc."/>
+    </chunk>
+    <chunk id="maxweight_text">
+        <space/>
+        <text key="maxweight" text="Weight Limit"/>
+        <label text="Permissible maximum actual weight in metric tonnes (or other explicitly specified unit)."/>
+    </chunk>
+    <chunk id="access_type">
+        <space/>
+        <combo key="access" text="Allowed Access">
+            <list_entry value="yes" display_value="Public"/>
+            <list_entry value="private" display_value="Private"/>
+            <list_entry value="permissive" display_value="Permissive"/>
+            <list_entry value="customers" display_value="Customers Only"/>
+            <list_entry value="permit" display_value="By Permit Only"/>
+            <list_entry value="unknown" display_value="Unknown"/>
+            <list_entry value="no" display_value="None"/>
+            <list_entry value="designated" display_value="Designated"/>
+            <list_entry value="destination" display_value="Destination"/>
+            <list_entry value="dismount" display_value="Dismount"/>
+        </combo>
+        <label text="For describing the legal accessibility of a feature."/>
+    </chunk>
+    <chunk id="iata_text">
+        <space/>
+        <text key="iata" text="IATA Airport Code"/>
+        <label text="Indicates the IATA airport code"/>
+    </chunk>
+    <chunk id="icao_text">
+        <space/>
+        <text key="icao" text="ICAO Airport Code"/>
+        <label text="Indicates the ICAO airport code"/>
+    </chunk>
+    <chunk id="address_special">
+        <space/>
+        <text key="addr:housenumber" text="Number"/>
+        <text key="addr:street" text="Street"/>
+        <text key="addr:suburb" text="Suburb"/>
+        <text key="addr:city" text="City"/>
+        <text key="addr:postcode" text="Postcode"/>
+        <label text="There is no documentation available."/>
+    </chunk>
+    <chunk id="internet_access_type">
+        <space/>
+        <combo key="internet_access" text="Internet Connection">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="wlan" display_value="Wifi"/>
+            <list_entry value="wired" display_value="Wired"/>
+            <list_entry value="terminal" display_value="Terminal"/>
+        </combo>
+        <label text="Indicates if an object offers internet access. The access can be with given computers or WLAN access. The only limitation is that the internet access has to be public."/>
+    </chunk>
+    <chunk id="surface_type">
+        <space/>
+        <combo key="surface" text="Surface">
+            <list_entry value="artificial_turf" display_value="Artificial Turf"/>
+            <list_entry value="asphalt" display_value="Asphalt"/>
+            <list_entry value="clay" display_value="Clay"/>
+            <list_entry value="compacted" display_value="Compacted"/>
+            <list_entry value="concrete" display_value="Concrete"/>
+            <list_entry value="concrete:lanes" display_value="Concrete Lanes"/>
+            <list_entry value="concrete:plates" display_value="Concrete Plates"/>
+            <list_entry value="dirt" display_value="Dirt"/>
+            <list_entry value="fine_gravel" display_value="Fine Gravel"/>
+            <list_entry value="grass" display_value="Grass"/>
+            <list_entry value="grass_paver" display_value="Grass Paver"/>
+            <list_entry value="gravel" display_value="Gravel"/>
+            <list_entry value="ground" display_value="Ground"/>
+            <list_entry value="metal" display_value="Metal"/>
+            <list_entry value="mud" display_value="Persistently Muddy"/>
+            <list_entry value="paved" display_value="Paved"/>
+            <list_entry value="paving_stones" display_value="Paving Stones"/>
+            <list_entry value="pebblestone" display_value="Pebblestone"/>
+            <list_entry value="salt" display_value="Salt"/>
+            <list_entry value="sand" display_value="Sand"/>
+            <list_entry value="sett" display_value="Sett"/>
+            <list_entry value="tartan" display_value="Tartan"/>
+            <list_entry value="unhewn_cobblestone" display_value="Cobblestone (uncut, rounded stones)"/>
+            <list_entry value="unpaved" display_value="Unpaved"/>
+            <list_entry value="wood" display_value="Wood"/>
+            <list_entry value="woodchips" display_value="Woodchips"/>
+        </combo>
+        <label text="Describes the surface of a feature."/>
+    </chunk>
+    <chunk id="holding_position_type_type">
+        <space/>
+        <combo key="holding_position:type" text="Type">
+            <list_entry value="runway" display_value="Runway"/>
+            <list_entry value="intermediate" display_value="Taxiway-Taxiway Intersection"/>
+            <list_entry value="ILS" display_value="Instrument Landing System"/>
+        </combo>
+        <label text="There is no documentation available."/>
+    </chunk>
+    <chunk id="direction_type">
+        <space/>
+        <combo key="direction" text="Direction">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="both" display_value="Both / All"/>
+            <list_entry value="north" display_value="Northbound"/>
+            <list_entry value="south" display_value="Southbound"/>
+            <list_entry value="east" display_value="Eastbound"/>
+            <list_entry value="west" display_value="Westbound"/>
+        </combo>
+        <label text="Specifies the direction of a feature."/>
+    </chunk>
+    <chunk id="ele_text">
+        <space/>
+        <text key="ele" text="Elevation (Meters)"/>
+        <label text="Elevation of a point above sea level, in metres."/>
+    </chunk>
+
+
+    <group name="Advertising">
+        <item name="Billboard" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
             <label text="Advertising billboard (also called a hoarding) is a large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads."/>
             <reference ref="operator_text"/>
-            <reference ref="lit_boolean"/>
+            <reference ref="lit_checkbox"/>
             <reference ref="visibility_type"/>
             <reference ref="support_type"/>
             <key key="advertising" value="billboard"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:advertising=billboard"/>
         </item>
-
-        <item name="Notice Board" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
-            <label text="Placeholder"/>
+        <item name="Notice Board" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Small billboard for neighbourhood advertising, generally intended for pedestrians, but some of them can be along roads. Some of them are open to any fly posters, and not private"/>
             <reference ref="operator_text"/>
-            <reference ref="lit_boolean"/>
+            <reference ref="lit_checkbox"/>
             <reference ref="visibility_type"/>
             <reference ref="support_type"/>
             <key key="advertising" value="board"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:advertising=board"/>
         </item>
-
-        <item name="Advertising Column" type="node, closedway" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
-            <label text="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <key key="advertising" value="Placeholder"/>
+        <item name="Advertising Column" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An advertising column, a cylindrical outdoor structure which shows advertisements"/>
+            <reference ref="operator_text"/>
+            <reference ref="lit_checkbox"/>
+            <reference ref="visibility_type"/>
+            <key key="advertising" value="column"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:advertising=column"/>
         </item>
-
-        <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
-            <label text="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <key key="advertising" value="Placeholder"/>
+        <item name="Poster Box" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Dedicated box, for putting up posters with a display surface of about 2 m², generally with two faces, generally lit by transmission, sometimes animated. Sometimes called 'lollylop', 'snowshoe' or 'city light'."/>
+            <reference ref="operator_text"/>
+            <reference ref="lit_checkbox"/>
+            <reference ref="visibility_type"/>
+            <reference ref="support_type"/>
+            <key key="advertising" value="poster_box"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:advertising=poster_box"/>
         </item>
-
-        <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
-            <label text="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <reference ref="Placeholder"/>
-            <key key="advertising" value="Placeholder"/>
+        <item name="Advertising Totem" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A rectangular advertising totem."/>
+            <reference ref="operator_text"/>
+            <reference ref="lit_checkbox"/>
+            <reference ref="visibility_type"/>
+            <key key="advertising" value="totem"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:advertising=totem"/>
         </item>
     </group>
+
+    <group name="Aerialway">
+        <item name="Cable Car" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A cable car run. Just one or two large cars. The traction cable forms a loop, but the cars do not loop around, they just move up and down on their own side, rolling along static cables over which they are suspended."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_occupancy_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <reference ref="aerialway_heating_checkbox"/>
+            <key key="aerialway" value="cable_car"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dcable_car"/>
+        </item>
+        <item name="Chair Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An open chairlift run. These have one or more seats or benches and are open to the outside air."/>
+            <reference ref="name_text"/>
+            <reference ref="oneway_checkbox"/>
+            <reference ref="aerialway_occupancy_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <reference ref="aerialway_bubble_checkbox"/>
+            <reference ref="aerialway_heating_checkbox"/>
+            <key key="aerialway" value="chair_lift"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dchair_lift"/>
+        </item>
+        <item name="Drag Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An overhead tow-line for skiers and riders."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="drag_lift"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Ddrag_lift"/>
+        </item>
+        <item name="Gondola Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An aerialway where the cabins go around in a circle."/>
+            <reference ref="name_text"/>
+            <reference ref="oneway_checkbox"/>
+            <reference ref="aerialway_occupancy_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <reference ref="aerialway_bubble_checkbox"/>
+            <reference ref="aerialway_heating_checkbox"/>
+            <key key="aerialway" value="gondola"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dgondola"/>
+        </item>
+        <item name="Goods Aerialway" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A cable supported lift for conveying goods, not passengers."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="goods"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dgoods"/>
+        </item>
+        <item name="J-Bar Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="J-bar lift or L-bar lift. Overhead tow-line for skiers and riders with carriers in J-shape."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="j-bar"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dj-bar"/>
+        </item>
+        <item name="Magic Carpet Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A ski lift for small children resembling a conveyor belt."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="magic_carpet"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dmagic_carpet"/>
+        </item>
+        <item name="Platter Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An overhead tow-line for skiers and riders with platters."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="platter"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway=platter"/>
+        </item>
+        <item name="Aerialway Pylon" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A pylon supporting the aerialway cable."/>
+            <reference ref="ref_text"/>
+            <key key="aerialway" value="pylon"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway=pylon"/>
+        </item>
+        <item name="Rope Tow Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A tow-line for skiers and riders where passenger hold by hand or use special tow grabbers."/>
+            <reference ref="name_text"/>
+            <reference ref="oneway_checkbox"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="rope_tow"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Drope_tow"/>
+        </item>
+        <item name="T-Bar Lift" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An overhead tow-line for skiers and riders with T-shaped carriers for two passengers."/>
+            <reference ref="name_text"/>
+            <reference ref="aerialway_capacity_text"/>
+            <reference ref="aerialway_duration_text"/>
+            <key key="aerialway" value="t-bar"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway=t-bar"/>
+        </item>
+        <item name="Zip Line" type="way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="Zip line, gravity propelled aerial ropeslide like a flying fox or similar"/>
+            <reference ref="name_text"/>
+            <reference ref="oneway_checkbox"/>
+            <reference ref="aerialway_duration_text"/>
+            <reference ref="maxweight_text"/>
+            <reference ref="access_type"/>
+            <key key="aerialway" value="zip_line"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aerialway%3Dzip_line"/>
+        </item>
+    </group>
+
+    <group name="Aeroway">
+        <item name="Airport" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An aerodrome, airport or airfield"/>
+            <reference ref="name_text"/>
+            <reference ref="iata_text"/>
+            <reference ref="icao_text"/>
+            <reference ref="address_special"/>
+            <reference ref="operator_text"/>
+            <reference ref="internet_access_type"/>
+            <key key="aeroway" value="aerodrome"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway=aerodrome"/>
+        </item>
+        <item name="Airport Apron" type="closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="An area of an airport where planes are parked, unloaded or loaded, refueled, or boarded."/>
+            <reference ref="ref_text"/>
+            <reference ref="surface_type"/>
+            <key key="aeroway" value="apron"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway=apron"/>
+        </item>
+        <item name="Airport Gate" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="The bounded space, inside the airport terminal, where passengers wait before boarding their flight"/>
+            <reference ref="ref_text"/>
+            <key key="aeroway" value="gate"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway=gate"/>
+        </item>
+        <item name="Hangar" type="closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A large airport building with extensive floor area for housing aircraft or spacecraft."/>
+            <reference ref="name_text"/>
+            <key key="aeroway" value="hangar"/>
+            <key key="building" value="hangar"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway=hangar"/>
+        </item>
+        <item name="Helipad" type="node,closedway,multipolygon" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A landing area or platform designed for helicopters"/>
+            <reference ref="name_text"/>
+            <reference ref="ref_text"/>
+            <reference ref="operator_text"/>
+            <reference ref="surface_type"/>
+            <reference ref="maxweight_text"/>
+            <reference ref="lit_checkbox"/>
+            <key key="aeroway" value="helipad"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway=helipad"/>
+        </item>
+        <item name="Aircraft Holding Position" type="node,way" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
+            <label text="A point behind which aircraft are considered clear of a crossing way"/>
+            <reference ref="ref_text"/>
+            <reference ref="holding_position_type_type"/>
+            <reference ref="direction_type"/>
+            <reference ref="ele_text"/>
+            <key key="aeroway" value="holding_position"/>
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:aeroway%3Dholding_position"/>
+        </item>
+
+
+    </group>
+
+
+
 
     <!--
     <item name="Placeholder" type="node" icon="https://raw.githubusercontent.com/catgirlseraid/IDEditorPresets/main/icons/file-question.svg">
@@ -53,7 +428,15 @@
         <reference ref="Placeholder"/>
         <reference ref="Placeholder"/>
         <key key="Placeholder" value="Placeholder"/>
+        <link href="Placeholder"/>
     </item>
+
+
+        <group name="Placeholder">
+
+
+
+    </group>
     -->
 
 </presets>
