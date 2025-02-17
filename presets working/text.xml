@@ -294,4 +294,416 @@
         <text key="ascent" text="Total Ascent"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="branch_text">
+        <space/>
+        <text key="branch" text="Branch"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="brand_text">
+        <space/>
+        <text key="brand" text="Brand"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="cables_text">
+        <space/>
+        <text key="cables" text="Cables"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="capacity_text">
+        <space/>
+        <text key="capacity" text="Capacity"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="charge_text">
+        <space/>
+        <text key="charge" text="Fee Amount"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="check_date_text">
+        <space/>
+        <text key="check_date" text="Last Checked Date"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="circumference_text">
+        <space/>
+        <text key="circumference" text="Circumference (at Breast Height)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="collection_times_text">
+        <space/>
+        <text key="collection_times" text="Collection Times"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="colour_text">
+        <space/>
+        <combo key="colour" text="Color">
+            <list_entry value="black" display_value="black"/>
+            <list_entry value="white" display_value="white"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_colour_text">
+        <space/>
+        <combo key="building:colour" text="Façade Color">
+            <list_entry value="black" display_value="black"/>
+            <list_entry value="white" display_value="white"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="comment_text">
+        <space/>
+        <text key="comment" text="Changeset Comment"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="connectivity_text">
+        <space/>
+        <text key="connectivity" text="Connectivity"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="count_text">
+        <space/>
+        <text key="count" text="Number of Features"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="couplings_text">
+        <space/>
+        <text key="couplings" text="Couplings"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="deflection_text">
+        <space/>
+        <text key="deflection" text="Angle"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="depth_text">
+        <space/>
+        <text key="depth" text="Depth (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="descent_text">
+        <space/>
+        <text key="descent" text="Total Descent"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="description_text">
+        <space/>
+        <text key="description" text="Description"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="devices_text">
+        <space/>
+        <text key="devices" text="Devices"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="diameter_text">
+        <space/>
+        <text key="diameter" text="Diameter"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="diameter_crown_text">
+        <space/>
+        <text key="diameter_crown" text="Crown Diameter"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="distance_text">
+        <space/>
+        <text key="distance" text="Distance"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="duration_text">
+        <space/>
+        <text key="duration" text="Duration"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ele_text">
+        <space/>
+        <text key="ele" text="Elevation (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="email_text">
+        <space/>
+        <text key="email" text="Email"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="faces_text">
+        <space/>
+        <text key="faces" text="Faces"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fax_text">
+        <space/>
+        <text key="fax" text="Fax"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fixme_text">
+        <space/>
+        <text key="fixme" text="Fix Me"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="from_text">
+        <space/>
+        <text key="from" text="From"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="handicap_text">
+        <space/>
+        <text key="handicap" text="Handicap"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="height_text">
+        <space/>
+        <text key="height" text="Height (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="hoops_text">
+        <space/>
+        <text key="hoops" text="Hoops"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="iata_text">
+        <space/>
+        <text key="iata" text="IATA Airport Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="icao_text">
+        <space/>
+        <text key="icao" text="ICAO Airport Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="image_text">
+        <space/>
+        <text key="image" text="Image"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="inscription_text">
+        <space/>
+        <text key="inscription" text="Inscription"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="interval_text">
+        <space/>
+        <text key="interval" text="Interval"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="label_text">
+        <space/>
+        <text key="label" text="Label"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lanes_text">
+        <space/>
+        <text key="lanes" text="Lanes"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="layer_text">
+        <space/>
+        <text key="layer" text="Layer"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="length_text">
+        <space/>
+        <text key="length" text="Length (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="level_text">
+        <space/>
+        <text key="level" text="Level"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="loc_name_text">
+        <space/>
+        <text key="loc_name" text="Local Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="mapillary_text">
+        <space/>
+        <text key="mapillary" text="Mapillary Image ID"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="max_age_text">
+        <space/>
+        <text key="max_age" text="Maximum Age"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxheight_text">
+        <space/>
+        <text key="maxheight" text="Height Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxlength_text">
+        <space/>
+        <text key="maxlength" text="Length Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxspeed_text">
+        <space/>
+        <text key="maxspeed" text="Speed Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="maxwidth_text">
+        <space/>
+        <text key="maxwidth" text="Width Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="min_age_text">
+        <space/>
+        <text key="min_age" text="Minimum Age"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="min_height_text">
+        <space/>
+        <text key="min_height" text="Height of Bottom (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="minspeed_text">
+        <space/>
+        <text key="minspeed" text="Minimum Speed Limit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="mobile_text">
+        <space/>
+        <text key="mobile" text="Mobile Phone"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="name_text">
+        <space/>
+        <text key="name" text="Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="nat_name_text">
+        <space/>
+        <text key="nat_name" text="National Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="network_text">
+        <space/>
+        <text key="network" text="Network"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="note_text">
+        <space/>
+        <text key="note" text="Note"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="official_name_text">
+        <space/>
+        <text key="official_name" text="Official Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="opening_text">
+        <space/>
+        <text key="opening" text="Opening Width (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="opening_date_text">
+        <space/>
+        <text key="opening_date" text="Expected Opening Date"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="operator_text">
+        <space/>
+        <text key="operator" text="Operator"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="overlap_text">
+        <space/>
+        <text key="overlap" text="Overlap Width (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="panoramax_text">
+        <space/>
+        <text key="panoramax" text="Panoramax Image ID"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="par_text">
+        <space/>
+        <text key="par" text="Par"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="phases_text">
+        <space/>
+        <text key="phases" text="Phases"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="phone_text">
+        <space/>
+        <text key="phone" text="Telephone"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="population_text">
+        <space/>
+        <text key="population" text="Population"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="plots_text">
+        <space/>
+        <text key="plots" text="Plots"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="rcn_ref_text">
+        <space/>
+        <text key="rcn_ref" text="Cycling Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ref_text">
+        <space/>
+        <text key="ref" text="Reference Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="reg_name_text">
+        <space/>
+        <text key="reg_name" text="Regional Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="rooms_text">
+        <space/>
+        <text key="rooms" text="Rooms"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="rwn_ref_text">
+        <space/>
+        <text key="rwn_ref" text="Walking Code"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="screen_text">
+        <space/>
+        <text key="screen" text="Screens"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seats_text">
+        <space/>
+        <text key="seats" text="Seats"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="service_times_text">
+        <space/>
+        <text key="service_times" text="Service Times"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="short_name_text">
+        <space/>
+        <text key="short_name" text="Short Name"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="spacing_text">
+        <space/>
+        <text key="spacing" text="Distance Between Barriers (Meters)"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="start_date_text">
+        <space/>
+        <text key="start_date" text="Start Date"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="step_count_text">
+        <space/>
+        <text key="step_count" text="Number of Steps"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="subject_text">
+        <space/>
+        <text key="subject" text="Subject"/>
+        <label text="Placeholder"/>
+    </chunk>
+
 </presets>

@@ -709,3 +709,838 @@
 "type": "semiCombo",
 "label": "For Animals"
 }
+{
+"key": "barrier",
+"type": "defaultCheck",
+"label": "Barrier",
+"geometry": [
+"vertex"
+],
+"strings": {
+"options": {
+"undefined": "No",
+"planter": "Yes"
+}
+}
+}
+{
+"key": "books",
+"type": "semiCombo",
+"label": "Type of Books"
+}
+{
+"key": "booth",
+"type": "combo",
+"label": "Booth",
+"caseSensitive": true
+}
+{
+"key": "boules",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "boundary",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "brewery",
+"type": "semiCombo",
+"label": "Sold Beer brands",
+"terms": [
+"beer brand",
+"beer dispensing",
+"bottled beer",
+"draft beer",
+"on tap",
+"tap beer"
+]
+{
+"key": "bunker_type",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "club",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "communication:",
+"type": "multiCombo",
+"label": "Communication Types"
+}
+{
+"key": "construction",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "consulting",
+"type": "semiCombo",
+"label": "Expertise"
+}
+{
+"key": "country",
+"type": "combo",
+"label": "Country",
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "currency:",
+"type": "multiCombo",
+"label": "Currency Types",
+"terms": [
+"bills",
+"cash",
+"coins",
+"money"
+],
+"caseSensitive": true
+}
+{
+"key": "cutting",
+"type": "typeCombo",
+"label": "Type",
+"usage": "group",
+"placeholder": "Default"
+}
+{
+"key": "cycle_network",
+"type": "networkCombo",
+"label": "Network",
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "cycleway",
+"keys": [
+"cycleway:left",
+"cycleway:right"
+],
+"reference": {
+"key": "cycleway"
+},
+"type": "directionalCombo",
+"label": "Bike Lanes",
+"placeholder": "Lane, Track, Contraflow, …",
+"strings": {
+"types": {
+"cycleway:left": "Left Side",
+"cycleway:right": "Right Side"
+},
+"options": {
+"no": {
+"title": "None",
+"description": "No bike lane"
+},
+"lane": {
+"title": "Standard Bike Lane",
+"description": "A bike lane separated from auto traffic by a painted line"
+},
+"shared_lane": {
+"title": "Shared Bike Lane",
+"description": "A bike lane with no separation from auto traffic"
+},
+"track": {
+"title": "Bike Track",
+"description": "A bike lane separated from traffic by a physical barrier"
+},
+"share_busway": {
+"title": "Bike Lane Shared With Bus",
+"description": "A bike lane shared with a bus lane"
+},
+"separate": {
+"title": "Cycleway Mapped Separately",
+"description": "Indicates that cycleway was mapped as a separate geometry"
+},
+"opposite_lane": {
+"title": "(Deprecated) Opposite Bike Lane",
+"description": "Please update with oneway, oneway:bicycle, and cycleway:left/right=lane etc."
+},
+"opposite": {
+"title": "(Deprecated) Contraflow Bike Lane",
+"description": "Please update with oneway=yes, oneway:bicycle=no, and cycleway:both=no etc."
+}
+}
+},
+"autoSuggestions": true
+}
+{
+"key": "date",
+"type": "check",
+"label": "Date"
+}
+{
+"key": "denomination",
+"type": "combo",
+"label": "Denomination",
+"prerequisiteTag": {
+"key": "religion",
+"valueNot": "none"
+}
+}
+{
+"key": "denotation",
+"type": "combo",
+"label": "Denotation"
+}
+{
+"key": "depot",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "design",
+"type": "combo",
+"usage": "manual",
+"label": "Design"
+}
+{
+"key": "destination",
+"type": "semiCombo",
+"label": "Destinations",
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "design",
+"type": "combo",
+"label": "{design}",
+"icons": {
+"one-level": "roentgen-power_pole_1_level",
+"two-level": "roentgen-power_pole_2_level",
+"three-level": "roentgen-power_pole_3_level",
+"four-level": "roentgen-power_pole_4_level",
+"asymmetric": "roentgen-power_pole_asymmetric",
+"triangle": "roentgen-power_pole_triangle",
+"flag": "roentgen-power_pole_flag",
+"delta": "roentgen-power_pole_delta",
+"armless": "roentgen-power_pole_armless",
+"armless_asymmetric": "roentgen-power_pole_asymmetric_armless",
+"armless_triangle": "roentgen-power_pole_triangle_armless"
+}
+}
+
+{
+"key": "design",
+"type": "combo",
+"label": "{design}",
+"icons": {
+"one-level": "roentgen-power_tower_1_level",
+"two-level": "roentgen-power_tower_2_level",
+"three-level": "roentgen-power_tower_3_level",
+"four-level": "roentgen-power_tower_4_level",
+"asymmetric": "roentgen-power_tower_asymmetric",
+"triangle": "roentgen-power_tower_triangle",
+"flag": "roentgen-power_tower_flag",
+"delta": "roentgen-power_tower_delta",
+"delta_two-level": "roentgen-power_tower_delta_2_level",
+"delta_tree-level": "roentgen-power_tower_delta_3_level",
+"donau": "roentgen-power_tower_donau",
+"barrel": "roentgen-power_tower_barrel",
+"x-frame": "roentgen-power_tower_x_frame",
+"y-frame": "roentgen-power_tower_y_frame",
+"h-frame": "roentgen-power_tower_h_frame",
+"h-frame_two-level": "roentgen-power_tower_h_frame_2_level",
+"guyed_h-frame": "roentgen-power_tower_guyed_h_frame",
+"portal": "roentgen-power_tower_portal",
+"portal_two-level": "roentgen-power_tower_portal_2_level",
+"portal_three-level": "roentgen-power_tower_portal_3_level"
+}
+}
+{
+"key": "door",
+"type": "combo",
+"label": "Door"
+}
+{
+"key": "drink:",
+"type": "multiCombo",
+"label": "Drinks"
+}
+{
+"key": "embankment",
+"type": "typeCombo",
+"label": "Type",
+"usage": "group",
+"placeholder": "Default"
+}
+{
+"key": "emergency",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "emergency_ward_entrance",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "enforcement",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "except",
+"type": "combo",
+"label": "Exceptions"
+}
+{
+"key": "expected_rcn_route_relations",
+"type": "number",
+"label": "Adjacent Cycling Nodes"
+}
+{
+"key": "expected_rwn_route_relations",
+"type": "number",
+"label": "Adjacent Walking Nodes"
+}
+{
+"key": "fence_type",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "fishing",
+"type": "combo",
+"label": "Fishing"
+}
+{
+"key": "fitness_station",
+"type": "typeCombo",
+"label": "Equipment Type"
+}
+{
+"key": "ford",
+"type": "typeCombo",
+"label": "Type",
+"usage": "group",
+"placeholder": "Default"
+}
+{
+"key": "fortification_type",
+"type": "combo",
+"label": "Fortification Type",
+"prerequisiteTag": {
+"key": "archaeological_site",
+"value": "fortification"
+}
+}
+{
+"key": "fountain",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "frequency",
+"type": "combo",
+"label": "Operating Frequency"
+}
+{
+"key": "frequency",
+"type": "combo",
+"label": "{frequency}",
+"prerequisiteTag": {
+"key": "electrified",
+"valueNot": "no"
+}
+}
+{
+"key": "fuel",
+"type": "combo",
+"label": "Fuel"
+}
+{
+"key": "gambling",
+"type": "semiCombo",
+"label": "Games"
+}
+{
+"key": "gauge",
+"type": "combo",
+"label": "Gauge"
+}
+{
+"type": "manyCombo",
+"keys": [
+"male",
+"female",
+"unisex"
+],
+"label": "Gender",
+"placeholder": "Unknown",
+"strings": {
+"options": {
+"male": "Male",
+"female": "Female",
+"unisex": "Unisex"
+}
+},
+"terms": [
+"access",
+"female",
+"male",
+"unisex"
+]
+}
+{
+"key": "genus",
+"type": "combo",
+"label": "Genus",
+"snake_case": false,
+"caseSensitive": true,
+"placeholder": "Acer, Platanus, Quercus …"
+}
+{
+"key": "government",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "grades",
+"type": "combo",
+"label": "Grade Levels",
+"terms": [
+"educational stages"
+],
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "grape_variety",
+"type": "semiCombo",
+"label": "Grape Varieties"
+}
+{
+"key": "guest_house",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "hashtags",
+"type": "semiCombo",
+"label": "Hashtags",
+"usage": "changeset",
+"placeholder": "#example",
+"caseSensitive": true
+}
+{
+"key": "highway",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "highway",
+"type": "typeCombo",
+"label": "Type of Path",
+"strings": {
+"options": {
+"path": "Cartpath",
+"service": "Service Road"
+}
+},
+"autoSuggestions": false
+}
+{
+"key": "leisure",
+"type": "defaultCheck",
+"label": "Horseback Riding Center",
+"strings": {
+"options": {
+"undefined": "No",
+"horse_riding": "Yes"
+}
+},
+"reference": {
+"key": "leisure",
+"value": "horse_riding"
+}
+}
+{
+"key": "house",
+"type": "combo",
+"label": "House Type"
+}
+{
+"key": "incline",
+"type": "combo",
+"label": "Incline"
+}
+{
+"key": "indoor",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "industrial",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "information",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "lamp_mount",
+"type": "combo",
+"label": "Mount"
+}
+{
+"key": "lamp_type",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "landuse",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "language:",
+"type": "multiCombo",
+"label": "Languages"
+}
+{
+"key": "leisure",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "liaison",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "license_classes",
+"type": "semiCombo",
+"label": "Classes of Driver’s License"
+}
+{
+"key": "line_attachment",
+"type": "combo",
+"label": "Line Attachment"
+}
+{
+"key": "line_management",
+"type": "combo",
+"label": "Line Management",
+"terms": [
+"branching",
+"line topology",
+"termination"
+]
+}
+{
+"key": "location",
+"type": "combo",
+"label": "Location"
+}
+{
+"key": "man_made",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "manhole",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "manufacturer",
+"type": "combo",
+"snake_case": false,
+"caseSensitive": true,
+"label": "Manufacturer"
+}
+{
+"key": "map_size",
+"type": "typeCombo",
+"label": "Coverage"
+}
+{
+"key": "maxaxleload",
+"type": "combo",
+"label": "Axle Weight Limit",
+"snake_case": false,
+"prerequisiteTag": {
+"key": "bridge",
+"valueNot": "no"
+}
+}
+{
+"key": "maxstay",
+"type": "combo",
+"label": "Time Limit",
+"options": [
+"15 minutes",
+"30 minutes",
+"45 minutes",
+"1 hour",
+"1.5 hours",
+"2 hours",
+"2.5 hours",
+"3 hours",
+"4 hours",
+"1 day",
+"2 days"
+],
+"autoSuggestions": false,
+"snake_case": false
+}
+{
+"key": "maxweight",
+"type": "combo",
+"label": "Weight Limit",
+"snake_case": false
+}
+{
+"key": "maxweight",
+"type": "combo",
+"label": "{maxweight}",
+"snake_case": false,
+"prerequisiteTag": {
+"key": "bridge",
+"valueNot": "no"
+}
+}
+{
+"key": "message",
+"type": "combo",
+"label": "Message"
+}
+{
+"key": "mimics",
+"type": "combo",
+"label": "Mimics",
+"terms": [
+"camoflauged",
+"disguised",
+"looks like",
+"tree"
+]
+}
+{
+"key": "model",
+"type": "combo",
+"label": "Model",
+"caseSensitive": true
+}
+{
+"key": "monitoring:",
+"type": "multiCombo",
+"label": "Monitoring"
+}
+{
+"key": "museum",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "natural",
+"type": "typeCombo",
+"label": "Natural"
+}
+{
+"key": "opening_hours",
+"type": "combo",
+"label": "Hours",
+"placeholder": "Unknown",
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "parking",
+"type": "combo",
+"label": "Type",
+"stringsCrossReference": "{parking}",
+"options": [
+"underground",
+"multi-storey",
+"surface"
+],
+"autoSuggestions": false,
+"customValues": true
+}
+{
+"key": "parking_space",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "pipeline",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "place",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "plant",
+"type": "combo",
+"label": "Plant"
+}
+{
+"key": "playground",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "power",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "produce",
+"type": "semiCombo",
+"label": "Produce"
+}
+{
+"key": "product",
+"type": "semiCombo",
+"label": "Products"
+}
+{
+"key": "railway",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "rating",
+"type": "combo",
+"label": "Power Rating",
+"snake_case": false,
+"caseSensitive": true
+}
+{
+"key": "type",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "residential",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "resort",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "restriction",
+"type": "combo",
+"label": "Type"
+}
+{
+"type": "restrictions",
+"geometry": [
+"vertex"
+],
+"usage": "manual",
+"reference": {
+"rtype": "restriction"
+},
+"label": "Turn Restrictions"
+}
+{
+"key": "room",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "route",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "route_master",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "ruins",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "sample_collection",
+"type": "semiCombo",
+"reference": {
+"key": "healthcare",
+"value": "sample_collection"
+},
+"label": "Samples"
+}
+{
+"key": "shelter_type",
+"type": "combo",
+"label": "Type",
+"icons": {
+"public_transport": "temaki-transit_shelter",
+"picnic_shelter": "temaki-picnic_shelter",
+"lean_to": "temaki-sleep_shelter",
+"field_shelter": "temaki-horse_shelter"
+}
+}
+{
+"key": "shoes",
+"type": "semiCombo",
+"label": "Shoes"
+}
+{
+"key": "shop",
+"type": "typeCombo",
+"label": "Type"
+}
+{
+"key": "site",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "species",
+"type": "combo",
+"label": "Species",
+"snake_case": false,
+"caseSensitive": true,
+"placeholder": "Acer platanoides, Quercus robur, …"
+}
+{
+"key": "stars",
+"type": "combo",
+"label": "Stars",
+"terms": [
+"rating"
+]
+}
+{
+"key": "stile",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "street_cabinet",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "studio",
+"type": "combo",
+"label": "Type"
+}
+{
+"key": "support",
+"type": "combo",
+"label": "Support"
+}
+{
+"key": "surveillance",
+"type": "combo",
+"label": "Surveillance Kind"
+}

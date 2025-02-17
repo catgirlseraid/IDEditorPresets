@@ -32,5 +32,43 @@
         <check key="fuel:adblue:canister" text="AdBlue / AUS 32 (sold in canisters)"/>
         <label text="Placeholder"/>
     </chunk>
+    <chunk id="kneipp_water_cure_special">
+        <space/>
+        <check key="kneipp_water_cure:foot" text="Foot Basin"/>
+        <check key="kneipp_water_cure:arm" text="Arm Basin"/>
+        <check key="kneipp_water_cure:face" text="Face Basin"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="recycling_special">
+        <space/>
+        <check key="recycling:glass_bottles" text="Glass Bottles and Jars"/>
+        <check key="recycling:glass" text="Any Glass (tempered glass, windows, mirrors, etc.)"/>
+        <check key="recycling:paper" text="Paper"/>
+        <check key="recycling:plastic" text="Plastic"/>
+        <check key="recycling:clothes" text="Clothes"/>
+        <check key="recycling:cans" text="Cans"/>
+        <check key="recycling:batteries" text="Batteries"/>
+        <check key="recycling:shoes" text="Shoes"/>
+        <check key="recycling:green_waste" text="Green Waste"/>
+        <check key="recycling:plastic_packaging" text="Plastic Packaging"/>
+        <check key="recycling:plastic_bottles" text="Plastic Bottles"/>
+        <check key="recycling:cardboard" text="Cardboard"/>
+        <check key="recycling:scrap_metal" text="Scrap Metal"/>
+        <check key="recycling:cooking_oil" text="Cooking Oil"/>
+        <check key="recycling:engine_oil" text="Engine Oil"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="structure_special">
+        <space/>
+        <check key="bridge" text="Bridge"/>
+        <check key="tunnel" text="Tunnel"/>
+        <check key="embankment" text="Embankment"/>
+        <check key="cutting" text="Cutting"/>
+        <check key="ford" text="Ford"/>
+        <check key="lattice" text="Lattice"/>
+        <check key="solid" text="Solid"/>
+        <check key="tubular" text="Tubular"/>
+        <label text="Placeholder"/>
+    </chunk>
 
 </presets>

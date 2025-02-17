@@ -185,6 +185,335 @@
         <check key="bar" text="Bar"/>
         <label text="Placeholder"/>
     </chunk>
-
+    <chunk id="bench_checkbox">
+        <space/>
+        <check key="bench" text="Bench"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bicycle_road_checkbox">
+        <space/>
+        <check key="bicycle_road" text="Cycle Street"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bike_ride_checkbox">
+        <space/>
+        <check key="bike_ride" text="Bike and Ride"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bin_checkbox">
+        <space/>
+        <check key="bin" text="Waste Bin"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bottle_checkbox">
+        <space/>
+        <check key="bottle" text="Bottle Filling"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="button_operated_checkbox">
+        <space/>
+        <check key="button_operated" text="Call Button"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="caravans_checkbox">
+        <space/>
+        <check key="caravans" text="Campervan / Camping Trailer"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="cash_in_checkbox">
+        <space/>
+        <check key="cash_in" text="Deposits"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="changing_table_checkbox">
+        <space/>
+        <check key="changing_table" text="Diaper Changing Table"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="conveying_checkbox">
+        <space/>
+        <check key="conveying" text="Escalator"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="covered_checkbox">
+        <space/>
+        <check key="covered" text="Covered"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="covered_checkbox">
+        <space/>
+        <check key="covered"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="traffic_calming_checkbox">
+        <space/>
+        <check key="traffic_calming" text="Raised"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="delivery_checkbox">
+        <space/>
+        <check key="delivery" text="Delivery"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dispensing_checkbox">
+        <space/>
+        <check key="dispensing" text="Dispenses Prescriptions"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="drinking_water_checkbox">
+        <space/>
+        <check key="drinking_water" text="Drinkable"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="drive_through_checkbox">
+        <space/>
+        <check key="drive_through" text="Drive-Through"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="emergency_checkbox">
+        <space/>
+        <check key="emergency" text="Emergency"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="expressway_checkbox">
+        <space/>
+        <check key="expressway" text="Expressway"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fee_checkbox">
+        <space/>
+        <check key="fee" text="Fee"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fireplace_checkbox">
+        <space/>
+        <check key="fireplace" text="Fireplace"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="floating_checkbox">
+        <space/>
+        <check key="floating" text="Floating"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="flood_prone_checkbox">
+        <space/>
+        <check key="flood_prone" text="Flood Prone"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="footrest_checkbox">
+        <space/>
+        <check key="footrest" text="Footrest"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="group_only_checkbox">
+        <space/>
+        <check key="group_only" text="Groups Only"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="handrail_checkbox">
+        <space/>
+        <check key="handrail" text="Handrail"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="handrest_checkbox">
+        <space/>
+        <check key="handrest" text="Handrest"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="heating_checkbox">
+        <space/>
+        <check key="heating" text="Heating"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="highspeed_checkbox">
+        <space/>
+        <check key="highspeed" text="High-Speed"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="highchair_checkbox">
+        <space/>
+        <check key="highchair" text="High Chair"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="hot_water_checkbox">
+        <space/>
+        <check key="hot_water" text="Hot Water"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="indoor_checkbox">
+        <space/>
+        <check key="indoor" text="Indoor"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="informal_checkbox">
+        <space/>
+        <check key="informal" text="Informal"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="intermittent_checkbox">
+        <space/>
+        <check key="intermittent" text="Intermittent"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="irrigation_checkbox">
+        <space/>
+        <check key="irrigation" text="Center-Pivot Irrigation"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="kitchen_checkbox">
+        <space/>
+        <check key="kitchen" text="Kitchen"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lane_markings_checkbox">
+        <space/>
+        <check key="lane_markings" text="Lane Markings"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lifeguard_checkbox">
+        <space/>
+        <check key="lifeguard" text="Lifeguard"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lit_checkbox">
+        <space/>
+        <check key="lit" text="Lit"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lock_checkbox">
+        <space/>
+        <check key="lock" text="Lock"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lockable_checkbox">
+        <space/>
+        <check key="lockable" text="Lockable"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="locked_checkbox">
+        <space/>
+        <check key="locked" text="Locked"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="mattress_checkbox">
+        <space/>
+        <check key="mattress" text="Mattresses Available"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="microbrewery_checkbox">
+        <space/>
+        <check key="microbrewery" text="Microbrewery"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="openfire_checkbox">
+        <space/>
+        <check key="openfire" text="Open Fires Allowed"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="outdoor_seating_checkbox">
+        <space/>
+        <check key="outdoor_seating" text="Outdoor Seating"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="parcel_mail_in_checkbox">
+        <space/>
+        <check key="parcel_mail_in" text="Parcel Dropoff"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="parcel_pickup_checkbox">
+        <space/>
+        <check key="parcel_pickup" text="Parcel Pickup"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="park_ride_checkbox">
+        <space/>
+        <check key="park_ride" text="Park and Ride"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="picnic_table_checkbox">
+        <space/>
+        <check key="picnic_table" text="Picnic Table"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="polling_station_checkbox">
+        <space/>
+        <check key="polling_station" text="Polling Place"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="portable_checkbox">
+        <space/>
+        <check key="portable" text="Portable"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="post_text">
+        <space/>
+        <text key="post" text="Delivery Address"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="power_supply_checkbox">
+        <space/>
+        <check key="power_supply" text="Power Supply"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="preschool_checkbox">
+        <space/>
+        <check key="preschool" text="Preschool"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="roundtrip_checkbox">
+        <space/>
+        <check key="roundtrip" text="Forms Loop"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="salt_checkbox">
+        <space/>
+        <check key="salt" text="Salt"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="sanitary_dump_station_checkbox">
+        <space/>
+        <check key="sanitary_dump_station" text="Toilet Disposal"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="seasonal_checkbox">
+        <space/>
+        <check key="seasonal" text="Seasonal"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="segregated_checkbox">
+        <space/>
+        <check key="segregated" text="Bicycle-Pedestrian Separation"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="self_service_checkbox">
+        <space/>
+        <check key="self_service" text="Self-Service"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="shelter_checkbox">
+        <space/>
+        <check key="shelter" text="Shelter"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="shower_checkbox">
+        <space/>
+        <check key="shower" text="Showers"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="sms_checkbox">
+        <space/>
+        <check key="sms" text="SMS"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="static_caravans_checkbox">
+        <space/>
+        <check key="static_caravans" text="Mobile Homes"/>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="supervised_checkbox">
+        <space/>
+        <check key="supervised" text="Supervised"/>
+        <label text="Placeholder"/>
+    </chunk>
 
 </presets>

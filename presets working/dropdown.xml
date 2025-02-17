@@ -905,14 +905,6 @@
         </combo>
         <label text="Placeholder"/>
     </chunk>
-    <chunk id="building_colour_colour">
-        <space/>
-        <combo key="building:colour" text="Façade Color">
-            <list_entry value="black" display_value="black"/>
-            <list_entry value="white" display_value="white"/>
-        </combo>
-        <label text="Placeholder"/>
-    </chunk>
     <chunk id="windings_configuration_type">
         <space/>
         <combo key="windings:configuration" text="Windings Configuration">
@@ -1059,6 +1051,1431 @@
             <list_entry value="jersey_barrier" display_value="Jersey Barrier"/>
             <list_entry value="height_restrictor" display_value="Height Restrictor"/>
             <list_entry value="turnstile" display_value="Turnstile"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="basin_type">
+        <space/>
+        <combo key="basin" text="Type">
+            <list_entry value="detention" display_value="Detention"/>
+            <list_entry value="evaporation" display_value="Evaporation"/>
+            <list_entry value="infiltration" display_value="Infiltration"/>
+            <list_entry value="retention" display_value="Retention"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="beauty_type">
+        <space/>
+        <combo key="beauty" text="Services">
+            <list_entry value="nails" display_value="Manicure / Pedicure"/>
+            <list_entry value="tanning" display_value="Tanning"/>
+            <list_entry value="cosmetics" display_value="Cosmetics"/>
+            <list_entry value="spa" display_value="Day Spa"/>
+            <list_entry value="skin_care" display_value="Skin Care"/>
+            <list_entry value="waxing" display_value="Waxing"/>
+            <list_entry value="hair_removal" display_value="Hair Removal"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bicycle_parking_type">
+        <space/>
+        <combo key="bicycle_parking" text="Type">
+            <list_entry value="stands" display_value="Stand (supports bicycle frame)"/>
+            <list_entry value="wall_loops" display_value="Wheelbender (supports wheel only)"/>
+            <list_entry value="shed" display_value="Closed Shed"/>
+            <list_entry value="lockers" display_value="Individual Lockers"/>
+            <list_entry value="building" display_value="In a Building"/>
+            <list_entry value="handlebar_holder" display_value="Handlebar Holder"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="blind_type">
+        <space/>
+        <combo key="blind" text="Blind Person Access">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="limited" display_value="Limited"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="blood__type">
+        <space/>
+        <combo key="blood:" text="Blood Components">
+            <list_entry value="whole" display_value="whole blood"/>
+            <list_entry value="plasma" display_value="plasma"/>
+            <list_entry value="platelets" display_value="platelets"/>
+            <list_entry value="stemcells" display_value="stem cell samples"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="board_type_type">
+        <space/>
+        <combo key="board_type" text="Type">
+            <list_entry value="art" display_value="Art"/>
+            <list_entry value="astronomy" display_value="Astronomy"/>
+            <list_entry value="geology" display_value="Geology"/>
+            <list_entry value="history" display_value="History"/>
+            <list_entry value="nature" display_value="Nature"/>
+            <list_entry value="notice" display_value="Notice Board"/>
+            <list_entry value="plants" display_value="Plants"/>
+            <list_entry value="welcome_sign" display_value="Welcome Sign"/>
+            <list_entry value="wildlife" display_value="Wildlife"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bollard_type">
+        <space/>
+        <combo key="bollard" text="Type">
+            <list_entry value="fixed" display_value="Fixed Bollard"/>
+            <list_entry value="flexible" display_value="Flexible Bollard"/>
+            <list_entry value="foldable" display_value="Foldable Bollard"/>
+            <list_entry value="removable" display_value="Removable Bollard"/>
+            <list_entry value="rising" display_value="Rising Bollard"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="bridge_type">
+        <space/>
+        <combo key="bridge" text="Type">
+            <list_entry value="aqueduct" display_value="Aqueduct"/>
+            <list_entry value="boardwalk" display_value="Boardwalk"/>
+            <list_entry value="cantilever" display_value="Cantilever Bridge"/>
+            <list_entry value="covered" display_value="Covered Bridge"/>
+            <list_entry value="low_water_crossing" display_value="Low Water Crossing"/>
+            <list_entry value="movable" display_value="Movable Bridge"/>
+            <list_entry value="trestle" display_value="Trestle Bridge"/>
+            <list_entry value="viaduct" display_value="Viaduct"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="building_type">
+        <space/>
+        <combo key="building" text="Building">
+            <list_entry value="allotment_house" display_value="Allotment House"/>
+            <list_entry value="apartments" display_value="Apartment Building"/>
+            <list_entry value="barn" display_value="Barn"/>
+            <list_entry value="boathouse" display_value="Boathouse"/>
+            <list_entry value="bungalow" display_value="Bungalow"/>
+            <list_entry value="bunker" display_value="Bunker"/>
+            <list_entry value="cabin" display_value="Cabin"/>
+            <list_entry value="carport" display_value="Carport"/>
+            <list_entry value="cathedral" display_value="Cathedral Building"/>
+            <list_entry value="chapel" display_value="Chapel Building"/>
+            <list_entry value="church" display_value="Church Building"/>
+            <list_entry value="civic" display_value="Civic Building"/>
+            <list_entry value="college" display_value="College Building"/>
+            <list_entry value="commercial" display_value="Commercial Building"/>
+            <list_entry value="construction" display_value="Building Under Construction"/>
+            <list_entry value="cowshed" display_value="Cowshed"/>
+            <list_entry value="detached" display_value="Detached House"/>
+            <list_entry value="dormitory" display_value="Dormitory"/>
+            <list_entry value="farm" display_value="Farm House"/>
+            <list_entry value="farm_auxiliary" display_value="Farm Building"/>
+            <list_entry value="fire_station" display_value="Fire Station Building"/>
+            <list_entry value="garage" display_value="Garage"/>
+            <list_entry value="garages" display_value="Garages"/>
+            <list_entry value="ger" display_value="Yurt"/>
+            <list_entry value="grandstand" display_value="Grandstand"/>
+            <list_entry value="greenhouse" display_value="Greenhouse"/>
+            <list_entry value="hangar" display_value="Hangar Building"/>
+            <list_entry value="hospital" display_value="Hospital Building"/>
+            <list_entry value="hotel" display_value="Hotel Building"/>
+            <list_entry value="house" display_value="House"/>
+            <list_entry value="houseboat" display_value="Houseboat"/>
+            <list_entry value="hut" display_value="Hut"/>
+            <list_entry value="industrial" display_value="Industrial Building"/>
+            <list_entry value="kindergarten" display_value="Preschool / Kindergarten Building"/>
+            <list_entry value="manufacture" display_value="Industrial Production Building"/>
+            <list_entry value="mosque" display_value="Mosque Building"/>
+            <list_entry value="office" display_value="Office Building"/>
+            <list_entry value="outbuilding" display_value="Outbuilding"/>
+            <list_entry value="pavilion" display_value="Pavilion Building"/>
+            <list_entry value="public" display_value="Public Building"/>
+            <list_entry value="residential" display_value="Residential Building"/>
+            <list_entry value="retail" display_value="Retail Building"/>
+            <list_entry value="riding_hall" display_value="Horseback Riding Arena"/>
+            <list_entry value="roof" display_value="Roof"/>
+            <list_entry value="ruins" display_value="Building Ruins"/>
+            <list_entry value="school" display_value="School Building"/>
+            <list_entry value="semidetached_house" display_value="Semi-Detached House"/>
+            <list_entry value="service" display_value="Service Building"/>
+            <list_entry value="shed" display_value="Shed"/>
+            <list_entry value="stable" display_value="Stable"/>
+            <list_entry value="stadium" display_value="Stadium Building"/>
+            <list_entry value="static_caravan" display_value="Mobile Home"/>
+            <list_entry value="sty" display_value="Pigsty"/>
+            <list_entry value="synagogue" display_value="Synagogue Building"/>
+            <list_entry value="temple" display_value="Temple Building"/>
+            <list_entry value="terrace" display_value="Row Houses"/>
+            <list_entry value="train_station" display_value="Train Station Building"/>
+            <list_entry value="transportation" display_value="Transportation Building"/>
+            <list_entry value="university" display_value="University Building"/>
+            <list_entry value="warehouse" display_value="Warehouse"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="camp_site_type">
+        <space/>
+        <combo key="camp_site" text="Type">
+            <list_entry value="basic" display_value="Basic (only tent/vehicle spots)"/>
+            <list_entry value="standard" display_value="Standard (offers toilets and water)"/>
+            <list_entry value="serviced" display_value="Serviced (offers showers and electricity)"/>
+            <list_entry value="deluxe" display_value="Deluxe (offers laundry or swimming pool, etc.)"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="castle_type_type">
+        <space/>
+        <combo key="castle_type" text="Type">
+            <list_entry value="defensive" display_value="Defensive Castle"/>
+            <list_entry value="palace" display_value="Palace"/>
+            <list_entry value="stately" display_value="Stately Home"/>
+            <list_entry value="manor" display_value="Manor House"/>
+            <list_entry value="fortress" display_value="Fortress"/>
+            <list_entry value="castrum" display_value="Roman Fort"/>
+            <list_entry value="shiro" display_value="Shiro"/>
+            <list_entry value="kremlin" display_value="Kremlin"/>
+            <list_entry value="hillfort" display_value="Hillfort"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="clothes_type">
+        <space/>
+        <combo key="clothes" text="Clothes">
+            <list_entry value="babies" display_value="Baby Clothing"/>
+            <list_entry value="children" display_value="Children's Clothing"/>
+            <list_entry value="denim" display_value="Jeans Clothing"/>
+            <list_entry value="fur" display_value="Fur Clothing"/>
+            <list_entry value="hats" display_value="Hats"/>
+            <list_entry value="maternity" display_value="Maternity Clothing"/>
+            <list_entry value="men" display_value="Men's Clothing"/>
+            <list_entry value="motorcycle" display_value="Motorcycle Clothing"/>
+            <list_entry value="oversize" display_value="Plus Size Clothing"/>
+            <list_entry value="socks" display_value="Socks"/>
+            <list_entry value="sports" display_value="Sportswear"/>
+            <list_entry value="suits" display_value="Suits"/>
+            <list_entry value="swimwear" display_value="Swimwear"/>
+            <list_entry value="traditional" display_value="Traditional Garments / Folk Costumes"/>
+            <list_entry value="underwear" display_value="Underwear"/>
+            <list_entry value="wedding" display_value="Wedding Clothing"/>
+            <list_entry value="women" display_value="Women's Clothing"/>
+            <list_entry value="workwear" display_value="Workwear"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="collector_type">
+        <space/>
+        <combo key="collector" text="Items">
+            <list_entry value="coins" display_value="Coins"/>
+            <list_entry value="stamps" display_value="Stamps"/>
+            <list_entry value="comics" display_value="Comics"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="community_centre_type">
+        <space/>
+        <combo key="community_centre" text="Type">
+            <list_entry value="club_home" display_value="Club Home"/>
+            <list_entry value="community_hall" display_value="Community Hall"/>
+            <list_entry value="cultural_centre" display_value="Cultural Centre"/>
+            <list_entry value="family_centre" display_value="Family Centre"/>
+            <list_entry value="parish_hall" display_value="Parish Hall"/>
+            <list_entry value="village_hall" display_value="Village Hall"/>
+            <list_entry value="youth_centre" display_value="Youth Center"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="consulate_type">
+        <space/>
+        <combo key="consulate" text="Type">
+            <list_entry value="consulate_general" display_value="Consulate General"/>
+            <list_entry value="honorary_consul" display_value="Honorary Consul"/>
+            <list_entry value="yes" display_value="Consulate"/>
+            <list_entry value="consular_office" display_value="Consular Services Office"/>
+            <list_entry value="consular_agency" display_value="Consular Services Agency"/>
+            <list_entry value="residence" display_value="Official Residence of a Consul"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="content_type">
+        <space/>
+        <combo key="content" text="Content">
+            <list_entry value="silage"/>
+            <list_entry value="water"/>
+            <list_entry value="oil"/>
+            <list_entry value="fuel"/>
+            <list_entry value="slurry"/>
+            <list_entry value="gas"/>
+            <list_entry value="manure"/>
+            <list_entry value="sewage"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="conveying_type">
+        <space/>
+        <combo key="conveying" text="Movement Direction">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="reversible" display_value="Reversible"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="craft_type">
+        <space/>
+        <combo key="craft" text="Type">
+            <list_entry value="agricultural_engines" display_value="Agricultural Engines Mechanic"/>
+            <list_entry value="basket_maker" display_value="Basket Maker"/>
+            <list_entry value="beekeeper" display_value="Beekeeper"/>
+            <list_entry value="blacksmith" display_value="Blacksmith"/>
+            <list_entry value="boatbuilder" display_value="Boat Builder"/>
+            <list_entry value="bookbinder" display_value="Bookbinder"/>
+            <list_entry value="brewery" display_value="Brewery"/>
+            <list_entry value="builder" display_value="Builder"/>
+            <list_entry value="carpenter" display_value="Carpenter"/>
+            <list_entry value="carpet_layer" display_value="Carpet Layer"/>
+            <list_entry value="caterer" display_value="Caterer"/>
+            <list_entry value="chimney_sweeper" display_value="Chimney Sweeper"/>
+            <list_entry value="cleaning" display_value="Cleaning Service"/>
+            <list_entry value="clockmaker" display_value="Clockmaker"/>
+            <list_entry value="confectionery" display_value="Candy Maker"/>
+            <list_entry value="distillery" display_value="Distillery"/>
+            <list_entry value="dressmaker" display_value="Dressmaker"/>
+            <list_entry value="electronics_repair" display_value="Electronics Repair"/>
+            <list_entry value="electrician" display_value="Electrician"/>
+            <list_entry value="floorer" display_value="Floorer"/>
+            <list_entry value="gardener" display_value="Gardener"/>
+            <list_entry value="glaziery" display_value="Glaziery"/>
+            <list_entry value="grinding_mill" display_value="Grinding Mill"/>
+            <list_entry value="handicraft" display_value="Handicraft"/>
+            <list_entry value="hvac" display_value="HVAC"/>
+            <list_entry value="insulation" display_value="Insulator"/>
+            <list_entry value="jeweller" display_value="Jeweller"/>
+            <list_entry value="joiner" display_value="Joiner"/>
+            <list_entry value="key_cutter" display_value="Key Cutter"/>
+            <list_entry value="locksmith" display_value="Locksmith"/>
+            <list_entry value="metal_construction" display_value="Metalworker"/>
+            <list_entry value="oil_mill" display_value="Oil Mill"/>
+            <list_entry value="painter" display_value="Painter"/>
+            <list_entry value="parquet_layer" display_value="Parquet Layer"/>
+            <list_entry value="photographer" display_value="Photographer"/>
+            <list_entry value="photographic_laboratory" display_value="Photographic Laboratory"/>
+            <list_entry value="plasterer" display_value="Plasterer"/>
+            <list_entry value="plumber" display_value="Plumber"/>
+            <list_entry value="pottery" display_value="Pottery Maker"/>
+            <list_entry value="rigger" display_value="Rigger"/>
+            <list_entry value="roofer" display_value="Roofer"/>
+            <list_entry value="saddler" display_value="Saddler"/>
+            <list_entry value="sailmaker" display_value="Sailmaker"/>
+            <list_entry value="sawmill" display_value="Sawmill"/>
+            <list_entry value="scaffolder" display_value="Scaffolder"/>
+            <list_entry value="sculptor" display_value="Sculptor"/>
+            <list_entry value="shoemaker" display_value="Shoemaker"/>
+            <list_entry value="signmaker" display_value="Signmaker"/>
+            <list_entry value="stonemason" display_value="Stonemason"/>
+            <list_entry value="tailor" display_value="Tailor"/>
+            <list_entry value="tiler" display_value="Tiler"/>
+            <list_entry value="tinsmith" display_value="Tinsmith"/>
+            <list_entry value="upholsterer" display_value="Upholsterer"/>
+            <list_entry value="watchmaker" display_value="Watchmaker"/>
+            <list_entry value="window_construction" display_value="Window Construction"/>
+            <list_entry value="winery" display_value="Winery"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crop_type">
+        <space/>
+        <combo key="crop" text="Crops">
+            <list_entry value="asparagus" display_value="Asparagus"/>
+            <list_entry value="barley" display_value="Barley"/>
+            <list_entry value="beet" display_value="Beets"/>
+            <list_entry value="cassava" display_value="Cassava"/>
+            <list_entry value="coffee" display_value="Coffee"/>
+            <list_entry value="cotton" display_value="Cotton"/>
+            <list_entry value="cranberries" display_value="Cranberries"/>
+            <list_entry value="fast_growing_wood" display_value="Short-Rotation Coppice"/>
+            <list_entry value="flowers" display_value="Flowers"/>
+            <list_entry value="grape" display_value="Grapes"/>
+            <list_entry value="grass" display_value="Grass"/>
+            <list_entry value="hop" display_value="Hops"/>
+            <list_entry value="lavender" display_value="Lavender"/>
+            <list_entry value="maize" display_value="Corn"/>
+            <list_entry value="potato" display_value="Potatoes"/>
+            <list_entry value="rape" display_value="Rapeseed"/>
+            <list_entry value="rice" display_value="Rice"/>
+            <list_entry value="strawberry" display_value="Strawberries"/>
+            <list_entry value="sugar_beet" display_value="Sugar Beets"/>
+            <list_entry value="sugarcane" display_value="Sugarcane"/>
+            <list_entry value="sunflower" display_value="Sunflowers"/>
+            <list_entry value="soy" display_value="Soybeans"/>
+            <list_entry value="tea" display_value="Tea"/>
+            <list_entry value="tobacco" display_value="Tobacco"/>
+            <list_entry value="vegetable" display_value="Vegetables"/>
+            <list_entry value="wheat" display_value="Wheat"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="crossing_type">
+        <space/>
+        <combo key="crossing" text="Type">
+            <list_entry value="traffic_signals" display_value="Crossing With Traffic Signals"/>
+            <list_entry value="uncontrolled" display_value="Only Road Markings"/>
+            <list_entry value="unmarked" display_value="No Road Markings or Traffic Signals"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="cuisine_type">
+        <space/>
+        <combo key="cuisine" text="Cuisines">
+            <list_entry value="pizza" display_value="Pizza"/>
+            <list_entry value="burger" display_value="Burger"/>
+            <list_entry value="coffee_shop" display_value="Coffee Shop"/>
+            <list_entry value="regional" display_value="Regional"/>
+            <list_entry value="italian" display_value="Italian"/>
+            <list_entry value="sandwich" display_value="Sandwich"/>
+            <list_entry value="chinese" display_value="Chinese"/>
+            <list_entry value="chicken" display_value="Chicken"/>
+            <list_entry value="japanese" display_value="Japanese"/>
+            <list_entry value="kebab" display_value="Kebab"/>
+            <list_entry value="mexican" display_value="Mexican"/>
+            <list_entry value="american" display_value="American"/>
+            <list_entry value="asian" display_value="Asian"/>
+            <list_entry value="ice_cream" display_value="Ice Cream"/>
+            <list_entry value="indian" display_value="Indian"/>
+            <list_entry value="sushi" display_value="Sushi"/>
+            <list_entry value="seafood" display_value="Seafood"/>
+            <list_entry value="thai" display_value="Thai"/>
+            <list_entry value="french" display_value="French"/>
+            <list_entry value="german" display_value="German"/>
+            <list_entry value="breakfast" display_value="Breakfast"/>
+            <list_entry value="greek" display_value="Greek"/>
+            <list_entry value="steak_house" display_value="Steak House"/>
+            <list_entry value="fish_and_chips" display_value="Fish and Chips"/>
+            <list_entry value="korean" display_value="Korean"/>
+            <list_entry value="barbecue" display_value="Barbecue"/>
+            <list_entry value="donut" display_value="Donut"/>
+            <list_entry value="noodle" display_value="Noodle"/>
+            <list_entry value="vietnamese" display_value="Vietnamese"/>
+            <list_entry value="fish" display_value="Fish"/>
+            <list_entry value="turkish" display_value="Turkish"/>
+            <list_entry value="cake" display_value="Cake"/>
+            <list_entry value="pasta" display_value="Pasta"/>
+            <list_entry value="tex-mex" display_value="Tex-Mex"/>
+            <list_entry value="bubble_tea" display_value="Bubble Tea"/>
+            <list_entry value="ramen" display_value="Ramen"/>
+            <list_entry value="mediterranean" display_value="Mediterranean"/>
+            <list_entry value="spanish" display_value="Spanish"/>
+            <list_entry value="friture" display_value="Friterie"/>
+            <list_entry value="tea" display_value="Tea"/>
+            <list_entry value="grill" display_value="Bar and Grill"/>
+            <list_entry value="juice" display_value="Juice"/>
+            <list_entry value="salad" display_value="Salad"/>
+            <list_entry value="crepe" display_value="Crepe"/>
+            <list_entry value="hot_dog" display_value="Hot Dog"/>
+            <list_entry value="pancake" display_value="Pancake"/>
+            <list_entry value="dessert" display_value="Dessert"/>
+            <list_entry value="diner" display_value="Diner"/>
+            <list_entry value="tapas" display_value="Tapas"/>
+            <list_entry value="portuguese" display_value="Portuguese"/>
+            <list_entry value="beef_bowl" display_value="Gyūdon"/>
+            <list_entry value="russian" display_value="Russian"/>
+            <list_entry value="indonesian" display_value="Indonesian"/>
+            <list_entry value="wings" display_value="Chicken Wings"/>
+            <list_entry value="lebanese" display_value="Lebanese"/>
+            <list_entry value="arab" display_value="Arab"/>
+            <list_entry value="curry" display_value="Curry"/>
+            <list_entry value="malaysian" display_value="Malaysian"/>
+            <list_entry value="bagel" display_value="Bagel"/>
+            <list_entry value="georgian" display_value="Georgian"/>
+            <list_entry value="polish" display_value="Polish"/>
+            <list_entry value="african" display_value="African"/>
+            <list_entry value="western" display_value="Western"/>
+            <list_entry value="sausage" display_value="Sausage"/>
+            <list_entry value="filipino" display_value="Filipino"/>
+            <list_entry value="caribbean" display_value="Caribbean"/>
+            <list_entry value="soba" display_value="Soba"/>
+            <list_entry value="peruvian" display_value="Peruvian"/>
+            <list_entry value="brazilian" display_value="Brazilian"/>
+            <list_entry value="oriental" display_value="Oriental"/>
+            <list_entry value="fine_dining" display_value="Fine Dining"/>
+            <list_entry value="frozen_yogurt" display_value="Frozen Yogurt"/>
+            <list_entry value="argentinian" display_value="Argentinian"/>
+            <list_entry value="balkan" display_value="Balkan"/>
+            <list_entry value="bavarian" display_value="Bavarian"/>
+            <list_entry value="shawarma" display_value="Shawarma"/>
+            <list_entry value="persian" display_value="Persian"/>
+            <list_entry value="middle_eastern" display_value="Middle Eastern"/>
+            <list_entry value="pastry" display_value="Pastry"/>
+            <list_entry value="soup" display_value="Soup"/>
+            <list_entry value="fries" display_value="Fries"/>
+            <list_entry value="taiwanese" display_value="Taiwanese"/>
+            <list_entry value="bistro" display_value="Bistro"/>
+            <list_entry value="european" display_value="European"/>
+            <list_entry value="moroccan" display_value="Moroccan"/>
+            <list_entry value="hawaiian" display_value="Hawaiian"/>
+            <list_entry value="brunch" display_value="Brunch"/>
+            <list_entry value="udon" display_value="Udon"/>
+            <list_entry value="ukrainian" display_value="Ukrainian"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="cycle_barrier_type">
+        <space/>
+        <combo key="cycle_barrier" text="Type">
+            <list_entry value="single" display_value="Single"/>
+            <list_entry value="double" display_value="Double"/>
+            <list_entry value="triple" display_value="Triple"/>
+            <list_entry value="diagonal" display_value="Diagonal"/>
+            <list_entry value="tilted" display_value="Tilted"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="departures_board_type">
+        <space/>
+        <combo key="departures_board" text="Departures/Arrivals Board">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="timetable" display_value="Timetable"/>
+            <list_entry value="realtime" display_value="Realtime"/>
+            <list_entry value="no" display_value="None"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="diet__type">
+        <space/>
+        <combo key="diet:" text="Diet Types">
+            <list_entry value="vegetarian" display_value="Vegetarian"/>
+            <list_entry value="vegan" display_value="Vegan"/>
+            <list_entry value="halal" display_value="Halal"/>
+            <list_entry value="gluten_free" display_value="Gluten-Free"/>
+            <list_entry value="kosher" display_value="Kosher"/>
+            <list_entry value="lactose_free" display_value="Lactose-Free"/>
+            <list_entry value="pescetarian" display_value="Pescetarian"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="diplomatic_type">
+        <space/>
+        <combo key="diplomatic" text="Type">
+            <list_entry value="consulate" display_value="Consulate"/>
+            <list_entry value="embassy" display_value="Embassy"/>
+            <list_entry value="liaison" display_value="Liaison Office"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="direction_type">
+        <space/>
+        <combo key="direction" text="Direction">
+            <list_entry value="forward" display_value="Forward"/>
+            <list_entry value="backward" display_value="Backward"/>
+            <list_entry value="both" display_value="Both / All"/>
+            <list_entry value="north" display_value="Northbound"/>
+            <list_entry value="south" display_value="Southbound"/>
+            <list_entry value="east" display_value="Eastbound"/>
+            <list_entry value="west" display_value="Westbound"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="display_type">
+        <space/>
+        <combo key="display" text="Display">
+            <list_entry value="analog" display_value="Analog"/>
+            <list_entry value="digital" display_value="Digital"/>
+            <list_entry value="sundial" display_value="Sundial"/>
+            <list_entry value="unorthodox" display_value="Unorthodox"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dock_type">
+        <space/>
+        <combo key="dock" text="Type">
+            <list_entry value="drydock" display_value="Dry Dock"/>
+            <list_entry value="floating" display_value="Floating Dry Dock"/>
+            <list_entry value="tidal" display_value="Impounded Tidal Dock"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="dog_type">
+        <space/>
+        <combo key="dog" text="Dogs">
+            <list_entry value="yes" display_value="Allowed"/>
+            <list_entry value="leashed" display_value="Leashed Only"/>
+            <list_entry value="unleashed" display_value="Leashes Not Required"/>
+            <list_entry value="no" display_value="Not Allowed"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="electrified_type">
+        <space/>
+        <combo key="electrified" text="Electrification">
+            <list_entry value="contact_line" display_value="Contact Line"/>
+            <list_entry value="rail" display_value="Electrified Rail"/>
+            <list_entry value="yes" display_value="Yes (unspecified)"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="embassy_type">
+        <space/>
+        <combo key="embassy" text="Type">
+            <list_entry value="yes" display_value="Embassy"/>
+            <list_entry value="residence" display_value="Official Residence of an Ambassador"/>
+            <list_entry value="high_commission" display_value="High Commission"/>
+            <list_entry value="mission" display_value="Diplomatic Mission"/>
+            <list_entry value="branch_embassy" display_value="Branch of an Embassy"/>
+            <list_entry value="nunciature" display_value="Diplomatic Mission of the Holy See"/>
+            <list_entry value="delegation" display_value="Delegation"/>
+            <list_entry value="interests_section" display_value="Interests Section"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="entrance_type">
+        <space/>
+        <combo key="entrance" text="Type">
+            <list_entry value="yes" display_value="Unspecified"/>
+            <list_entry value="main" display_value="Main"/>
+            <list_entry value="secondary" display_value="Secondary"/>
+            <list_entry value="service" display_value="Service"/>
+            <list_entry value="shop" display_value="Shop Entrance"/>
+            <list_entry value="exit" display_value="Exit Only"/>
+            <list_entry value="entrance" display_value="Entrance Only"/>
+            <list_entry value="emergency" display_value="Emergency Exit"/>
+            <list_entry value="staircase" display_value="Staircase"/>
+            <list_entry value="home" display_value="Private House or Apartment"/>
+            <list_entry value="garage" display_value="Garage Door"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fire_mains_type">
+        <space/>
+        <combo key="fire_mains" text="Network-Type">
+            <list_entry value="dry" display_value="Dedicated Network (Normally Dry)"/>
+            <list_entry value="wet" display_value="Connected to Mains (Permanently Filled)"/>
+            <list_entry value="yes" display_value="Unknown Type"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fire_service_inlet_type">
+        <space/>
+        <combo key="fire_service_inlet" text="Shape">
+            <list_entry value="pillar" display_value="Pillar/Aboveground"/>
+            <list_entry value="underground" display_value="Underground"/>
+            <list_entry value="wall" display_value="Wall"/>
+            <list_entry value="pipe" display_value="Capped Pipe"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="fire_sprinkler_type">
+        <space/>
+        <combo key="fire_sprinkler" text="Fire Sprinkler Inlet">
+            <list_entry value="dry" display_value="Dedicated Network (Normally Dry)"/>
+            <list_entry value="wet" display_value="Connected to Mains (Permanently Filled)"/>
+            <list_entry value="pre-action" display_value="Connected to Mains (Pre-Action System)"/>
+            <list_entry value="yes" display_value="Unknown Type"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="flashing_lights_type">
+        <space/>
+        <combo key="flashing_lights" text="Flashing Lights">
+            <list_entry value="button" display_value="Button activated"/>
+            <list_entry value="always" display_value="Always flashing"/>
+            <list_entry value="sensor" display_value="Sensor activated"/>
+            <list_entry value="button;sensor" display_value="Button and sensor activated"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="yes" display_value="Yes"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="hazard_type">
+        <space/>
+        <combo key="hazard" text="Hazard">
+            <list_entry value="archery_range" display_value="Arrows"/>
+            <list_entry value="avalanche" display_value="Avalanche"/>
+            <list_entry value="biohazard" display_value="Biohazard"/>
+            <list_entry value="contamination" display_value="Chemical Contamination"/>
+            <list_entry value="electricity" display_value="Electric Shock"/>
+            <list_entry value="shooting_range" display_value="Gunfire"/>
+            <list_entry value="hole" display_value="Hole"/>
+            <list_entry value="minefield" display_value="Land Mines"/>
+            <list_entry value="nuclear" display_value="Nuclear / Radioactive"/>
+            <list_entry value="quicksand" display_value="Quicksand"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="healthcare_type">
+        <space/>
+        <combo key="healthcare" text="Type">
+            <list_entry value="alternative" display_value="Alternative Medicine"/>
+            <list_entry value="audiologist" display_value="Audiologist"/>
+            <list_entry value="birthing_centre" display_value="Birthing Center"/>
+            <list_entry value="blood_bank" display_value="Blood Bank"/>
+            <list_entry value="blood_donation" display_value="Blood Donation Center"/>
+            <list_entry value="clinic" display_value="Clinic"/>
+            <list_entry value="community_health_worker" display_value="Community Health Worker"/>
+            <list_entry value="counselling" display_value="Counselling Center"/>
+            <list_entry value="dentist" display_value="Dentist"/>
+            <list_entry value="dialysis" display_value="Dialysis Center"/>
+            <list_entry value="doctor" display_value="Doctor"/>
+            <list_entry value="hospice" display_value="Hospice"/>
+            <list_entry value="hospital" display_value="Hospital"/>
+            <list_entry value="laboratory" display_value="Medical Laboratory"/>
+            <list_entry value="midwife" display_value="Midwife"/>
+            <list_entry value="nurse" display_value="Nurse"/>
+            <list_entry value="occupational_therapist" display_value="Occupational Therapist"/>
+            <list_entry value="optometrist" display_value="Optometrist"/>
+            <list_entry value="pharmacy" display_value="Pharmacy"/>
+            <list_entry value="physiotherapist" display_value="Physiotherapist"/>
+            <list_entry value="podiatrist" display_value="Podiatrist"/>
+            <list_entry value="psychotherapist" display_value="Psychotherapist"/>
+            <list_entry value="rehabilitation" display_value="Rehabilitation Facility"/>
+            <list_entry value="sample_collection" display_value="Sample Collection Facility"/>
+            <list_entry value="speech_therapist" display_value="Speech Therapist"/>
+            <list_entry value="vaccination_centre" display_value="Vaccination Center"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="historic_type">
+        <space/>
+        <combo key="historic" text="Type">
+            <list_entry value="archaeological_site" display_value="Archaeological Site"/>
+            <list_entry value="bomb_crater" display_value="Bomb Crater"/>
+            <list_entry value="boundary_stone" display_value="Boundary Stone"/>
+            <list_entry value="building" display_value="Historic Building"/>
+            <list_entry value="castle" display_value="Castle"/>
+            <list_entry value="charcoal_pile" display_value="Charcoal Pile"/>
+            <list_entry value="church" display_value="Church"/>
+            <list_entry value="city_gate" display_value="City Gate"/>
+            <list_entry value="citywalls" display_value="Citywall"/>
+            <list_entry value="fort" display_value="Historic Fort"/>
+            <list_entry value="manor" display_value="Manor House"/>
+            <list_entry value="memorial" display_value="Memorial"/>
+            <list_entry value="milestone" display_value="Milestone"/>
+            <list_entry value="millstone" display_value="Millstone"/>
+            <list_entry value="mine" display_value="Mine"/>
+            <list_entry value="mine_shaft" display_value="Mine Shaft"/>
+            <list_entry value="monument" display_value="Monument"/>
+            <list_entry value="pillory" display_value="Historic Pillory"/>
+            <list_entry value="railway" display_value="Railway"/>
+            <list_entry value="ruins" display_value="Ruins"/>
+            <list_entry value="shieling" display_value="Shieling"/>
+            <list_entry value="tomb" display_value="Tomb"/>
+            <list_entry value="wayside_cross" display_value="Wayside Cross"/>
+            <list_entry value="wayside_shrine" display_value="Wayside Shrine"/>
+            <list_entry value="wreck" display_value="Shipwreck"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="horse_scale_type">
+        <space/>
+        <combo key="horse_scale" text="Horseback Riding Difficulty">
+            <list_entry value="common" display_value="Easy: No problems or difficulties. (default)"/>
+            <list_entry value="demanding" display_value="Use with caution: Uneven way, occasional difficult passages."/>
+            <list_entry value="difficult" display_value="Difficult: Way narrow and exposed. May contain obstacles to step over and narrow passages."/>
+            <list_entry value="critical" display_value="Borderline: Passable only for experienced riders and horses. Major obstacles. Bridges should be examined carefully."/>
+            <list_entry value="dangerous" display_value="Dangerous: Passable only for very experienced riders and horses and only in good weather. Dismount."/>
+            <list_entry value="impossible" display_value="Impassable: Way or bridge not passable for horses. Too narrow, insufficient support, obstacles like ladders. Danger of life."/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="incline_type">
+        <space/>
+        <combo key="incline" text="{incline}">
+            <list_entry value="up" display_value="Up"/>
+            <list_entry value="down" display_value="Down"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="internet_access_type">
+        <space/>
+        <combo key="internet_access" text="Internet Connection">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="wlan" display_value="Wifi"/>
+            <list_entry value="wired" display_value="Wired"/>
+            <list_entry value="terminal" display_value="Terminal"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="junction_type">
+        <space/>
+        <combo key="junction" text="Junction">
+            <list_entry value="roundabout" display_value="Roundabout"/>
+            <list_entry value="circular" display_value="Traffic Circle"/>
+            <list_entry value="jughandle" display_value="Jughandle"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="kerb_type">
+        <space/>
+        <combo key="kerb" text="Curb">
+            <list_entry value="flush" display_value="Flush"/>
+            <list_entry value="lowered" display_value="Lowered"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="raised" display_value="Raised"/>
+            <list_entry value="rolled" display_value="Rolled"/>
+            <list_entry value="yes" display_value="Yes"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="leaf_cycle_type">
+        <space/>
+        <combo key="leaf_cycle" text="Leaf Cycle">
+            <list_entry value="evergreen" display_value="Evergreen"/>
+            <list_entry value="deciduous" display_value="Deciduous"/>
+            <list_entry value="semi_evergreen" display_value="Semi-Evergreen"/>
+            <list_entry value="semi_deciduous" display_value="Semi-Deciduous"/>
+            <list_entry value="mixed" display_value="Mixed"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="leaf_type_type">
+        <space/>
+        <combo key="leaf_type" text="Leaf Type">
+            <list_entry value="broadleaved" display_value="Broadleaved"/>
+            <list_entry value="needleleaved" display_value="Needleleaved"/>
+            <list_entry value="mixed" display_value="Mixed"/>
+            <list_entry value="leafless" display_value="Leafless"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="lifeguard_type">
+        <space/>
+        <combo key="lifeguard" text="Type">
+            <list_entry value="base" display_value="Lifeguard Base"/>
+            <list_entry value="tower" display_value="Lifeguard Tower"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="location_type">
+        <space/>
+        <combo key="location" text="{location}">
+            <list_entry value="outdoor" display_value="Outdoor"/>
+            <list_entry value="indoor" display_value="Indoor"/>
+            <list_entry value="roof" display_value="Rooftop"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="map_type_type">
+        <space/>
+        <combo key="map_type" text="Type">
+            <list_entry value="topo" display_value="Topographical Map"/>
+            <list_entry value="street" display_value="Road Map"/>
+            <list_entry value="scheme" display_value="Schematic Map"/>
+            <list_entry value="toposcope" display_value="Toposcope"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="marker_type">
+        <space/>
+        <combo key="marker" text="Type">
+            <list_entry value="aerial" display_value="Aerial"/>
+            <list_entry value="ground" display_value="Ground"/>
+            <list_entry value="pedestal" display_value="Pedestal"/>
+            <list_entry value="plate" display_value="Plate"/>
+            <list_entry value="post" display_value="Post"/>
+            <list_entry value="stone" display_value="Stone"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="material_type">
+        <space/>
+        <combo key="material" text="Material">
+            <list_entry value="adobe" display_value="Adobe"/>
+            <list_entry value="aluminium" display_value="Aluminum"/>
+            <list_entry value="brass" display_value="Brass"/>
+            <list_entry value="brick" display_value="Brick"/>
+            <list_entry value="bronze" display_value="Bronze"/>
+            <list_entry value="concrete" display_value="Concrete"/>
+            <list_entry value="dry_stone" display_value="Dry Stone"/>
+            <list_entry value="glass" display_value="Glass"/>
+            <list_entry value="granite" display_value="Granite"/>
+            <list_entry value="iron" display_value="Iron"/>
+            <list_entry value="limestone" display_value="Limestone"/>
+            <list_entry value="marble" display_value="Marble"/>
+            <list_entry value="metal" display_value="Metal"/>
+            <list_entry value="plastic" display_value="Plastic"/>
+            <list_entry value="reinforced_concrete" display_value="Reinforced Concrete"/>
+            <list_entry value="rock" display_value="Rock"/>
+            <list_entry value="sand" display_value="Sand"/>
+            <list_entry value="sandstone" display_value="Sandstone"/>
+            <list_entry value="soil" display_value="Soil, Earth"/>
+            <list_entry value="steel" display_value="Steel"/>
+            <list_entry value="stone" display_value="Stone"/>
+            <list_entry value="wood" display_value="Wood"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="memorial_type">
+        <space/>
+        <combo key="memorial" text="Type">
+            <list_entry value="blue_plaque" display_value="Blue Plaque"/>
+            <list_entry value="bust" display_value="Bust"/>
+            <list_entry value="cross" display_value="Memorial Cross"/>
+            <list_entry value="ghost_bike" display_value="Ghost Bike"/>
+            <list_entry value="obelisk" display_value="Obelisk"/>
+            <list_entry value="plaque" display_value="Commemorative Plaque"/>
+            <list_entry value="sculpture" display_value="Sculpture"/>
+            <list_entry value="statue" display_value="Statue"/>
+            <list_entry value="stele" display_value="Stele"/>
+            <list_entry value="stolperstein" display_value="Stolperstein"/>
+            <list_entry value="stone" display_value="Stone"/>
+            <list_entry value="war_memorial" display_value="War Memorial"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="military_service_type">
+        <space/>
+        <combo key="military_service" text="Military Service">
+            <list_entry value="air_force" display_value="Air Force"/>
+            <list_entry value="army" display_value="Army"/>
+            <list_entry value="coast_guard" display_value="Coast Guard"/>
+            <list_entry value="marines" display_value="Marines"/>
+            <list_entry value="navy" display_value="Navy"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="mooring_type">
+        <space/>
+        <combo key="mooring" text="Mooring">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="private" display_value="Private"/>
+            <list_entry value="commercial" display_value="Commercial"/>
+            <list_entry value="guest" display_value="Guests"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="network_type">
+        <space/>
+        <combo key="network" text="Network Class">
+            <list_entry value="lcn" display_value="Local"/>
+            <list_entry value="rcn" display_value="Regional"/>
+            <list_entry value="ncn" display_value="National"/>
+            <list_entry value="icn" display_value="International"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="nudism_type">
+        <space/>
+        <combo key="nudism" text="Nudism">
+            <list_entry value="customary" display_value="Customary"/>
+            <list_entry value="designated" display_value="Designated"/>
+            <list_entry value="no" display_value="Prohibited"/>
+            <list_entry value="obligatory" display_value="Obligatory"/>
+            <list_entry value="permissive" display_value="Permissive"/>
+            <list_entry value="yes" display_value="Allowed"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="office_type">
+        <space/>
+        <combo key="office" text="Type">
+            <list_entry value="accountant" display_value="Accountant Office"/>
+            <list_entry value="adoption_agency" display_value="Adoption Agency"/>
+            <list_entry value="advertising_agency" display_value="Advertising Agency"/>
+            <list_entry value="architect" display_value="Architect Office"/>
+            <list_entry value="association" display_value="Nonprofit Organization Office"/>
+            <list_entry value="charity" display_value="Charity Office"/>
+            <list_entry value="company" display_value="Corporate Office"/>
+            <list_entry value="construction_company" display_value="Construction Company Office"/>
+            <list_entry value="consulting" display_value="Consultancy Office"/>
+            <list_entry value="courier" display_value="Courier Office"/>
+            <list_entry value="coworking" display_value="Coworking Space"/>
+            <list_entry value="diplomatic" display_value="Diplomatic Office"/>
+            <list_entry value="educational_institution" display_value="Educational Institution"/>
+            <list_entry value="employment_agency" display_value="Employment Agency"/>
+            <list_entry value="energy_supplier" display_value="Energy Supplier Office"/>
+            <list_entry value="engineer" display_value="Engineering Office"/>
+            <list_entry value="estate_agent" display_value="Real Estate Office"/>
+            <list_entry value="financial" display_value="Financial Office"/>
+            <list_entry value="financial_advisor" display_value="Financial Advisor"/>
+            <list_entry value="forestry" display_value="Forestry Office"/>
+            <list_entry value="foundation" display_value="Foundation Office"/>
+            <list_entry value="government" display_value="Government Office"/>
+            <list_entry value="graphic_design" display_value="Graphic Design Office"/>
+            <list_entry value="guide" display_value="Tour Guide Office"/>
+            <list_entry value="insurance" display_value="Insurance Office"/>
+            <list_entry value="it" display_value="Information Technology Office"/>
+            <list_entry value="lawyer" display_value="Law Office"/>
+            <list_entry value="logistics" display_value="Forwarding Agency"/>
+            <list_entry value="moving_company" display_value="Moving Company Office"/>
+            <list_entry value="newspaper" display_value="Newspaper Office"/>
+            <list_entry value="ngo" display_value="NGO Office"/>
+            <list_entry value="notary" display_value="Notary Office"/>
+            <list_entry value="physician" display_value="Physician"/>
+            <list_entry value="political_party" display_value="Political Party Office"/>
+            <list_entry value="private_investigator" display_value="Private Investigator Office"/>
+            <list_entry value="property_management" display_value="Property Management Office"/>
+            <list_entry value="quango" display_value="Quasi-NGO Office"/>
+            <list_entry value="religion" display_value="Religious Office"/>
+            <list_entry value="research" display_value="Research Office"/>
+            <list_entry value="security" display_value="Security Office"/>
+            <list_entry value="surveyor" display_value="Surveyor Office"/>
+            <list_entry value="tax_advisor" display_value="Tax Advisor Office"/>
+            <list_entry value="telecommunication" display_value="Telecom Office"/>
+            <list_entry value="therapist" display_value="Therapist Office"/>
+            <list_entry value="travel_agent" display_value="Travel Agency"/>
+            <list_entry value="union" display_value="Labor Union Office"/>
+            <list_entry value="water_utility" display_value="Water Utility Office"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="oneway_type">
+        <space/>
+        <combo key="oneway" text="One Way">
+            <list_entry value="undefined" display_value="Assumed to be No"/>
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="reversible" display_value="Reversible"/>
+            <list_entry value="alternating" display_value="Alternating"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="organic_type">
+        <space/>
+        <combo key="organic" text="Organic Products">
+            <list_entry value="no" display_value="None"/>
+            <list_entry value="yes" display_value="Some"/>
+            <list_entry value="only" display_value="Only"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="parking_type">
+        <space/>
+        <combo key="parking" text="Type">
+            <list_entry value="surface" display_value="Surface"/>
+            <list_entry value="street_side" display_value="Street-Side"/>
+            <list_entry value="lane" display_value="Roadside Lane"/>
+            <list_entry value="underground" display_value="Underground"/>
+            <list_entry value="multi-storey" display_value="Multilevel"/>
+            <list_entry value="rooftop" display_value="Rooftop"/>
+            <list_entry value="carports" display_value="Carports"/>
+            <list_entry value="garage_boxes" display_value="Garage Boxes"/>
+            <list_entry value="sheds" display_value="Sheds"/>
+            <list_entry value="layby" display_value="Turnout / Lay-By"/>
+            <list_entry value="on_kerb" display_value="On Kerb"/>
+            <list_entry value="half_on_kerb" display_value="Half On Kerb"/>
+            <list_entry value="shoulder" display_value="Shoulder"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="payment__type">
+        <space/>
+        <combo key="payment:" text="Payment Types">
+            <list_entry value="account_cards" display_value="Account Card"/>
+            <list_entry value="app" display_value="Mobile Application"/>
+            <list_entry value="cards" display_value="Payment Card"/>
+            <list_entry value="cash" display_value="Cash"/>
+            <list_entry value="cheque" display_value="Check"/>
+            <list_entry value="coins" display_value="Coins"/>
+            <list_entry value="contactless" display_value="Contactless Payment"/>
+            <list_entry value="credit_cards" display_value="Credit Card"/>
+            <list_entry value="cryptocurrencies" display_value="Cryptocurrency"/>
+            <list_entry value="debit_cards" display_value="Debit Card"/>
+            <list_entry value="electronic_purses" display_value="Electronic Purse"/>
+            <list_entry value="notes" display_value="Banknotes"/>
+            <list_entry value="prepaid_ticket" display_value="Prepaid Ticket"/>
+            <list_entry value="telephone_cards" display_value="Telephone Card"/>
+            <list_entry value="alipay" display_value="Alipay"/>
+            <list_entry value="american_express" display_value="American Express"/>
+            <list_entry value="apple_pay" display_value="Apple Pay"/>
+            <list_entry value="bancomat" display_value="Bancomat"/>
+            <list_entry value="blik" display_value="Blik"/>
+            <list_entry value="clipper" display_value="Clipper"/>
+            <list_entry value="diners_club" display_value="Diners Club"/>
+            <list_entry value="discover_card" display_value="Discover"/>
+            <list_entry value="dkv" display_value="DKV"/>
+            <list_entry value="ep_easycard" display_value="悠遊卡EasyCard"/>
+            <list_entry value="ep_geldkarte" display_value="GeldKarte"/>
+            <list_entry value="ep_ipass" display_value="iPASS一卡通"/>
+            <list_entry value="girocard" display_value="Girocard"/>
+            <list_entry value="google_pay" display_value="Google Pay"/>
+            <list_entry value="jcb" display_value="JCB"/>
+            <list_entry value="maestro" display_value="Maestro"/>
+            <list_entry value="mastercard" display_value="Mastercard"/>
+            <list_entry value="mastercard_contactless" display_value="Mastercard Contactless"/>
+            <list_entry value="paypal" display_value="PayPal"/>
+            <list_entry value="unionpay" display_value="UnionPay"/>
+            <list_entry value="uta" display_value="UTA"/>
+            <list_entry value="v_pay" display_value="V Pay"/>
+            <list_entry value="visa" display_value="Visa"/>
+            <list_entry value="visa_debit" display_value="Visa Debit"/>
+            <list_entry value="visa_electron" display_value="Visa Electron"/>
+            <list_entry value="wechat" display_value="WeChat Pay"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="pump_type">
+        <space/>
+        <combo key="pump" text="Pump">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="manual" display_value="Manual Hand Pump"/>
+            <list_entry value="powered" display_value="Machine-Powered Pump"/>
+            <list_entry value="no" display_value="None"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="ramp_type">
+        <space/>
+        <combo key="ramp" text="Embedded Ramp">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="separate" display_value="Separately Mapped"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="recycling_type_type">
+        <space/>
+        <combo key="recycling_type" text="Type">
+            <list_entry value="container" display_value="Container"/>
+            <list_entry value="centre" display_value="Center"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="religion_type">
+        <space/>
+        <combo key="religion" text="Religion">
+            <list_entry value="bahai" display_value="Bahá’í"/>
+            <list_entry value="benzhu" display_value="Benzhu"/>
+            <list_entry value="buddhist" display_value="Buddhist"/>
+            <list_entry value="caodaism" display_value="Caodaist"/>
+            <list_entry value="chinese_folk" display_value="Chinese Folk Religion"/>
+            <list_entry value="christian" display_value="Christian"/>
+            <list_entry value="confucian" display_value="Confucian"/>
+            <list_entry value="hindu" display_value="Hindu"/>
+            <list_entry value="jain" display_value="Jain"/>
+            <list_entry value="jewish" display_value="Jewish"/>
+            <list_entry value="multifaith" display_value="Multifaith"/>
+            <list_entry value="muslim" display_value="Muslim"/>
+            <list_entry value="none" display_value="Nonreligious"/>
+            <list_entry value="pagan" display_value="Pagan"/>
+            <list_entry value="shinto" display_value="Shinto"/>
+            <list_entry value="sikh" display_value="Sikh"/>
+            <list_entry value="spiritualist" display_value="Spiritualist"/>
+            <list_entry value="taoist" display_value="Taoist"/>
+            <list_entry value="tenrikyo" display_value="Tenrikyo"/>
+            <list_entry value="unitarian_universalist" display_value="Unitarian Universalist"/>
+            <list_entry value="vietnamese_folk" display_value="Vietnamese Folk Religion"/>
+            <list_entry value="voodoo" display_value="Voodoo"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="reservation_type">
+        <space/>
+        <combo key="reservation" text="Reservations">
+            <list_entry value="yes" display_value="Accepted"/>
+            <list_entry value="no" display_value="Not Accepted"/>
+            <list_entry value="required" display_value="Required"/>
+            <list_entry value="recommended" display_value="Recommended"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="resource_type">
+        <space/>
+        <combo key="resource" text="Resources">
+            <list_entry value="aggregate" display_value="Aggregate"/>
+            <list_entry value="clay" display_value="Clay"/>
+            <list_entry value="coal" display_value="Coal"/>
+            <list_entry value="gold" display_value="Gold"/>
+            <list_entry value="gravel" display_value="Gravel"/>
+            <list_entry value="iron_ore" display_value="Iron Ore"/>
+            <list_entry value="limestone" display_value="Limestone"/>
+            <list_entry value="peat" display_value="Peat"/>
+            <list_entry value="sand" display_value="Sand"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="sac_scale_type">
+        <space/>
+        <combo key="sac_scale" text="Hiking Difficulty">
+            <list_entry value="strolling" display_value="Strolling"/>
+            <list_entry value="hiking" display_value="T1: Hiking"/>
+            <list_entry value="mountain_hiking" display_value="T2: Mountain Hiking"/>
+            <list_entry value="demanding_mountain_hiking" display_value="T3: Demanding Mountain Hiking"/>
+            <list_entry value="alpine_hiking" display_value="T4: Alpine Hiking"/>
+            <list_entry value="demanding_alpine_hiking" display_value="T5: Demanding Alpine Hiking"/>
+            <list_entry value="difficult_alpine_hiking" display_value="T6: Difficult Alpine Hiking"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="second_hand_type">
+        <space/>
+        <combo key="second_hand" text="Sells Used">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="no" display_value="No"/>
+            <list_entry value="only" display_value="Only"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="service_type">
+        <space/>
+        <combo key="service" text="Type">
+            <list_entry value="driveway" display_value="Driveway"/>
+            <list_entry value="parking_aisle" display_value="Parking Aisle"/>
+            <list_entry value="alley" display_value="Alley"/>
+            <list_entry value="drive-through" display_value="Drive-Through"/>
+            <list_entry value="emergency_access" display_value="Emergency Access"/>
+            <list_entry value="spur" display_value="Spur"/>
+            <list_entry value="yard" display_value="Yard"/>
+            <list_entry value="siding" display_value="Siding"/>
+            <list_entry value="crossover" display_value="Crossover"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="side_type">
+        <space/>
+        <combo key="side" text="Side">
+            <list_entry value="left" display_value="Left of Cyclist"/>
+            <list_entry value="right" display_value="Right of Cyclist"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="smoking_type">
+        <space/>
+        <combo key="smoking" text="Smoking">
+            <list_entry value="no" display_value="No smoking anywhere"/>
+            <list_entry value="separated" display_value="In smoking areas, not physically isolated"/>
+            <list_entry value="isolated" display_value="In smoking areas, physically isolated"/>
+            <list_entry value="outside" display_value="Allowed outside"/>
+            <list_entry value="yes" display_value="Allowed everywhere"/>
+            <list_entry value="dedicated" display_value="Dedicated to smokers (e.g. smokers' club)"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="smoothness_type">
+        <space/>
+        <combo key="smoothness" text="Smoothness">
+            <list_entry value="excellent" display_value="Thin Rollers: rollerblade, skateboard"/>
+            <list_entry value="good" display_value="Thin Wheels: racing bike"/>
+            <list_entry value="intermediate" display_value="Wheels: city bike, wheelchair, scooter"/>
+            <list_entry value="bad" display_value="Robust Wheels: trekking bike, car, rickshaw"/>
+            <list_entry value="very_bad" display_value="High Clearance: light duty off-road vehicle"/>
+            <list_entry value="horrible" display_value="Off-Road: heavy duty off-road vehicle"/>
+            <list_entry value="very_horrible" display_value="Specialized off-road: tractor, ATV"/>
+            <list_entry value="impassable" display_value="Impassable / No wheeled vehicle"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="social_facility_type">
+        <space/>
+        <combo key="social_facility" text="Type">
+            <list_entry value="ambulatory_care" display_value="Ambulatory Care"/>
+            <list_entry value="assisted_living" display_value="Assisted Living"/>
+            <list_entry value="day_care" display_value="Day Care"/>
+            <list_entry value="food_bank" display_value="Food Bank"/>
+            <list_entry value="group_home" display_value="Group Home"/>
+            <list_entry value="nursing_home" display_value="Nursing Home"/>
+            <list_entry value="outreach" display_value="Outreach"/>
+            <list_entry value="shelter" display_value="Shelter"/>
+            <list_entry value="workshop" display_value="Workshop"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="social_facility_for_type">
+        <space/>
+        <combo key="social_facility:for" text="People Served">
+            <list_entry value="abused" display_value="Abuse victims"/>
+            <list_entry value="child" display_value="Children"/>
+            <list_entry value="dementia" display_value="People suffering from dementia"/>
+            <list_entry value="disabled" display_value="People with disabilities"/>
+            <list_entry value="diseased" display_value="People suffering from a disease"/>
+            <list_entry value="displaced" display_value="People displaced by disasters or conflicts"/>
+            <list_entry value="drug_addicted" display_value="Drug addicted"/>
+            <list_entry value="homeless" display_value="Homeless"/>
+            <list_entry value="juvenile" display_value="Juveniles"/>
+            <list_entry value="mental_health" display_value="People with mental health problems"/>
+            <list_entry value="migrant" display_value="Migrants"/>
+            <list_entry value="orphan" display_value="Orphans"/>
+            <list_entry value="refugee" display_value="Refugees"/>
+            <list_entry value="senior" display_value="Elderly"/>
+            <list_entry value="terminally_ill" display_value="People with a terminal illness"/>
+            <list_entry value="underprivileged" display_value="Underprivileged people"/>
+            <list_entry value="unemployed" display_value="People without a job"/>
+            <list_entry value="veteran" display_value="Veterans"/>
+            <list_entry value="victim" display_value="Victims of crime"/>
+            <list_entry value="woman" display_value="Women"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="source_type">
+        <space/>
+        <combo key="source" text="Sources">
+            <list_entry value="survey" display_value="Survey"/>
+            <list_entry value="local knowledge" display_value="Local Knowledge"/>
+            <list_entry value="aerial imagery" display_value="Aerial Imagery"/>
+            <list_entry value="gps" display_value="GPS"/>
+            <list_entry value="streetlevel imagery" display_value="Street-Level Photos"/>
+            <list_entry value="osm notes" display_value="OpenStreetMap Notes"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="sport_type">
+        <space/>
+        <combo key="sport" text="Sports">
+            <list_entry value="10pin" display_value="Ten-Pin Bowling"/>
+            <list_entry value="9pin" display_value="Nine-Pin Bowling"/>
+            <list_entry value="american_football" display_value="American Football"/>
+            <list_entry value="athletics" display_value="Track &amp; Field"/>
+            <list_entry value="badminton" display_value="Badminton"/>
+            <list_entry value="baseball" display_value="Baseball"/>
+            <list_entry value="basketball" display_value="Basketball"/>
+            <list_entry value="beachvolleyball" display_value="Beach Volleyball"/>
+            <list_entry value="billiards" display_value="Cue Sports"/>
+            <list_entry value="bmx" display_value="BMX"/>
+            <list_entry value="boules" display_value="Boules"/>
+            <list_entry value="bowls" display_value="Bowls"/>
+            <list_entry value="canoe" display_value="Canoeing"/>
+            <list_entry value="chess" display_value="Chess"/>
+            <list_entry value="climbing" display_value="Climbing"/>
+            <list_entry value="cricket" display_value="Cricket"/>
+            <list_entry value="curling" display_value="Curling"/>
+            <list_entry value="cycling" display_value="Cycling"/>
+            <list_entry value="darts" display_value="Darts"/>
+            <list_entry value="disc_golf" display_value="Disc Golf"/>
+            <list_entry value="dog_racing" display_value="Dog Racing"/>
+            <list_entry value="equestrian" display_value="Equestrian Sports"/>
+            <list_entry value="fitness" display_value="Fitness Training"/>
+            <list_entry value="free_flying" display_value="Paragliding / Hang Gliding"/>
+            <list_entry value="futsal" display_value="Futsal"/>
+            <list_entry value="gaelic_games" display_value="Gaelic Games"/>
+            <list_entry value="golf" display_value="Golf"/>
+            <list_entry value="gymnastics" display_value="Gymnastics"/>
+            <list_entry value="handball" display_value="Team Handball"/>
+            <list_entry value="horse_racing" display_value="Horse Racing"/>
+            <list_entry value="ice_hockey" display_value="Ice Hockey"/>
+            <list_entry value="ice_skating" display_value="Ice Skating"/>
+            <list_entry value="ice_stock" display_value="Ice Stock"/>
+            <list_entry value="karting" display_value="Kart Racing"/>
+            <list_entry value="motocross" display_value="Motocross"/>
+            <list_entry value="motor" display_value="Motorsports"/>
+            <list_entry value="multi" display_value="Unspecified Other Sports"/>
+            <list_entry value="netball" display_value="Netball"/>
+            <list_entry value="orienteering" display_value="Orienteering"/>
+            <list_entry value="padel" display_value="Padel"/>
+            <list_entry value="pelota" display_value="Pelota"/>
+            <list_entry value="rugby_union" display_value="Rugby Union"/>
+            <list_entry value="running" display_value="Running"/>
+            <list_entry value="scuba_diving" display_value="Scuba Diving"/>
+            <list_entry value="shooting" display_value="Shooting"/>
+            <list_entry value="skateboard" display_value="Skateboard"/>
+            <list_entry value="skiing" display_value="Skiing"/>
+            <list_entry value="ski_jumping" display_value="Ski Jumping"/>
+            <list_entry value="soccer" display_value="Soccer"/>
+            <list_entry value="softball" display_value="Softball"/>
+            <list_entry value="speedway" display_value="Motorcycle Speedway"/>
+            <list_entry value="swimming" display_value="Swimming"/>
+            <list_entry value="table_tennis" display_value="Table Tennis"/>
+            <list_entry value="tennis" display_value="Tennis"/>
+            <list_entry value="volleyball" display_value="Volleyball"/>
+            <list_entry value="yoga" display_value="Yoga"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="stop_type">
+        <space/>
+        <combo key="stop" text="Stop Type">
+            <list_entry value="all" display_value="All Ways"/>
+            <list_entry value="minor" display_value="Minor Road"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="stroller_type">
+        <space/>
+        <combo key="stroller" text="Stroller Access">
+            <list_entry value="yes" display_value="Yes"/>
+            <list_entry value="limited" display_value="Limited"/>
+            <list_entry value="no" display_value="No"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="substance_type">
+        <space/>
+        <combo key="substance" text="Substance">
+            <list_entry value="fuel" display_value="Fuel"/>
+            <list_entry value="gas" display_value="Natural Gas"/>
+            <list_entry value="hot_water" display_value="Hot Water"/>
+            <list_entry value="oil" display_value="Crude Oil"/>
+            <list_entry value="rainwater" display_value="Rainwater"/>
+            <list_entry value="sewage" display_value="Sewage"/>
+            <list_entry value="water" display_value="Drinking Water"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="substation_type">
+        <space/>
+        <combo key="substation" text="Type">
+            <list_entry value="transmission" display_value="High-Voltage Transmission"/>
+            <list_entry value="distribution" display_value="Regional Distribution"/>
+            <list_entry value="minor_distribution" display_value="Local Distribution"/>
+            <list_entry value="industrial" display_value="Industrial"/>
+            <list_entry value="generation" display_value="Generation"/>
+            <list_entry value="transition" display_value="Overground/Underground Transition"/>
+            <list_entry value="traction" display_value="Traction System Supply"/>
+            <list_entry value="converter" display_value="High-Voltage AC/DC Converter"/>
+            <list_entry value="compensation" display_value="Reactive Power Compensation"/>
+            <list_entry value="compression" display_value="Compression"/>
+            <list_entry value="measurement" display_value="Measurement"/>
+            <list_entry value="valve" display_value="Valve"/>
+            <list_entry value="valve_group" display_value="Valve Group"/>
+            <list_entry value="inspection_gauge" display_value="Inspection Gauge"/>
+            <list_entry value="field_gathering" display_value="Field Gathering"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="surface_type">
+        <space/>
+        <combo key="surface" text="Surface">
+            <list_entry value="artificial_turf" display_value="Artificial Turf"/>
+            <list_entry value="asphalt" display_value="Asphalt"/>
+            <list_entry value="clay" display_value="Clay"/>
+            <list_entry value="compacted" display_value="Compacted"/>
+            <list_entry value="concrete" display_value="Concrete"/>
+            <list_entry value="concrete:lanes" display_value="Concrete Lanes"/>
+            <list_entry value="concrete:plates" display_value="Concrete Plates"/>
+            <list_entry value="dirt" display_value="Dirt"/>
+            <list_entry value="fine_gravel" display_value="Fine Gravel"/>
+            <list_entry value="grass" display_value="Grass"/>
+            <list_entry value="grass_paver" display_value="Grass Paver"/>
+            <list_entry value="gravel" display_value="Gravel"/>
+            <list_entry value="ground" display_value="Ground"/>
+            <list_entry value="metal" display_value="Metal"/>
+            <list_entry value="mud" display_value="Persistently Muddy"/>
+            <list_entry value="paved" display_value="Paved"/>
+            <list_entry value="paving_stones" display_value="Paving Stones"/>
+            <list_entry value="pebblestone" display_value="Pebblestone"/>
+            <list_entry value="salt" display_value="Salt"/>
+            <list_entry value="sand" display_value="Sand"/>
+            <list_entry value="sett" display_value="Sett"/>
+            <list_entry value="tartan" display_value="Tartan"/>
+            <list_entry value="unhewn_cobblestone" display_value="Cobblestone (uncut, rounded stones)"/>
+            <list_entry value="unpaved" display_value="Unpaved"/>
+            <list_entry value="wood" display_value="Wood"/>
+            <list_entry value="woodchips" display_value="Woodchips"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="swimming_pool_type">
+        <space/>
+        <combo key="swimming_pool" text="Type">
+            <list_entry value="swimming" display_value="Lap Pool"/>
+            <list_entry value="plunge" display_value="Diving"/>
+            <list_entry value="wading" display_value="Wading / Leisure"/>
+            <list_entry value="spa" display_value="Spa"/>
+            <list_entry value="wave_pool" display_value="Wave Pool"/>
+            <list_entry value="lazy_river" display_value="Lazy River"/>
+            <list_entry value="personal" display_value="Personal / Backyard"/>
+            <list_entry value="kids" display_value="Kids Pool"/>
+        </combo>
+        <label text="Placeholder"/>
+    </chunk>
+    <chunk id="switch_type">
+        <space/>
+        <combo key="switch" text="Type">
+            <list_entry value="mechanical" display_value="Mechanical"/>
+            <list_entry value="circuit_breaker" display_value="Circuit Breaker"/>
+            <list_entry value="disconnector" display_value="Disconnector"/>
+            <list_entry value="earthing" display_value="Earthing"/>
         </combo>
         <label text="Placeholder"/>
     </chunk>
